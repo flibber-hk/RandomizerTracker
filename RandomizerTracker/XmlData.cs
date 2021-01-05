@@ -23,12 +23,14 @@ namespace RandomizerTracker
 
         public static List<string> areaTransitions;
         public static Dictionary<string, string> transitionToArea;
+        public static Dictionary<string, bool> hasBenchArea;
         public static HashSet<string> areas;
 
         public static List<string> roomTransitions;
         public static Dictionary<string, string> transitionToRoom;
         public static Dictionary<string, string> roomToArea;
         public static Dictionary<string, bool> isOneWay;
+        public static Dictionary<string, bool> hasBench;
         public static HashSet<string> rooms;
 
         public static Dictionary<string, Color> AreaToColor;
@@ -54,11 +56,13 @@ namespace RandomizerTracker
             XmlDocument areaXml = LoadEmbeddedXml("RandomizerTracker.Resources.areas.xml");
             areaTransitions = new List<string>();
             transitionToArea = new Dictionary<string, string>();
+            hasBenchArea = new Dictionary<string, bool>();
             areas = new HashSet<string>();
             foreach (XmlNode node in areaXml.SelectNodes("randomizer/transition"))
             {
                 areaTransitions.Add(node.Attributes?["name"].InnerText);
                 transitionToArea.Add(node.Attributes?["name"].InnerText, node["areaName"].InnerText);
+                hasBenchArea[node["areaName"].InnerText] = node["hasBench"].InnerText == "true";
                 areas.Add(node["areaName"].InnerText);
             }
 
@@ -67,14 +71,16 @@ namespace RandomizerTracker
             transitionToRoom = new Dictionary<string, string>();
             roomToArea = new Dictionary<string, string>();
             isOneWay = new Dictionary<string, bool>();
+            hasBench = new Dictionary<string, bool>();
             rooms = new HashSet<string>();
             foreach (XmlNode node in roomXml.SelectNodes("randomizer/transition"))
             {
                 roomTransitions.Add(node.Attributes?["name"].InnerText);
-                transitionToRoom.Add(node.Attributes?["name"].InnerText, node.Attributes?["name"].InnerText.Split('[')[0]);
-                roomToArea[node.Attributes?["name"].InnerText.Split('[')[0]] = node["areaName"].InnerText;
+                transitionToRoom.Add(node.Attributes?["name"].InnerText, node["sceneName"].InnerText);
+                roomToArea[node["sceneName"].InnerText] = node["areaName"].InnerText;
                 isOneWay.Add(node.Attributes?["name"].InnerText, node?["oneWay"]?.InnerText?.Any(c => c == '1' || c == '2') == true);
-                rooms.Add(node.Attributes?["name"].InnerText.Split('[')[0]);
+                hasBench[node["sceneName"].InnerText] = node["hasBench"].InnerText == "true";
+                rooms.Add(node["sceneName"].InnerText);
             }
 
             XmlDocument colorsXml = LoadFolderXml("colors.xml");
