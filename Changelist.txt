@@ -1,0 +1,32 @@
+Added Geo Rocks, Soul Totems, Lifeblood Cocoons and Grimmkin Flames to the item list, as well as Focus
+
+Added a Toggle Benches button, which will fade out all rooms except for bench rooms 
+ - rooms that can be reached from a bench, itemless, with access to all MSJP items but without passing through randomized transitions
+
+Separated out the following disconnected rooms into two parts:
+   Deepnest_East_07 (-main, -isolated)
+   Hive_01 (-main, -isolated)
+   Hive_03 (-main, -isolated)
+   Abyss_09 (-main, -isolated)
+   Ruins1_05 (-main, -lower)
+   Ruins1_18 (-main, -isolated)
+   Ruins1_24 (-upper, -lower)
+   Ruins2_03 (-main, -isolated)
+   Fungus3_48 (-upper, -lower)
+   White_Palace_05 (-upper, -lower)
+
+Separated the following areas from the main parts:
+   Hive-grub from Hive
+   Kingdom's Edge-lurker from Kingdom's Edge
+
+Moved certain items to appear in the natural room 
+   World Sense in Room_temple
+   Dream Nail in RestingGrounds_04
+   Charm Notch-Colosseum in Room_Colosseum_01
+   Pale Ore-Colosseum in Rooms_Colosseum_01
+   Nailmaster's Glory in Room_shop
+   
+By default, will display descriptive room names. 
+To use the default room names, replace altroomnames.xml with defaultroomnames.xml in the Resources directory.
+
+Removed some superfluous content from the items, areas and rooms xml files.

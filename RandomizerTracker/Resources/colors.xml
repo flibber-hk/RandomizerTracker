@@ -115,7 +115,17 @@
     <g>9f</g>
     <b>81</b>
   </area>
+  <area name="Kingdoms_Edge-lurker">
+    <r>c3</r>
+    <g>9f</g>
+    <b>81</b>
+  </area>
   <area name="Hive">
+    <r>da</r>
+    <g>a5</g>
+    <b>20</b>
+  </area>
+  <area name="Hive-grub">
     <r>da</r>
     <g>a5</g>
     <b>20</b>

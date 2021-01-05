@@ -226,5 +226,10 @@ namespace RandomizerTracker
                 zoom.ZoomToContent(rect);
             }
         }
+
+        private void toggleBenchesButton_click(object sender, EventArgs e)
+        {
+            Grapher.ToggleBenches(graph);
+        }
     }
 }

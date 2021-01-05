@@ -111,6 +111,32 @@ namespace RandomizerTracker
             }
         }
 
+
+        public static void ToggleBenches(GraphArea GA)
+        {
+            if (roomRandomizer)
+            {
+                foreach (var kvp in GA.VertexList)
+                {
+                    if (hasBench[kvp.Key.Name] == false)
+                    {
+                        kvp.Value.Opacity = 1.4 - kvp.Value.Opacity;
+                    }
+                }
+            }
+
+            else if (areaRandomizer)
+            {
+                foreach (var kvp in GA.VertexList)
+                {
+                    if (hasBenchArea[kvp.Key.Name] == false)
+                    {
+                        kvp.Value.Opacity = 1.4 - kvp.Value.Opacity;
+                    }
+                }
+            }
+        }
+
         //Layout visual class
         public class GraphArea : GraphArea<DataVertex, DataEdge, BidirectionalGraph<DataVertex, DataEdge>> { }
 
