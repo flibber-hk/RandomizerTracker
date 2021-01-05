@@ -1,1088 +1,1118 @@
 ﻿<randomizer>
-  <room name="Room_temple">
-    <altName>Room_temple</altName>
-  </room>
-  <room name="Tutorial_01">
-    <altName>Tutorial_01</altName>
-  </room>
-  <room name="Town">
-    <altName>Town</altName>
-  </room>
-  <room name="Room_shop">
-    <altName>Room_shop</altName>
-  </room>
-  <room name="Room_Town_Stag_Station">
-    <altName>Room_Town_Stag_Station</altName>
-  </room>
-  <room name="Room_mapper">
-    <altName>Room_mapper</altName>
-  </room>
-  <room name="Room_Bretta">
-    <altName>Room_Bretta</altName>
-  </room>
-  <room name="Room_Ouiji">
-    <altName>Room_Ouiji</altName>
-  </room>
-  <room name="Grimm_Divine">
-    <altName>Grimm_Divine</altName>
-  </room>
-  <room name="Grimm_Main_Tent">
-    <altName>Grimm_Main_Tent</altName>
-  </room>
-  <room name="Crossroads_01">
-    <altName>Crossroads_01</altName>
-  </room>
-  <room name="Crossroads_02">
-    <altName>Crossroads_02</altName>
-  </room>
-  <room name="Crossroads_03">
-    <altName>Crossroads_03</altName>
-  </room>
-  <room name="Crossroads_04">
-    <altName>Crossroads_04</altName>
-  </room>
-  <room name="Crossroads_05">
-    <altName>Crossroads_05</altName>
-  </room>
-  <room name="Crossroads_06">
-    <altName>Crossroads_06</altName>
-  </room>
-  <room name="Crossroads_07">
-    <altName>Crossroads_07</altName>
-  </room>
-  <room name="Crossroads_08">
-    <altName>Crossroads_08</altName>
-  </room>
-  <room name="Crossroads_09">
-    <altName>Crossroads_09</altName>
-  </room>
-  <room name="Crossroads_10">
-    <altName>Crossroads_10</altName>
-  </room>
-  <room name="Crossroads_11_alt">
-    <altName>Crossroads_11_alt</altName>
-  </room>
-  <room name="Crossroads_12">
-    <altName>Crossroads_12</altName>
-  </room>
-  <room name="Crossroads_13">
-    <altName>Crossroads_13</altName>
-  </room>
-  <room name="Crossroads_14">
-    <altName>Crossroads_14</altName>
-  </room>
-  <room name="Crossroads_15">
-    <altName>Crossroads_15</altName>
-  </room>
-  <room name="Crossroads_16">
-    <altName>Crossroads_16</altName>
-  </room>
-  <room name="Crossroads_18">
-    <altName>Crossroads_18</altName>
-  </room>
-  <room name="Crossroads_19">
-    <altName>Crossroads_19</altName>
-  </room>
-  <room name="Crossroads_21">
-    <altName>Crossroads_21</altName>
-  </room>
-  <room name="Crossroads_22">
-    <altName>Crossroads_22</altName>
-  </room>
-  <room name="Crossroads_25">
-    <altName>Crossroads_25</altName>
-  </room>
-  <room name="Crossroads_27">
-    <altName>Crossroads_27</altName>
-  </room>
-  <room name="Crossroads_30">
-    <altName>Crossroads_30</altName>
-  </room>
-  <room name="Crossroads_31">
-    <altName>Crossroads_31</altName>
-  </room>
-  <room name="Crossroads_33">
-    <altName>Crossroads_33</altName>
-  </room>
-  <room name="Crossroads_35">
-    <altName>Crossroads_35</altName>
-  </room>
-  <room name="Crossroads_36">
-    <altName>Crossroads_36</altName>
-  </room>
-  <room name="Crossroads_37">
-    <altName>Crossroads_37</altName>
-  </room>
-  <room name="Crossroads_38">
-    <altName>Crossroads_38</altName>
-  </room>
-  <room name="Crossroads_39">
-    <altName>Crossroads_39</altName>
-  </room>
-  <room name="Crossroads_40">
-    <altName>Crossroads_40</altName>
-  </room>
-  <room name="Crossroads_42">
-    <altName>Crossroads_42</altName>
-  </room>
-  <room name="Crossroads_43">
-    <altName>Crossroads_43</altName>
-  </room>
-  <room name="Crossroads_45">
-    <altName>Crossroads_45</altName>
-  </room>
-  <room name="Crossroads_46">
-    <altName>Crossroads_46</altName>
-  </room>
-  <room name="Crossroads_46b">
-    <altName>Crossroads_46b</altName>
-  </room>
-  <room name="Crossroads_ShamanTemple">
-    <altName>Crossroads_ShamanTemple</altName>
-  </room>
-  <room name="Crossroads_47">
-    <altName>Crossroads_47</altName>
-  </room>
-  <room name="Crossroads_48">
-    <altName>Crossroads_48</altName>
-  </room>
-  <room name="Crossroads_49">
-    <altName>Crossroads_49</altName>
-  </room>
-  <room name="Crossroads_49b">
-    <altName>Crossroads_49b</altName>
-  </room>
-  <room name="Crossroads_50">
-    <altName>Crossroads_50</altName>
-  </room>
-  <room name="Crossroads_52">
-    <altName>Crossroads_52</altName>
-  </room>
-  <room name="Room_ruinhouse">
-    <altName>Room_ruinhouse</altName>
-  </room>
-  <room name="Room_Charm_Shop">
-    <altName>Room_Charm_Shop</altName>
-  </room>
-  <room name="Room_Mender_House">
-    <altName>Room_Mender_House</altName>
-  </room>
-  <room name="Fungus1_01">
-    <altName>Fungus1_01</altName>
-  </room>
-  <room name="Fungus1_01b">
-    <altName>Fungus1_01b</altName>
-  </room>
-  <room name="Fungus1_02">
-    <altName>Fungus1_02</altName>
-  </room>
-  <room name="Fungus1_03">
-    <altName>Fungus1_03</altName>
-  </room>
-  <room name="Fungus1_04">
-    <altName>Fungus1_04</altName>
-  </room>
-  <room name="Fungus1_05">
-    <altName>Fungus1_05</altName>
-  </room>
-  <room name="Fungus1_06">
-    <altName>Fungus1_06</altName>
-  </room>
-  <room name="Fungus1_07">
-    <altName>Fungus1_07</altName>
-  </room>
-  <room name="Fungus1_08">
-    <altName>Fungus1_08</altName>
-  </room>
-  <room name="Fungus1_09">
-    <altName>Fungus1_09</altName>
-  </room>
-  <room name="Fungus1_10">
-    <altName>Fungus1_10</altName>
-  </room>
-  <room name="Fungus1_11">
-    <altName>Fungus1_11</altName>
-  </room>
-  <room name="Fungus1_12">
-    <altName>Fungus1_12</altName>
-  </room>
-  <room name="Fungus1_13">
-    <altName>Fungus1_13</altName>
-  </room>
-  <room name="Fungus1_14">
-    <altName>Fungus1_14</altName>
-  </room>
-  <room name="Fungus1_15">
-    <altName>Fungus1_15</altName>
-  </room>
-  <room name="Fungus1_16_alt">
-    <altName>Fungus1_16_alt</altName>
-  </room>
-  <room name="Fungus1_17">
-    <altName>Fungus1_17</altName>
-  </room>
-  <room name="Fungus1_19">
-    <altName>Fungus1_19</altName>
-  </room>
-  <room name="Fungus1_20_v02">
-    <altName>Fungus1_20_v02</altName>
-  </room>
-  <room name="Fungus1_21">
-    <altName>Fungus1_21</altName>
-  </room>
-  <room name="Fungus1_22">
-    <altName>Fungus1_22</altName>
-  </room>
-  <room name="Fungus1_23">
-    <altName>Fungus1_23</altName>
-  </room>
-  <room name="Fungus1_24">
-    <altName>Fungus1_24</altName>
-  </room>
-  <room name="Fungus1_25">
-    <altName>Fungus1_25</altName>
-  </room>
-  <room name="Fungus1_26">
-    <altName>Fungus1_26</altName>
-  </room>
-  <room name="Fungus1_28">
-    <altName>Fungus1_28</altName>
-  </room>
-  <room name="Fungus1_29">
-    <altName>Fungus1_29</altName>
-  </room>
-  <room name="Fungus1_30">
-    <altName>Fungus1_30</altName>
-  </room>
-  <room name="Fungus1_31">
-    <altName>Fungus1_31</altName>
-  </room>
-  <room name="Fungus1_32">
-    <altName>Fungus1_32</altName>
-  </room>
-  <room name="Fungus1_34">
-    <altName>Fungus1_34</altName>
-  </room>
-  <room name="Fungus1_35">
-    <altName>Fungus1_35</altName>
-  </room>
-  <room name="Fungus1_36">
-    <altName>Fungus1_36</altName>
-  </room>
-  <room name="Fungus1_37">
-    <altName>Fungus1_37</altName>
-  </room>
-  <room name="Fungus1_Slug">
-    <altName>Fungus1_Slug</altName>
-  </room>
-  <room name="Room_Slug_Shrine">
-    <altName>Room_Slug_Shrine</altName>
-  </room>
-  <room name="Room_nailmaster_02">
-    <altName>Room_nailmaster_02</altName>
-  </room>
-  <room name="Fungus3_01">
-    <altName>Fungus3_01</altName>
-  </room>
-  <room name="Fungus3_02">
-    <altName>Fungus3_02</altName>
-  </room>
-  <room name="Fungus3_03">
-    <altName>Fungus3_03</altName>
-  </room>
-  <room name="Fungus3_24">
-    <altName>Fungus3_24</altName>
-  </room>
-  <room name="Fungus3_25">
-    <altName>Fungus3_25</altName>
-  </room>
-  <room name="Fungus3_25b">
-    <altName>Fungus3_25b</altName>
-  </room>
-  <room name="Fungus3_26">
-    <altName>Fungus3_26</altName>
-  </room>
-  <room name="Fungus3_27">
-    <altName>Fungus3_27</altName>
-  </room>
-  <room name="Fungus3_28">
-    <altName>Fungus3_28</altName>
-  </room>
-  <room name="Fungus3_30">
-    <altName>Fungus3_30</altName>
-  </room>
-  <room name="Fungus3_35">
-    <altName>Fungus3_35</altName>
-  </room>
-  <room name="Fungus3_44">
-    <altName>Fungus3_44</altName>
-  </room>
-  <room name="Fungus3_47">
-    <altName>Fungus3_47</altName>
-  </room>
-  <room name="Room_Fungus_Shaman">
-    <altName>Room_Fungus_Shaman</altName>
-  </room>
-  <room name="Fungus3_archive">
-    <altName>Fungus3_archive</altName>
-  </room>
-  <room name="Fungus3_archive_02">
-    <altName>Fungus3_archive_02</altName>
-  </room>
-  <room name="Fungus2_01">
-    <altName>Fungus2_01</altName>
-  </room>
-  <room name="Fungus2_02">
-    <altName>Fungus2_02</altName>
-  </room>
-  <room name="Fungus2_34">
-    <altName>Fungus2_34</altName>
-  </room>
-  <room name="Fungus2_03">
-    <altName>Fungus2_03</altName>
-  </room>
-  <room name="Fungus2_04">
-    <altName>Fungus2_04</altName>
-  </room>
-  <room name="Fungus2_05">
-    <altName>Fungus2_05</altName>
-  </room>
-  <room name="Fungus2_06">
-    <altName>Fungus2_06</altName>
-  </room>
-  <room name="Fungus2_07">
-    <altName>Fungus2_07</altName>
-  </room>
-  <room name="Fungus2_08">
-    <altName>Fungus2_08</altName>
-  </room>
-  <room name="Fungus2_09">
-    <altName>Fungus2_09</altName>
-  </room>
-  <room name="Fungus2_10">
-    <altName>Fungus2_10</altName>
-  </room>
-  <room name="Fungus2_11">
-    <altName>Fungus2_11</altName>
-  </room>
-  <room name="Fungus2_12">
-    <altName>Fungus2_12</altName>
-  </room>
-  <room name="Fungus2_13">
-    <altName>Fungus2_13</altName>
-  </room>
-  <room name="Fungus2_14">
-    <altName>Fungus2_14</altName>
-  </room>
-  <room name="Fungus2_15">
-    <altName>Fungus2_15</altName>
-  </room>
-  <room name="Fungus2_17">
-    <altName>Fungus2_17</altName>
-  </room>
-  <room name="Fungus2_18">
-    <altName>Fungus2_18</altName>
-  </room>
-  <room name="Fungus2_19">
-    <altName>Fungus2_19</altName>
-  </room>
-  <room name="Fungus2_20">
-    <altName>Fungus2_20</altName>
-  </room>
-  <room name="Fungus2_21">
-    <altName>Fungus2_21</altName>
-  </room>
-  <room name="Fungus2_23">
-    <altName>Fungus2_23</altName>
-  </room>
-  <room name="Fungus2_26">
-    <altName>Fungus2_26</altName>
-  </room>
-  <room name="Fungus2_28">
-    <altName>Fungus2_28</altName>
-  </room>
-  <room name="Fungus2_29">
-    <altName>Fungus2_29</altName>
-  </room>
-  <room name="Fungus2_30">
-    <altName>Fungus2_30</altName>
-  </room>
-  <room name="Fungus2_31">
-    <altName>Fungus2_31</altName>
-  </room>
-  <room name="Fungus2_32">
-    <altName>Fungus2_32</altName>
-  </room>
-  <room name="Fungus2_33">
-    <altName>Fungus2_33</altName>
-  </room>
-  <room name="Deepnest_01">
-    <altName>Deepnest_01</altName>
-  </room>
-  <room name="Deepnest_01b">
-    <altName>Deepnest_01b</altName>
-  </room>
-  <room name="Deepnest_02">
-    <altName>Deepnest_02</altName>
-  </room>
-  <room name="Deepnest_03">
-    <altName>Deepnest_03</altName>
-  </room>
-  <room name="Deepnest_09">
-    <altName>Deepnest_09</altName>
-  </room>
-  <room name="Deepnest_10">
-    <altName>Deepnest_10</altName>
-  </room>
-  <room name="Room_spider_small">
-    <altName>Room_spider_small</altName>
-  </room>
-  <room name="Deepnest_Spider_Town">
-    <altName>Deepnest_Spider_Town</altName>
-  </room>
-  <room name="Deepnest_14">
-    <altName>Deepnest_14</altName>
-  </room>
-  <room name="Deepnest_16">
-    <altName>Deepnest_16</altName>
-  </room>
-  <room name="Deepnest_17">
-    <altName>Deepnest_17</altName>
-  </room>
-  <room name="Fungus2_25">
-    <altName>Fungus2_25</altName>
-  </room>
-  <room name="Deepnest_26">
-    <altName>Deepnest_26</altName>
-  </room>
-  <room name="Deepnest_26b">
-    <altName>Deepnest_26b</altName>
-  </room>
-  <room name="Deepnest_30">
-    <altName>Deepnest_30</altName>
-  </room>
-  <room name="Deepnest_31">
-    <altName>Deepnest_31</altName>
-  </room>
-  <room name="Deepnest_32">
-    <altName>Deepnest_32</altName>
-  </room>
-  <room name="Deepnest_33">
-    <altName>Deepnest_33</altName>
-  </room>
-  <room name="Deepnest_34">
-    <altName>Deepnest_34</altName>
-  </room>
-  <room name="Deepnest_35">
-    <altName>Deepnest_35</altName>
-  </room>
-  <room name="Deepnest_36">
-    <altName>Deepnest_36</altName>
-  </room>
-  <room name="Deepnest_37">
-    <altName>Deepnest_37</altName>
-  </room>
-  <room name="Deepnest_38">
-    <altName>Deepnest_38</altName>
-  </room>
-  <room name="Deepnest_39">
-    <altName>Deepnest_39</altName>
-  </room>
-  <room name="Deepnest_40">
-    <altName>Deepnest_40</altName>
-  </room>
-  <room name="Deepnest_41">
-    <altName>Deepnest_41</altName>
-  </room>
-  <room name="Deepnest_42">
-    <altName>Deepnest_42</altName>
-  </room>
-  <room name="Deepnest_43">
-    <altName>Deepnest_43</altName>
-  </room>
-  <room name="Deepnest_44">
-    <altName>Deepnest_44</altName>
-  </room>
-  <room name="Deepnest_45_v02">
-    <altName>Deepnest_45_v02</altName>
-  </room>
-  <room name="Room_Mask_Maker">
-    <altName>Room_Mask_Maker</altName>
-  </room>
-  <room name="Deepnest_East_01">
-    <altName>Deepnest_East_01</altName>
-  </room>
-  <room name="Deepnest_East_02">
-    <altName>Deepnest_East_02</altName>
-  </room>
-  <room name="Deepnest_East_03">
-    <altName>Deepnest_East_03</altName>
-  </room>
-  <room name="Deepnest_East_04">
-    <altName>Deepnest_East_04</altName>
-  </room>
-  <room name="Deepnest_East_06">
-    <altName>Deepnest_East_06</altName>
-  </room>
-  <room name="Deepnest_East_07">
-    <altName>Deepnest_East_07</altName>
-  </room>
-  <room name="Deepnest_East_08">
-    <altName>Deepnest_East_08</altName>
-  </room>
-  <room name="Deepnest_East_09">
-    <altName>Deepnest_East_09</altName>
-  </room>
-  <room name="Deepnest_East_10">
-    <altName>Deepnest_East_10</altName>
-  </room>
-  <room name="Deepnest_East_11">
-    <altName>Deepnest_East_11</altName>
-  </room>
-  <room name="Deepnest_East_12">
-    <altName>Deepnest_East_12</altName>
-  </room>
-  <room name="Deepnest_East_13">
-    <altName>Deepnest_East_13</altName>
-  </room>
-  <room name="Deepnest_East_14">
-    <altName>Deepnest_East_14</altName>
-  </room>
-  <room name="Deepnest_East_14b">
-    <altName>Deepnest_East_14b</altName>
-  </room>
-  <room name="Deepnest_East_15">
-    <altName>Deepnest_East_15</altName>
-  </room>
-  <room name="Deepnest_East_16">
-    <altName>Deepnest_East_16</altName>
-  </room>
-  <room name="Deepnest_East_17">
-    <altName>Deepnest_East_17</altName>
-  </room>
-  <room name="Deepnest_East_18">
-    <altName>Deepnest_East_18</altName>
-  </room>
-  <room name="Room_nailmaster_03">
-    <altName>Room_nailmaster_03</altName>
-  </room>
-  <room name="Deepnest_East_Hornet">
-    <altName>Deepnest_East_Hornet</altName>
-  </room>
-  <room name="Room_Wyrm">
-    <altName>Room_Wyrm</altName>
-  </room>
-  <room name="GG_Lurker">
-    <altName>GG_Lurker</altName>
-  </room>
-  <room name="Hive_01">
-    <altName>Hive_01</altName>
-  </room>
-  <room name="Hive_02">
-    <altName>Hive_02</altName>
-  </room>
-  <room name="Hive_03_c">
-    <altName>Hive_03_c</altName>
-  </room>
-  <room name="Hive_03">
-    <altName>Hive_03</altName>
-  </room>
-  <room name="Hive_04">
-    <altName>Hive_04</altName>
-  </room>
-  <room name="Hive_05">
-    <altName>Hive_05</altName>
-  </room>
-  <room name="Room_Colosseum_01">
-    <altName>Room_Colosseum_01</altName>
-  </room>
-  <room name="Room_Colosseum_02">
-    <altName>Room_Colosseum_02</altName>
-  </room>
-  <room name="Room_Colosseum_Spectate">
-    <altName>Room_Colosseum_Spectate</altName>
-  </room>
-  <room name="Abyss_01">
-    <altName>Abyss_01</altName>
-  </room>
-  <room name="Abyss_02">
-    <altName>Abyss_02</altName>
-  </room>
-  <room name="Abyss_03">
-    <altName>Abyss_03</altName>
-  </room>
-  <room name="Abyss_03_b">
-    <altName>Abyss_03_b</altName>
-  </room>
-  <room name="Abyss_03_c">
-    <altName>Abyss_03_c</altName>
-  </room>
-  <room name="Abyss_04">
-    <altName>Abyss_04</altName>
-  </room>
-  <room name="Abyss_05">
-    <altName>Abyss_05</altName>
-  </room>
-  <room name="Abyss_06_Core">
-    <altName>Abyss_06_Core</altName>
-  </room>
-  <room name="Abyss_08">
-    <altName>Abyss_08</altName>
-  </room>
-  <room name="Abyss_09">
-    <altName>Abyss_09</altName>
-  </room>
-  <room name="Abyss_10">
-    <altName>Abyss_10</altName>
-  </room>
-  <room name="Abyss_12">
-    <altName>Abyss_12</altName>
-  </room>
-  <room name="Abyss_15">
-    <altName>Abyss_15</altName>
-  </room>
-  <room name="Abyss_16">
-    <altName>Abyss_16</altName>
-  </room>
-  <room name="Abyss_17">
-    <altName>Abyss_17</altName>
-  </room>
-  <room name="Abyss_18">
-    <altName>Abyss_18</altName>
-  </room>
-  <room name="Abyss_19">
-    <altName>Abyss_19</altName>
-  </room>
-  <room name="Abyss_20">
-    <altName>Abyss_20</altName>
-  </room>
-  <room name="Abyss_21">
-    <altName>Abyss_21</altName>
-  </room>
-  <room name="Abyss_22">
-    <altName>Abyss_22</altName>
-  </room>
-  <room name="Abyss_Lighthouse_room">
-    <altName>Abyss_Lighthouse_room</altName>
-  </room>
-  <room name="Waterways_01">
-    <altName>Waterways_01</altName>
-  </room>
-  <room name="Waterways_02">
-    <altName>Waterways_02</altName>
-  </room>
-  <room name="Waterways_03">
-    <altName>Waterways_03</altName>
-  </room>
-  <room name="Waterways_04">
-    <altName>Waterways_04</altName>
-  </room>
-  <room name="Waterways_04b">
-    <altName>Waterways_04b</altName>
-  </room>
-  <room name="Waterways_05">
-    <altName>Waterways_05</altName>
-  </room>
-  <room name="Waterways_06">
-    <altName>Waterways_06</altName>
-  </room>
-  <room name="Waterways_07">
-    <altName>Waterways_07</altName>
-  </room>
-  <room name="Waterways_08">
-    <altName>Waterways_08</altName>
-  </room>
-  <room name="Waterways_09">
-    <altName>Waterways_09</altName>
-  </room>
-  <room name="Waterways_12">
-    <altName>Waterways_12</altName>
-  </room>
-  <room name="Waterways_13">
-    <altName>Waterways_13</altName>
-  </room>
-  <room name="Waterways_14">
-    <altName>Waterways_14</altName>
-  </room>
-  <room name="Waterways_15">
-    <altName>Waterways_15</altName>
-  </room>
-  <room name="GG_Pipeway">
-    <altName>GG_Pipeway</altName>
-  </room>
-  <room name="GG_Waterways">
-    <altName>GG_Waterways</altName>
-  </room>
-  <room name="Room_GG_Shortcut">
-    <altName>Room_GG_Shortcut</altName>
-  </room>
-  <room name="Ruins1_01">
-    <altName>Ruins1_01</altName>
-  </room>
-  <room name="Ruins1_02">
-    <altName>Ruins1_02</altName>
-  </room>
-  <room name="Ruins1_03">
-    <altName>Ruins1_03</altName>
-  </room>
-  <room name="Ruins1_04">
-    <altName>Ruins1_04</altName>
-  </room>
-  <room name="Ruins1_05b">
-    <altName>Ruins1_05b</altName>
-  </room>
-  <room name="Ruins1_05c">
-    <altName>Ruins1_05c</altName>
-  </room>
-  <room name="Ruins1_05">
-    <altName>Ruins1_05</altName>
-  </room>
-  <room name="Ruins1_06">
-    <altName>Ruins1_06</altName>
-  </room>
-  <room name="Ruins1_09">
-    <altName>Ruins1_09</altName>
-  </room>
-  <room name="Ruins1_17">
-    <altName>Ruins1_17</altName>
-  </room>
-  <room name="Ruins1_18">
-    <altName>Ruins1_18</altName>
-  </room>
-  <room name="Ruins1_23">
-    <altName>Ruins1_23</altName>
-  </room>
-  <room name="Ruins1_24">
-    <altName>Ruins1_24</altName>
-  </room>
-  <room name="Ruins1_25">
-    <altName>Ruins1_25</altName>
-  </room>
-  <room name="Ruins1_27">
-    <altName>Ruins1_27</altName>
-  </room>
-  <room name="Ruins1_28">
-    <altName>Ruins1_28</altName>
-  </room>
-  <room name="Ruins1_29">
-    <altName>Ruins1_29</altName>
-  </room>
-  <room name="Ruins1_30">
-    <altName>Ruins1_30</altName>
-  </room>
-  <room name="Ruins1_31">
-    <altName>Ruins1_31</altName>
-  </room>
-  <room name="Ruins1_31b">
-    <altName>Ruins1_31b</altName>
-  </room>
-  <room name="Ruins1_32">
-    <altName>Ruins1_32</altName>
-  </room>
-  <room name="Room_nailsmith">
-    <altName>Room_nailsmith</altName>
-  </room>
-  <room name="Ruins2_01">
-    <altName>Ruins2_01</altName>
-  </room>
-  <room name="Ruins2_01_b">
-    <altName>Ruins2_01_b</altName>
-  </room>
-  <room name="Ruins2_03b">
-    <altName>Ruins2_03b</altName>
-  </room>
-  <room name="Ruins2_03">
-    <altName>Ruins2_03</altName>
-  </room>
-  <room name="Ruins2_04">
-    <altName>Ruins2_04</altName>
-  </room>
-  <room name="Ruins2_05">
-    <altName>Ruins2_05</altName>
-  </room>
-  <room name="Ruins2_06">
-    <altName>Ruins2_06</altName>
-  </room>
-  <room name="Ruins2_07">
-    <altName>Ruins2_07</altName>
-  </room>
-  <room name="Ruins2_08">
-    <altName>Ruins2_08</altName>
-  </room>
-  <room name="Ruins2_09">
-    <altName>Ruins2_09</altName>
-  </room>
-  <room name="Ruins2_10">
-    <altName>Ruins2_10</altName>
-  </room>
-  <room name="Ruins2_10b">
-    <altName>Ruins2_10b</altName>
-  </room>
-  <room name="Ruins2_11_b">
-    <altName>Ruins2_11_b</altName>
-  </room>
-  <room name="Ruins2_11">
-    <altName>Ruins2_11</altName>
-  </room>
-  <room name="Ruins2_Watcher_Room">
-    <altName>Ruins2_Watcher_Room</altName>
-  </room>
-  <room name="Ruins_House_01">
-    <altName>Ruins_House_01</altName>
-  </room>
-  <room name="Ruins_House_02">
-    <altName>Ruins_House_02</altName>
-  </room>
-  <room name="Ruins_House_03">
-    <altName>Ruins_House_03</altName>
-  </room>
-  <room name="Ruins_Elevator">
-    <altName>Ruins_Elevator</altName>
-  </room>
-  <room name="Ruins_Bathhouse">
-    <altName>Ruins_Bathhouse</altName>
-  </room>
-  <room name="RestingGrounds_02">
-    <altName>RestingGrounds_02</altName>
-  </room>
-  <room name="RestingGrounds_04">
-    <altName>RestingGrounds_04</altName>
-  </room>
-  <room name="RestingGrounds_05">
-    <altName>RestingGrounds_05</altName>
-  </room>
-  <room name="RestingGrounds_06">
-    <altName>RestingGrounds_06</altName>
-  </room>
-  <room name="RestingGrounds_07">
-    <altName>RestingGrounds_07</altName>
-  </room>
-  <room name="RestingGrounds_08">
-    <altName>RestingGrounds_08</altName>
-  </room>
-  <room name="RestingGrounds_09">
-    <altName>RestingGrounds_09</altName>
-  </room>
-  <room name="RestingGrounds_10">
-    <altName>RestingGrounds_10</altName>
-  </room>
-  <room name="RestingGrounds_12">
-    <altName>RestingGrounds_12</altName>
-  </room>
-  <room name="RestingGrounds_17">
-    <altName>RestingGrounds_17</altName>
-  </room>
-  <room name="Room_Mansion">
-    <altName>Room_Mansion</altName>
-  </room>
-  <room name="Mines_01">
-    <altName>Mines_01</altName>
-  </room>
-  <room name="Mines_02">
-    <altName>Mines_02</altName>
-  </room>
-  <room name="Mines_03">
-    <altName>Mines_03</altName>
-  </room>
-  <room name="Mines_04">
-    <altName>Mines_04</altName>
-  </room>
-  <room name="Mines_05">
-    <altName>Mines_05</altName>
-  </room>
-  <room name="Mines_06">
-    <altName>Mines_06</altName>
-  </room>
-  <room name="Mines_07">
-    <altName>Mines_07</altName>
-  </room>
-  <room name="Mines_10">
-    <altName>Mines_10</altName>
-  </room>
-  <room name="Mines_11">
-    <altName>Mines_11</altName>
-  </room>
-  <room name="Mines_13">
-    <altName>Mines_13</altName>
-  </room>
-  <room name="Mines_16">
-    <altName>Mines_16</altName>
-  </room>
-  <room name="Mines_17">
-    <altName>Mines_17</altName>
-  </room>
-  <room name="Mines_18">
-    <altName>Mines_18</altName>
-  </room>
-  <room name="Mines_19">
-    <altName>Mines_19</altName>
-  </room>
-  <room name="Mines_20">
-    <altName>Mines_20</altName>
-  </room>
-  <room name="Mines_23">
-    <altName>Mines_23</altName>
-  </room>
-  <room name="Mines_24">
-    <altName>Mines_24</altName>
-  </room>
-  <room name="Mines_25">
-    <altName>Mines_25</altName>
-  </room>
-  <room name="Mines_28">
-    <altName>Mines_28</altName>
-  </room>
-  <room name="Mines_29">
-    <altName>Mines_29</altName>
-  </room>
-  <room name="Mines_30">
-    <altName>Mines_30</altName>
-  </room>
-  <room name="Mines_31">
-    <altName>Mines_31</altName>
-  </room>
-  <room name="Mines_32">
-    <altName>Mines_32</altName>
-  </room>
-  <room name="Mines_33">
-    <altName>Mines_33</altName>
-  </room>
-  <room name="Mines_34">
-    <altName>Mines_34</altName>
-  </room>
-  <room name="Mines_35">
-    <altName>Mines_35</altName>
-  </room>
-  <room name="Mines_36">
-    <altName>Mines_36</altName>
-  </room>
-  <room name="Mines_37">
-    <altName>Mines_37</altName>
-  </room>
-  <room name="Fungus3_04">
-    <altName>Fungus3_04</altName>
-  </room>
-  <room name="Fungus3_05">
-    <altName>Fungus3_05</altName>
-  </room>
-  <room name="Fungus3_08">
-    <altName>Fungus3_08</altName>
-  </room>
-  <room name="Fungus3_10">
-    <altName>Fungus3_10</altName>
-  </room>
-  <room name="Fungus3_11">
-    <altName>Fungus3_11</altName>
-  </room>
-  <room name="Fungus3_13">
-    <altName>Fungus3_13</altName>
-  </room>
-  <room name="Fungus3_21">
-    <altName>Fungus3_21</altName>
-  </room>
-  <room name="Fungus3_22">
-    <altName>Fungus3_22</altName>
-  </room>
-  <room name="Fungus3_23">
-    <altName>Fungus3_23</altName>
-  </room>
-  <room name="Fungus3_34">
-    <altName>Fungus3_34</altName>
-  </room>
-  <room name="Fungus3_39">
-    <altName>Fungus3_39</altName>
-  </room>
-  <room name="Fungus3_40">
-    <altName>Fungus3_40</altName>
-  </room>
-  <room name="Fungus3_48">
-    <altName>Fungus3_48</altName>
-  </room>
-  <room name="Fungus3_49">
-    <altName>Fungus3_49</altName>
-  </room>
-  <room name="Fungus3_50">
-    <altName>Fungus3_50</altName>
-  </room>
-  <room name="Room_Queen">
-    <altName>Room_Queen</altName>
-  </room>
-  <room name="Cliffs_01">
-    <altName>Cliffs_01</altName>
-  </room>
-  <room name="Cliffs_02">
-    <altName>Cliffs_02</altName>
-  </room>
-  <room name="Cliffs_03">
-    <altName>Cliffs_03</altName>
-  </room>
-  <room name="Cliffs_04">
-    <altName>Cliffs_04</altName>
-  </room>
-  <room name="Cliffs_05">
-    <altName>Cliffs_05</altName>
-  </room>
-  <room name="Cliffs_06">
-    <altName>Cliffs_06</altName>
-  </room>
-  <room name="Room_nailmaster">
-    <altName>Room_nailmaster</altName>
-  </room>
-  <room name="White_Palace_01">
-    <altName>White_Palace_01</altName>
-  </room>
-  <room name="White_Palace_02">
-    <altName>White_Palace_02</altName>
-  </room>
-  <room name="White_Palace_03_hub">
-    <altName>White_Palace_03_hub</altName>
-  </room>
-  <room name="White_Palace_04">
-    <altName>White_Palace_04</altName>
-  </room>
-  <room name="White_Palace_05">
-    <altName>White_Palace_05</altName>
-  </room>
-  <room name="White_Palace_06">
-    <altName>White_Palace_06</altName>
-  </room>
-  <room name="White_Palace_07">
-    <altName>White_Palace_07</altName>
-  </room>
-  <room name="White_Palace_08">
-    <altName>White_Palace_08</altName>
-  </room>
-  <room name="White_Palace_09">
-    <altName>White_Palace_09</altName>
-  </room>
-  <room name="White_Palace_11">
-    <altName>White_Palace_11</altName>
-  </room>
-  <room name="White_Palace_12">
-    <altName>White_Palace_12</altName>
-  </room>
-  <room name="White_Palace_13">
-    <altName>White_Palace_13</altName>
-  </room>
-  <room name="White_Palace_14">
-    <altName>White_Palace_14</altName>
-  </room>
-  <room name="White_Palace_15">
-    <altName>White_Palace_15</altName>
-  </room>
-  <room name="White_Palace_16">
-    <altName>White_Palace_16</altName>
-  </room>
-  <room name="White_Palace_17">
-    <altName>White_Palace_17</altName>
-  </room>
-  <room name="White_Palace_18">
-    <altName>White_Palace_18</altName>
-  </room>
-  <room name="White_Palace_19">
-    <altName>White_Palace_19</altName>
-  </room>
-  <room name="White_Palace_20">
-    <altName>White_Palace_20</altName>
-  </room>
+	<room name="Room_temple">
+		<altName>Crossroads Inside Temple</altName>
+	</room>
+	<room name="Tutorial_01">
+		<altName>King's Pass</altName>
+	</room>
+	<room name="Town">
+		<altName>Dirtmouth</altName>
+	</room>
+	<room name="Room_shop">
+		<altName>Sly</altName>
+	</room>
+	<room name="Room_Town_Stag_Station">
+		<altName>Dirtmouth Stag</altName>
+	</room>
+	<room name="Room_mapper">
+		<altName>Iselda</altName>
+	</room>
+	<room name="Room_Bretta">
+		<altName>Bretta</altName>
+	</room>
+	<room name="Room_Ouiji">
+		<altName>Jiji</altName>
+	</room>
+	<room name="Grimm_Divine">
+		<altName>Grimm Divine</altName>
+	</room>
+	<room name="Grimm_Main_Tent">
+		<altName>Grimm Tent</altName>
+	</room>
+	<room name="Crossroads_01">
+		<altName>Crossroads Well</altName>
+	</room>
+	<room name="Crossroads_02">
+		<altName>Crossroads Outside Temple</altName>
+	</room>
+	<room name="Crossroads_03">
+		<altName>Crossroads Outside Stag</altName>
+	</room>
+	<room name="Crossroads_04">
+		<altName>Crossroads Gruz Mother</altName>
+	</room>
+	<room name="Crossroads_05">
+		<altName>Crossroads Central Grub</altName>
+	</room>
+	<room name="Crossroads_06">
+		<altName>Crossroads Outside Mound</altName>
+	</room>
+	<room name="Crossroads_07">
+		<altName>Crossroads Gruzzer</altName>
+	</room>
+	<room name="Crossroads_08">
+		<altName>Crossroads Aspid Arena</altName>
+	</room>
+	<room name="Crossroads_09">
+		<altName>Crossroads Mawlek Boss</altName>
+	</room>
+	<room name="Crossroads_10">
+		<altName>Crossroads False Knight Arena</altName>
+	</room>
+	<room name="Crossroads_11_alt">
+		<altName>Crossroads Greenpath Entrance</altName>
+	</room>
+	<room name="Crossroads_12">
+		<altName>Crossroads Corridor to Acid Grub</altName>
+	</room>
+	<room name="Crossroads_13">
+		<altName>Crossroads Goam Mask Shard</altName>
+	</room>
+	<room name="Crossroads_14">
+		<altName>Crossroads Outside Myla</altName>
+	</room>
+	<room name="Crossroads_15">
+		<altName>Crossroads Corridor to Tram</altName>
+	</room>
+	<room name="Crossroads_16">
+		<altName>Crossroads Above Lever</altName>
+	</room>
+	<room name="Crossroads_18">
+		<altName>Crossroads Fungal Entrance</altName>
+	</room>
+	<room name="Crossroads_19">
+		<altName>Crossroads Before Gruz Mother</altName>
+	</room>
+	<room name="Crossroads_21">
+		<altName>Crossroads Outside False Knight</altName>
+	</room>
+	<room name="Crossroads_22">
+		<altName>Crossroads Glowing Womb Arena</altName>
+	</room>
+	<room name="Crossroads_25">
+		<altName>Crossroads Mawlek Entrance</altName>
+	</room>
+	<room name="Crossroads_27">
+		<altName>Crossroads Outside Tram</altName>
+	</room>
+	<room name="Crossroads_30">
+		<altName>Crossroads Hot Spring</altName>
+	</room>
+	<room name="Crossroads_31">
+		<altName>Crossroads Spike Grub</altName>
+	</room>
+	<room name="Crossroads_33">
+		<altName>Crossroads Cornifer</altName>
+	</room>
+	<room name="Crossroads_35">
+		<altName>Crossroads Acid Grub</altName>
+	</room>
+	<room name="Crossroads_36">
+		<altName>Crossroads Mawlek Middle</altName>
+	</room>
+	<room name="Crossroads_37">
+		<altName>Crossroads Vessel Fragment</altName>
+	</room>
+	<room name="Crossroads_38">
+		<altName>Crossroads Grubfather</altName>
+	</room>
+	<room name="Crossroads_39">
+		<altName>Crossroads Corridor Right of Temple</altName>
+	</room>
+	<room name="Crossroads_40">
+		<altName>Crossroads Corridor Right of Central Grub</altName>
+	</room>
+	<room name="Crossroads_42">
+		<altName>Crossroads Right Of Mask Shard</altName>
+	</room>
+	<room name="Crossroads_43">
+		<altName>Crossroads Corridor to Elevator</altName>
+	</room>
+	<room name="Crossroads_45">
+		<altName>Crossroads Myla</altName>
+	</room>
+	<room name="Crossroads_46">
+		<altName>Crossroads Tram</altName>
+	</room>
+	<room name="Crossroads_46b">
+		<altName>Grounds Tram</altName>
+	</room>
+	<room name="Crossroads_ShamanTemple">
+		<altName>Crossroads Ancestral Mound</altName>
+	</room>
+	<room name="Crossroads_47">
+		<altName>Crossroads Stag</altName>
+	</room>
+	<room name="Crossroads_48">
+		<altName>Crossroads Guarded Grub</altName>
+	</room>
+	<room name="Crossroads_49">
+		<altName>Crossroads Elevator</altName>
+	</room>
+	<room name="Crossroads_49b">
+		<altName>City Left Elevator</altName>
+	</room>
+	<room name="Crossroads_50">
+		<altName>Grounds Blue Lake</altName>
+	</room>
+	<room name="Crossroads_52">
+		<altName>Crossroads Goam Journal</altName>
+	</room>
+	<room name="Room_ruinhouse">
+		<altName>Crossroads Rescue Sly</altName>
+	</room>
+	<room name="Room_Charm_Shop">
+		<altName>Crossroads Salubra</altName>
+	</room>
+	<room name="Room_Mender_House">
+		<altName>Crossroads Menderbug</altName>
+	</room>
+	<room name="Fungus1_01">
+		<altName>Greenpath Entrance</altName>
+	</room>
+	<room name="Fungus1_01b">
+		<altName>Greenpath Waterfall Bench</altName>
+	</room>
+	<room name="Fungus1_02">
+		<altName>Greenpath First Hornet Sighting</altName>
+	</room>
+	<room name="Fungus1_03">
+		<altName>Greenpath Storerooms</altName>
+	</room>
+	<room name="Fungus1_04">
+		<altName>Greenpath Hornet</altName>
+	</room>
+	<room name="Fungus1_05">
+		<altName>Greenpath Outside Thorns</altName>
+	</room>
+	<room name="Fungus1_06">
+		<altName>Greenpath Cornifer</altName>
+	</room>
+	<room name="Fungus1_07">
+		<altName>Greenpath Outside Hunter</altName>
+	</room>
+	<room name="Fungus1_08">
+		<altName>Greenpath Hunter</altName>
+	</room>
+	<room name="Fungus1_09">
+		<altName>Greenpath Sheo Gauntlet</altName>
+	</room>
+	<room name="Fungus1_10">
+		<altName>Greenpath Acid Bridge</altName>
+	</room>
+	<room name="Fungus1_11">
+		<altName>Greenpath Above Fog Canyon</altName>
+	</room>
+	<room name="Fungus1_12">
+		<altName>Greenpath MMC Corridor</altName>
+	</room>
+	<room name="Fungus1_13">
+		<altName>Greenpath Whispering Root</altName>
+	</room>
+	<room name="Fungus1_14">
+		<altName>Greenpath Thorns of Agony</altName>
+	</room>
+	<room name="Fungus1_15">
+		<altName>Greenpath Outside Sheo</altName>
+	</room>
+	<room name="Fungus1_16_alt">
+		<altName>Greenpath Stag</altName>
+	</room>
+	<room name="Fungus1_17">
+		<altName>Greenpath Left of First Hornet Sighting</altName>
+	</room>
+	<room name="Fungus1_19">
+		<altName>Greenpath Above Sanctuary Bench</altName>
+	</room>
+	<room name="Fungus1_20_v02">
+		<altName>Greenpath Vengefly King</altName>
+	</room>
+	<room name="Fungus1_21">
+		<altName>Greenpath Outside Hornet</altName>
+	</room>
+	<room name="Fungus1_22">
+		<altName>Greenpath Outside Stag</altName>
+	</room>
+	<room name="Fungus1_23">
+		<altName>Gardens First Loodle Corridor</altName>
+	</room>
+	<room name="Fungus1_24">
+		<altName>Gardens Cornifer</altName>
+	</room>
+	<room name="Fungus1_25">
+		<altName>Greenpath Corridor to Unn</altName>
+	</room>
+	<room name="Fungus1_26">
+		<altName>Greenpath Lake Of Unn</altName>
+	</room>
+	<room name="Fungus1_28">
+		<altName>Cliffs Baldur's Shell</altName>
+	</room>
+	<room name="Fungus1_29">
+		<altName>Greenpath Massive Moss Charger</altName>
+	</room>
+	<room name="Fungus1_30">
+		<altName>Greenpath Below Toll Bench</altName>
+	</room>
+	<room name="Fungus1_31">
+		<altName>Greenpath Toll</altName>
+	</room>
+	<room name="Fungus1_32">
+		<altName>Greenpath Moss Knight Arena</altName>
+	</room>
+	<room name="Fungus1_34">
+		<altName>Greenpath Stone Sanctuary Entrance</altName>
+	</room>
+	<room name="Fungus1_35">
+		<altName>Greenpath Stone Sanctuary</altName>
+	</room>
+	<room name="Fungus1_36">
+		<altName>Greenpath Stone Sanctuary Mask Shard</altName>
+	</room>
+	<room name="Fungus1_37">
+		<altName>Greenpath Sanctuary Bench</altName>
+	</room>
+	<room name="Fungus1_Slug">
+		<altName>Greenpath Unn</altName>
+	</room>
+	<room name="Room_Slug_Shrine">
+		<altName>Greenpath Unn Bench</altName>
+	</room>
+	<room name="Room_nailmaster_02">
+		<altName>Greenpath Sheo</altName>
+	</room>
+	<room name="Fungus3_01">
+		<altName>Fog Upper West Tall</altName>
+	</room>
+	<room name="Fungus3_02">
+		<altName>Fog Lower West Tall</altName>
+	</room>
+	<room name="Fungus3_03">
+		<altName>Fog Queen's Gardens Acid Entrance</altName>
+	</room>
+	<room name="Fungus3_24">
+		<altName>Fog Corridor to Overgrown Mound</altName>
+	</room>
+	<room name="Fungus3_25">
+		<altName>Fog Cornifer</altName>
+	</room>
+	<room name="Fungus3_25b">
+		<altName>Fog Corridor to Cornifer</altName>
+	</room>
+	<room name="Fungus3_26">
+		<altName>Fog East Tall</altName>
+	</room>
+	<room name="Fungus3_27">
+		<altName>Fog Corridor to Archives</altName>
+	</room>
+	<room name="Fungus3_28">
+		<altName>Fog Charm Notch</altName>
+	</room>
+	<room name="Fungus3_30">
+		<altName>Fog Lifeblood</altName>
+	</room>
+	<room name="Fungus3_35">
+		<altName>Fog Millibelle</altName>
+	</room>
+	<room name="Fungus3_44">
+		<altName>Fog Overgrown Mound Entrance</altName>
+	</room>
+	<room name="Fungus3_47">
+		<altName>Fog Archives Entrance</altName>
+	</room>
+	<room name="Room_Fungus_Shaman">
+		<altName>Fog Overgrown Mound</altName>
+	</room>
+	<room name="Fungus3_archive">
+		<altName>Fog Archives Bench</altName>
+	</room>
+	<room name="Fungus3_archive_02">
+		<altName>Fog Uumuu Arena</altName>
+	</room>
+	<room name="Fungus2_01">
+		<altName>Fungal Queen's Station</altName>
+	</room>
+	<room name="Fungus2_02">
+		<altName>Fungal Queen's Stag</altName>
+	</room>
+	<room name="Fungus2_34">
+		<altName>Fungal Willoh</altName>
+	</room>
+	<room name="Fungus2_03">
+		<altName>Fungal Outside Queen's</altName>
+	</room>
+	<room name="Fungus2_04">
+		<altName>Fungal Below Ogres</altName>
+	</room>
+	<room name="Fungus2_05">
+		<altName>Fungal Shrumal Ogres</altName>
+	</room>
+	<room name="Fungus2_06">
+		<altName>Fungal Outside Leg Eater</altName>
+	</room>
+	<room name="Fungus2_07">
+		<altName>Fungal Shrumal Warrior Acid Bridge</altName>
+	</room>
+	<room name="Fungus2_08">
+		<altName>Fungal Outside Elder Hu</altName>
+	</room>
+	<room name="Fungus2_09">
+		<altName>Fungal Cloth Corridor</altName>
+	</room>
+	<room name="Fungus2_10">
+		<altName>Fungal Left Of Pilgrim's Way</altName>
+	</room>
+	<room name="Fungus2_11">
+		<altName>Fungal Right of Bouncy Grub</altName>
+	</room>
+	<room name="Fungus2_12">
+		<altName>Fungal Mantis Corridor</altName>
+	</room>
+	<room name="Fungus2_13">
+		<altName>Fungal Bretta Bench</altName>
+	</room>
+	<room name="Fungus2_14">
+		<altName>Fungal Mantis Village</altName>
+	</room>
+	<room name="Fungus2_15">
+		<altName>Fungal Mantis Lords</altName>
+	</room>
+	<room name="Fungus2_17">
+		<altName>Fungal Above Mantis Village</altName>
+	</room>
+	<room name="Fungus2_18">
+		<altName>Fungal Cornifer</altName>
+	</room>
+	<room name="Fungus2_19">
+		<altName>Fungal Right Of Spore Shroom</altName>
+	</room>
+	<room name="Fungus2_20">
+		<altName>Fungal Spore Shroom</altName>
+	</room>
+	<room name="Fungus2_21">
+		<altName>Fungal Pilgrim's Way</altName>
+	</room>
+	<room name="Fungus2_23">
+		<altName>Fungal Dashmaster</altName>
+	</room>
+	<room name="Fungus2_26">
+		<altName>Fungal Leg Eater</altName>
+	</room>
+	<room name="Fungus2_28">
+		<altName>Fungal Shrumal Warrior Loop</altName>
+	</room>
+	<room name="Fungus2_29">
+		<altName>Fungal Core Upper</altName>
+	</room>
+	<room name="Fungus2_30">
+		<altName>Fungal Core Lower</altName>
+	</room>
+	<room name="Fungus2_31">
+		<altName>Fungal Mantis Rewards</altName>
+	</room>
+	<room name="Fungus2_32">
+		<altName>Fungal Elder Hu</altName>
+	</room>
+	<room name="Fungus2_33">
+		<altName>Fungal Leg Eater Root</altName>
+	</room>
+	<room name="Deepnest_01">
+		<altName>Fungal Deepnest Fall</altName>
+	</room>
+	<room name="Deepnest_01b">
+		<altName>Deepnest Upper Cornifer</altName>
+	</room>
+	<room name="Deepnest_02">
+		<altName>Deepnest Outside Mimics</altName>
+	</room>
+	<room name="Deepnest_03">
+		<altName>Deepnest Left Of Hot Spring</altName>
+	</room>
+	<room name="Deepnest_09">
+		<altName>Deepnest Distant Village Stag</altName>
+	</room>
+	<room name="Deepnest_10">
+		<altName>Deepnest Distant Village</altName>
+	</room>
+	<room name="Room_spider_small">
+		<altName>Deepnest Brumm</altName>
+	</room>
+	<room name="Deepnest_Spider_Town">
+		<altName>Deepnest Beast's Den</altName>
+	</room>
+	<room name="Deepnest_14">
+		<altName>Deepnest Failed Tramway Bench</altName>
+	</room>
+	<room name="Deepnest_16">
+		<altName>Deepnest After Lower Cornifer</altName>
+	</room>
+	<room name="Deepnest_17">
+		<altName>Deepnest Garpede Corridor Below Cornifer</altName>
+	</room>
+	<room name="Fungus2_25">
+		<altName>Deepnest Lower Cornifer</altName>
+	</room>
+	<room name="Deepnest_26">
+		<altName>Deepnest Failed Tramway Lifeblood</altName>
+	</room>
+	<room name="Deepnest_26b">
+		<altName>Deepnest Tram Pass</altName>
+	</room>
+	<room name="Deepnest_30">
+		<altName>Deepnest Hot Spring</altName>
+	</room>
+	<room name="Deepnest_31">
+		<altName>Deepnest Nosk Corridor</altName>
+	</room>
+	<room name="Deepnest_32">
+		<altName>Deepnest Nosk Arena</altName>
+	</room>
+	<room name="Deepnest_33">
+		<altName>Deepnest Zote Arena</altName>
+	</room>
+	<room name="Deepnest_34">
+		<altName>Deepnest First Devout</altName>
+	</room>
+	<room name="Deepnest_35">
+		<altName>Deepnest Outside Galien</altName>
+	</room>
+	<room name="Deepnest_36">
+		<altName>Deepnest Mimics</altName>
+	</room>
+	<room name="Deepnest_37">
+		<altName>Deepnest Corridor to Tram</altName>
+	</room>
+	<room name="Deepnest_38">
+		<altName>Deepnest Vessel Fragment</altName>
+	</room>
+	<room name="Deepnest_39">
+		<altName>Deepnest Whispering Root</altName>
+	</room>
+	<room name="Deepnest_40">
+		<altName>Deepnest Galien Arena</altName>
+	</room>
+	<room name="Deepnest_41">
+		<altName>Deepnest Midwife</altName>
+	</room>
+	<room name="Deepnest_42">
+		<altName>Deepnest Outside Mask Maker</altName>
+	</room>
+	<room name="Deepnest_43">
+		<altName>Gardens Corridor To Deepnest</altName>
+	</room>
+	<room name="Deepnest_44">
+		<altName>Deepnest Sharp Shadow</altName>
+	</room>
+	<room name="Deepnest_45_v02">
+		<altName>Deepnest Weaver's Den</altName>
+	</room>
+	<room name="Room_Mask_Maker">
+		<altName>Deepnest Mask Maker</altName>
+	</room>
+	<room name="Deepnest_East_01">
+		<altName>Edge Left Of Hive</altName>
+	</room>
+	<room name="Deepnest_East_02">
+		<altName>Edge Above Hive</altName>
+	</room>
+	<room name="Deepnest_East_03">
+		<altName>Edge Entrance</altName>
+	</room>
+	<room name="Deepnest_East_04">
+		<altName>Edge Bardoon</altName>
+	</room>
+	<room name="Deepnest_East_06">
+		<altName>Edge Outside Oro</altName>
+	</room>
+	<room name="Deepnest_East_07-main">
+		<altName>Edge Whispering Root</altName>
+	</room>
+	<room name="Deepnest_East_07-isolated">
+		<altName>Edge Entrance Journal</altName>
+	</room>
+	<room name="Deepnest_East_08">
+		<altName>Edge Great Hopper Idol</altName>
+	</room>
+	<room name="Deepnest_East_09">
+		<altName>Edge Corridor Outside Colosseum</altName>
+	</room>
+	<room name="Deepnest_East_10">
+		<altName>Edge Markoth Arena</altName>
+	</room>
+	<room name="Deepnest_East_11">
+		<altName>Edge Below Camp Bench</altName>
+	</room>
+	<room name="Deepnest_East_12">
+		<altName>Edge Hornet Sentinel Corridor</altName>
+	</room>
+	<room name="Deepnest_East_13">
+		<altName>Edge Camp Bench</altName>
+	</room>
+	<room name="Deepnest_East_14">
+		<altName>Edge Below Oro</altName>
+	</room>
+	<room name="Deepnest_East_14b">
+		<altName>Edge Quick Slash</altName>
+	</room>
+	<room name="Deepnest_East_15">
+		<altName>Edge Lifeblood</altName>
+	</room>
+	<room name="Deepnest_East_16">
+		<altName>Edge Oro Scarecrow</altName>
+	</room>
+	<room name="Deepnest_East_17">
+		<altName>Edge 420 Geo Rock</altName>
+	</room>
+	<room name="Deepnest_East_18">
+		<altName>Edge Outside Markoth</altName>
+	</room>
+	<room name="Room_nailmaster_03">
+		<altName>Edge Oro</altName>
+	</room>
+	<room name="Deepnest_East_Hornet">
+		<altName>Edge Hornet Sentinel Arena</altName>
+	</room>
+	<room name="Room_Wyrm">
+		<altName>Edge Cast-Off Shell</altName>
+	</room>
+	<room name="GG_Lurker">
+		<altName>Edge Pale Lurker</altName>
+	</room>
+	<room name="Hive_01-main">
+		<altName>Hive Entrance</altName>
+	</room>
+	<room name="Hive_01-isolated">
+		<altName>Hive Bench</altName>
+	</room>
+	<room name="Hive_02">
+		<altName>Hive Whispering Root</altName>
+	</room>
+	<room name="Hive_03_c">
+		<altName>Hive Outside Shortcut</altName>
+	</room>
+	<room name="Hive_03-main">
+		<altName>Hive Near Outside Grub</altName>
+	</room>
+	<room name="Hive_03-isolated">
+		<altName>Hive Outside Grub</altName>
+	</room>
+	<room name="Hive_04">
+		<altName>Hive Mask Shard</altName>
+	</room>
+	<room name="Hive_05">
+		<altName>Hive Hive Knight Arena</altName>
+	</room>
+	<room name="Room_Colosseum_01">
+		<altName>Edge Colo Entrance</altName>
+	</room>
+	<room name="Room_Colosseum_02">
+		<altName>Edge Colo Bench</altName>
+	</room>
+	<room name="Room_Colosseum_Spectate">
+		<altName>Edge Colo Spectate</altName>
+	</room>
+	<room name="Abyss_01">
+		<altName>City Broken Elevator</altName>
+	</room>
+	<room name="Abyss_02">
+		<altName>Basin Broken Bridge</altName>
+	</room>
+	<room name="Abyss_03">
+		<altName>Basin Tram</altName>
+	</room>
+	<room name="Abyss_03_b">
+		<altName>Deepnest Tram</altName>
+	</room>
+	<room name="Abyss_03_c">
+		<altName>Edge Tram</altName>
+	</room>
+	<room name="Abyss_04">
+		<altName>Basin Fountain</altName>
+	</room>
+	<room name="Abyss_05">
+		<altName>Basin Palace Grounds</altName>
+	</room>
+	<room name="Abyss_06_Core">
+		<altName>Abyss Core</altName>
+	</room>
+	<room name="Abyss_08">
+		<altName>Abyss Lifeblood Core</altName>
+	</room>
+	<room name="Abyss_09-main">
+		<altName>Abyss Lighthouse Climb</altName>
+	</room>
+	<room name="Abyss_09-isolated">
+		<altName>Abyss Void Tendrils Image</altName>
+	</room>
+	<room name="Abyss_10">
+		<altName>Abyss Shade Cloak</altName>
+	</room>
+	<room name="Abyss_12">
+		<altName>Abyss Shriek</altName>
+	</room>
+	<room name="Abyss_15">
+		<altName>Abyss Birthplace</altName>
+	</room>
+	<room name="Abyss_16">
+		<altName>Abyss Corridor to Lighthouse</altName>
+	</room>
+	<room name="Abyss_17">
+		<altName>Basin Cloth</altName>
+	</room>
+	<room name="Abyss_18">
+		<altName>Basin Corridor to Broken Vessel</altName>
+	</room>
+	<room name="Abyss_19">
+		<altName>Basin Broken Vessel Grub</altName>
+	</room>
+	<room name="Abyss_20">
+		<altName>Basin Simple Key</altName>
+	</room>
+	<room name="Abyss_21">
+		<altName>Basin Monarch Wings</altName>
+	</room>
+	<room name="Abyss_22">
+		<altName>Basin Hidden Station</altName>
+	</room>
+	<room name="Abyss_Lighthouse_room">
+		<altName>Abyss Lighthouse</altName>
+	</room>
+	<room name="Waterways_01">
+		<altName>Waterways Entrance</altName>
+	</room>
+	<room name="Waterways_02">
+		<altName>Waterways Main Bench</altName>
+	</room>
+	<room name="Waterways_03">
+		<altName>Waterways Tuk</altName>
+	</room>
+	<room name="Waterways_04">
+		<altName>Waterways Hidden Grub</altName>
+	</room>
+	<room name="Waterways_04b">
+		<altName>Waterways Mask Shard</altName>
+	</room>
+	<room name="Waterways_05">
+		<altName>Waterways Dung Defender Arena</altName>
+	</room>
+	<room name="Waterways_06">
+		<altName>Waterways Corridor to Broken Elevator</altName>
+	</room>
+	<room name="Waterways_07">
+		<altName>Waterways Left Of Isma's Grove</altName>
+	</room>
+	<room name="Waterways_08">
+		<altName>Waterways Outside Flukemarm</altName>
+	</room>
+	<room name="Waterways_09">
+		<altName>Waterways Cornifer</altName>
+	</room>
+	<room name="Waterways_12">
+		<altName>Waterways Flukemarm Arena</altName>
+	</room>
+	<room name="Waterways_13">
+		<altName>Waterways Isma's Grove</altName>
+	</room>
+	<room name="Waterways_14">
+		<altName>Waterways Edge Acid Corridor</altName>
+	</room>
+	<room name="Waterways_15">
+		<altName>Waterways Dung Defender's Cave</altName>
+	</room>
+	<room name="GG_Pipeway">
+		<altName>Waterways Flukemunga Corridor</altName>
+	</room>
+	<room name="GG_Waterways">
+		<altName>Waterways Junk Pit</altName>
+	</room>
+	<room name="Room_GG_Shortcut">
+		<altName>Waterways Fluke Hermit</altName>
+	</room>
+	<room name="Ruins1_01">
+		<altName>City Pilgrim's Entrance</altName>
+	</room>
+	<room name="Ruins1_02">
+		<altName>City Quirrel Bench</altName>
+	</room>
+	<room name="Ruins1_03">
+		<altName>City Rafters</altName>
+	</room>
+	<room name="Ruins1_04">
+		<altName>City Outside Nailsmith</altName>
+	</room>
+	<room name="Ruins1_05b">
+		<altName>City Lemm</altName>
+	</room>
+	<room name="Ruins1_05c">
+		<altName>City Egg Above Lemm</altName>
+	</room>
+	<room name="Ruins1_05-main">
+		<altName>City Grub Above Lemm</altName>
+	</room>
+	<room name="Ruins1_05-lower">
+		<altName>City Near Grub Above Lemm</altName>
+	</room>
+	<room name="Ruins1_06">
+		<altName>City Corridor to Storerooms</altName>
+	</room>
+	<room name="Ruins1_09">
+		<altName>City Soul Twister Arena</altName>
+	</room>
+	<room name="Ruins1_17">
+		<altName>City Whispering Root</altName>
+	</room>
+	<room name="Ruins1_18-main">
+		<altName>City Corridor to Spire</altName>
+	</room>
+	<room name="Ruins1_18-isolated">
+		<altName>City Spire Bench</altName>
+	</room>
+	<room name="Ruins1_23">
+		<altName>City Sanctum Entrance</altName>
+	</room>
+	<room name="Ruins1_24-upper">
+		<altName>City Soul Master Arena</altName>
+	</room>
+	<room name="Ruins1_24-lower">
+		<altName>City Below Soul Master Arena</altName>
+	</room>
+	<room name="Ruins1_25">
+		<altName>City Sanctum East Elevators</altName>
+	</room>
+	<room name="Ruins1_27">
+		<altName>City Hollow Knight Fountain</altName>
+	</room>
+	<room name="Ruins1_28">
+		<altName>City Storerooms</altName>
+	</room>
+	<room name="Ruins1_29">
+		<altName>City Storerooms Stag</altName>
+	</room>
+	<room name="Ruins1_30">
+		<altName>City Sanctum Spell Twister</altName>
+	</room>
+	<room name="Ruins1_31">
+		<altName>City Toll Bench</altName>
+	</room>
+	<room name="Ruins1_31b">
+		<altName>City Shade Soul Arena</altName>
+	</room>
+	<room name="Ruins1_32">
+		<altName>City Soul Master Rewards</altName>
+	</room>
+	<room name="Room_nailsmith">
+		<altName>City Nailsmith</altName>
+	</room>
+	<room name="Ruins2_01">
+		<altName>City Spire Second Floor</altName>
+	</room>
+	<room name="Ruins2_01_b">
+		<altName>City Spire First Floor</altName>
+	</room>
+	<room name="Ruins2_03b">
+		<altName>City Spire Third Floor</altName>
+	</room>
+	<room name="Ruins2_03-main">
+		<altName>City Spire Fourth Floor</altName>
+	</room>
+	<room name="Ruins2_03-isolated">
+		<altName>City Spire Grub</altName>
+	</room>
+	<room name="Ruins2_04">
+		<altName>City Right Hub</altName>
+	</room>
+	<room name="Ruins2_05">
+		<altName>City Above King's</altName>
+	</room>
+	<room name="Ruins2_06">
+		<altName>City King's Station</altName>
+	</room>
+	<room name="Ruins2_07">
+		<altName>City Grub Below King's</altName>
+	</room>
+	<room name="Ruins2_08">
+		<altName>City King's Stag</altName>
+	</room>
+	<room name="Ruins2_09">
+		<altName>City King's Vessel Fragment</altName>
+	</room>
+	<room name="Ruins2_10">
+		<altName>Grounds Elevator</altName>
+	</room>
+	<room name="Ruins2_10b">
+		<altName>City Right Elevator</altName>
+	</room>
+	<room name="Ruins2_11_b">
+		<altName>City Tower of Love</altName>
+	</room>
+	<room name="Ruins2_11">
+		<altName>City Collector Arena</altName>
+	</room>
+	<room name="Ruins2_Watcher_Room">
+		<altName>City Lurien Elevator</altName>
+	</room>
+	<room name="Ruins_House_01">
+		<altName>City Guarded Grub</altName>
+	</room>
+	<room name="Ruins_House_02">
+		<altName>City Gorgeous Husk</altName>
+	</room>
+	<room name="Ruins_House_03">
+		<altName>City Emilitia</altName>
+	</room>
+	<room name="Ruins_Elevator">
+		<altName>City Pleasure House Elevator</altName>
+	</room>
+	<room name="Ruins_Bathhouse">
+		<altName>City Pleasure House Bench</altName>
+	</room>
+	<room name="RestingGrounds_02">
+		<altName>Grounds Xero</altName>
+	</room>
+	<room name="RestingGrounds_04">
+		<altName>Grounds Dream Nail Entrance</altName>
+	</room>
+	<room name="RestingGrounds_05">
+		<altName>Grounds Whispering Root</altName>
+	</room>
+	<room name="RestingGrounds_06">
+		<altName>Grounds Corridor Below Xero</altName>
+	</room>
+	<room name="RestingGrounds_07">
+		<altName>Grounds Seer</altName>
+	</room>
+	<room name="RestingGrounds_08">
+		<altName>Grounds Spirit's Glade</altName>
+	</room>
+	<room name="RestingGrounds_09">
+		<altName>Grounds Stag</altName>
+	</room>
+	<room name="RestingGrounds_10">
+		<altName>Grounds Crypts</altName>
+	</room>
+	<room name="RestingGrounds_12">
+		<altName>Grounds Outside Grey Mourner</altName>
+	</room>
+	<room name="RestingGrounds_17">
+		<altName>Grounds Dreamshield</altName>
+	</room>
+	<room name="Room_Mansion">
+		<altName>Grounds Grey Mourner</altName>
+	</room>
+	<room name="Mines_01">
+		<altName>Crystal Dive Entrance</altName>
+	</room>
+	<room name="Mines_02">
+		<altName>Crystal Dark Entrance</altName>
+	</room>
+	<room name="Mines_03">
+		<altName>Crystal Spike Grub</altName>
+	</room>
+	<room name="Mines_04">
+		<altName>Crystal Entrance Conveyors</altName>
+	</room>
+	<room name="Mines_05">
+		<altName>Crystal Above Spike Grub</altName>
+	</room>
+	<room name="Mines_06">
+		<altName>Crystal Deep Focus Gauntlet</altName>
+	</room>
+	<room name="Mines_07">
+		<altName>Crystal Dark Room</altName>
+	</room>
+	<room name="Mines_10">
+		<altName>Crystal Elevator Entrance</altName>
+	</room>
+	<room name="Mines_11">
+		<altName>Crystal Left Of Guardian</altName>
+	</room>
+	<room name="Mines_13">
+		<altName>Crystal Top Corridor</altName>
+	</room>
+	<room name="Mines_16">
+		<altName>Crystal Mimic</altName>
+	</room>
+	<room name="Mines_17">
+		<altName>Crystal Corridor to Spike Grub</altName>
+	</room>
+	<room name="Mines_18">
+		<altName>Crystal Guardian Bench</altName>
+	</room>
+	<room name="Mines_19">
+		<altName>Crystal Grub Crushers</altName>
+	</room>
+	<room name="Mines_20">
+		<altName>Crystal East Tall</altName>
+	</room>
+	<room name="Mines_23">
+		<altName>Crystal Crown Whispering Root</altName>
+	</room>
+	<room name="Mines_24">
+		<altName>Crystal Crown Grub</altName>
+	</room>
+	<room name="Mines_25">
+		<altName>Crystal Crown Climb</altName>
+	</room>
+	<room name="Mines_28">
+		<altName>Crystal Outside Mound</altName>
+	</room>
+	<room name="Mines_29">
+		<altName>Crystal Dark Bench</altName>
+	</room>
+	<room name="Mines_30">
+		<altName>Crystal Cornifer</altName>
+	</room>
+	<room name="Mines_31">
+		<altName>Crystal Crystal Heart Gauntlet</altName>
+	</room>
+	<room name="Mines_32">
+		<altName>Crystal Enraged Guardian Arena</altName>
+	</room>
+	<room name="Mines_33">
+		<altName>Crossroads Peak Dark Entrance</altName>
+	</room>
+	<room name="Mines_34">
+		<altName>Crystal Crown Peak</altName>
+	</room>
+	<room name="Mines_35">
+		<altName>Crystal Mound</altName>
+	</room>
+	<room name="Mines_36">
+		<altName>Crystal Deep Focus</altName>
+	</room>
+	<room name="Mines_37">
+		<altName>Crystal Chest Crushers</altName>
+	</room>
+	<room name="Fungus3_04">
+		<altName>Gardens Before Petra Arena</altName>
+	</room>
+	<room name="Fungus3_05">
+		<altName>Gardens Petra Arena</altName>
+	</room>
+	<room name="Fungus3_08">
+		<altName>Gardens Lower Petra Corridor</altName>
+	</room>
+	<room name="Fungus3_10">
+		<altName>Gardens Main Arena</altName>
+	</room>
+	<room name="Fungus3_11">
+		<altName>Gardens Whispering Root</altName>
+	</room>
+	<room name="Fungus3_13">
+		<altName>Gardens Outside Stag</altName>
+	</room>
+	<room name="Fungus3_21">
+		<altName>Gardens Corridor to Traitor Lord</altName>
+	</room>
+	<room name="Fungus3_22">
+		<altName>Gardens Upper Grub</altName>
+	</room>
+	<room name="Fungus3_23">
+		<altName>Gardens Traitor Lord Arena</altName>
+	</room>
+	<room name="Fungus3_34">
+		<altName>Gardens Entrance</altName>
+	</room>
+	<room name="Fungus3_39">
+		<altName>Gardens Moss Prophet</altName>
+	</room>
+	<room name="Fungus3_40">
+		<altName>Gardens Gardens Stag</altName>
+	</room>
+	<room name="Fungus3_48-upper">
+		<altName>Gardens Outside White Lady</altName>
+	</room>
+	<room name="Fungus3_48-lower">
+		<altName>Gardens Grub Near White Lady</altName>
+	</room>
+	<room name="Fungus3_49">
+		<altName>Gardens Traitor's Child's Grave</altName>
+	</room>
+	<room name="Fungus3_50">
+		<altName>Gardens Toll Bench</altName>
+	</room>
+	<room name="Room_Queen">
+		<altName>Gardens White Lady</altName>
+	</room>
+	<room name="Cliffs_01">
+		<altName>Cliffs Main</altName>
+	</room>
+	<room name="Cliffs_02">
+		<altName>Cliffs Gorb</altName>
+	</room>
+	<room name="Cliffs_03">
+		<altName>Cliffs Stag Nest</altName>
+	</room>
+	<room name="Cliffs_04">
+		<altName>Cliffs Joni's Dark</altName>
+	</room>
+	<room name="Cliffs_05">
+		<altName>Cliffs Joni's Pickup</altName>
+	</room>
+	<room name="Cliffs_06">
+		<altName>Cliffs Grimm Lantern</altName>
+	</room>
+	<room name="Room_nailmaster">
+		<altName>Cliffs Mato</altName>
+	</room>
+	<room name="White_Palace_01">
+		<altName>Palace Entrance</altName>
+	</room>
+	<room name="White_Palace_02">
+		<altName>Palace First Mold</altName>
+	</room>
+	<room name="White_Palace_03_hub">
+		<altName>Palace Hub</altName>
+	</room>
+	<room name="White_Palace_04">
+		<altName>Palace Left Of Hub</altName>
+	</room>
+	<room name="White_Palace_05-upper">
+		<altName>Palace Saw Thorns Room</altName>
+	</room>
+	<room name="White_Palace_05-lower">
+		<altName>Palace Horizontal Saw Room</altName>
+	</room>
+	<room name="White_Palace_06">
+		<altName>Palace Balcony</altName>
+	</room>
+	<room name="White_Palace_07">
+		<altName>Palace Lamp Pogo</altName>
+	</room>
+	<room name="White_Palace_08">
+		<altName>Palace Workshop</altName>
+	</room>
+	<room name="White_Palace_09">
+		<altName>Palace Throne</altName>
+	</room>
+	<room name="White_Palace_11">
+		<altName>Palace Outside</altName>
+	</room>
+	<room name="White_Palace_12">
+		<altName>Palace Spike Drop</altName>
+	</room>
+	<room name="White_Palace_13">
+		<altName>Palace Thorn Jump</altName>
+	</room>
+	<room name="White_Palace_14">
+		<altName>Palace Hell Corridor</altName>
+	</room>
+	<room name="White_Palace_15">
+		<altName>Palace Caged Lever</altName>
+	</room>
+	<room name="White_Palace_16">
+		<altName>Palace Saw Climb</altName>
+	</room>
+	<room name="White_Palace_17">
+		<altName>POP Lever</altName>
+	</room>
+	<room name="White_Palace_18">
+		<altName>POP Entrance</altName>
+	</room>
+	<room name="White_Palace_19">
+		<altName>POP Vertical</altName>
+	</room>
+	<room name="White_Palace_20">
+		<altName>POP Final</altName>
+	</room>
 </randomizer>
