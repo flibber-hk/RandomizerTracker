@@ -1,1118 +1,1119 @@
-﻿<randomizer>
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<randomizer>
 	<room name="Room_temple">
-		<altName>Crossroads Inside Temple</altName>
+		<altName>Room_temple</altName>
 	</room>
 	<room name="Tutorial_01">
-		<altName>King's Pass</altName>
+		<altName>Tutorial_01</altName>
 	</room>
 	<room name="Town">
-		<altName>Dirtmouth</altName>
+		<altName>Town</altName>
 	</room>
 	<room name="Room_shop">
-		<altName>Sly</altName>
+		<altName>Room_shop</altName>
 	</room>
 	<room name="Room_Town_Stag_Station">
-		<altName>Dirtmouth Stag</altName>
+		<altName>Room_Town_Stag_Station</altName>
 	</room>
 	<room name="Room_mapper">
-		<altName>Iselda</altName>
+		<altName>Room_mapper</altName>
 	</room>
 	<room name="Room_Bretta">
-		<altName>Bretta</altName>
+		<altName>Room_Bretta</altName>
 	</room>
 	<room name="Room_Ouiji">
-		<altName>Jiji</altName>
+		<altName>Room_Ouiji</altName>
 	</room>
 	<room name="Grimm_Divine">
-		<altName>Grimm Divine</altName>
+		<altName>Grimm_Divine</altName>
 	</room>
 	<room name="Grimm_Main_Tent">
-		<altName>Grimm Tent</altName>
+		<altName>Grimm_Main_Tent</altName>
 	</room>
 	<room name="Crossroads_01">
-		<altName>Crossroads Well</altName>
+		<altName>Crossroads_01</altName>
 	</room>
 	<room name="Crossroads_02">
-		<altName>Crossroads Outside Temple</altName>
+		<altName>Crossroads_02</altName>
 	</room>
 	<room name="Crossroads_03">
-		<altName>Crossroads Outside Stag</altName>
+		<altName>Crossroads_03</altName>
 	</room>
 	<room name="Crossroads_04">
-		<altName>Crossroads Gruz Mother</altName>
+		<altName>Crossroads_04</altName>
 	</room>
 	<room name="Crossroads_05">
-		<altName>Crossroads Central Grub</altName>
+		<altName>Crossroads_05</altName>
 	</room>
 	<room name="Crossroads_06">
-		<altName>Crossroads Outside Mound</altName>
+		<altName>Crossroads_06</altName>
 	</room>
 	<room name="Crossroads_07">
-		<altName>Crossroads Gruzzer</altName>
+		<altName>Crossroads_07</altName>
 	</room>
 	<room name="Crossroads_08">
-		<altName>Crossroads Aspid Arena</altName>
+		<altName>Crossroads_08</altName>
 	</room>
 	<room name="Crossroads_09">
-		<altName>Crossroads Mawlek Boss</altName>
+		<altName>Crossroads_09</altName>
 	</room>
 	<room name="Crossroads_10">
-		<altName>Crossroads False Knight Arena</altName>
+		<altName>Crossroads_10</altName>
 	</room>
 	<room name="Crossroads_11_alt">
-		<altName>Crossroads Greenpath Entrance</altName>
+		<altName>Crossroads_11_alt</altName>
 	</room>
 	<room name="Crossroads_12">
-		<altName>Crossroads Corridor to Acid Grub</altName>
+		<altName>Crossroads_12</altName>
 	</room>
 	<room name="Crossroads_13">
-		<altName>Crossroads Goam Mask Shard</altName>
+		<altName>Crossroads_13</altName>
 	</room>
 	<room name="Crossroads_14">
-		<altName>Crossroads Outside Myla</altName>
+		<altName>Crossroads_14</altName>
 	</room>
 	<room name="Crossroads_15">
-		<altName>Crossroads Corridor to Tram</altName>
+		<altName>Crossroads_15</altName>
 	</room>
 	<room name="Crossroads_16">
-		<altName>Crossroads Above Lever</altName>
+		<altName>Crossroads_16</altName>
 	</room>
 	<room name="Crossroads_18">
-		<altName>Crossroads Fungal Entrance</altName>
+		<altName>Crossroads_18</altName>
 	</room>
 	<room name="Crossroads_19">
-		<altName>Crossroads Before Gruz Mother</altName>
+		<altName>Crossroads_19</altName>
 	</room>
 	<room name="Crossroads_21">
-		<altName>Crossroads Outside False Knight</altName>
+		<altName>Crossroads_21</altName>
 	</room>
 	<room name="Crossroads_22">
-		<altName>Crossroads Glowing Womb Arena</altName>
+		<altName>Crossroads_22</altName>
 	</room>
 	<room name="Crossroads_25">
-		<altName>Crossroads Mawlek Entrance</altName>
+		<altName>Crossroads_25</altName>
 	</room>
 	<room name="Crossroads_27">
-		<altName>Crossroads Outside Tram</altName>
+		<altName>Crossroads_27</altName>
 	</room>
 	<room name="Crossroads_30">
-		<altName>Crossroads Hot Spring</altName>
+		<altName>Crossroads_30</altName>
 	</room>
 	<room name="Crossroads_31">
-		<altName>Crossroads Spike Grub</altName>
+		<altName>Crossroads_31</altName>
 	</room>
 	<room name="Crossroads_33">
-		<altName>Crossroads Cornifer</altName>
+		<altName>Crossroads_33</altName>
 	</room>
 	<room name="Crossroads_35">
-		<altName>Crossroads Acid Grub</altName>
+		<altName>Crossroads_35</altName>
 	</room>
 	<room name="Crossroads_36">
-		<altName>Crossroads Mawlek Middle</altName>
+		<altName>Crossroads_36</altName>
 	</room>
 	<room name="Crossroads_37">
-		<altName>Crossroads Vessel Fragment</altName>
+		<altName>Crossroads_37</altName>
 	</room>
 	<room name="Crossroads_38">
-		<altName>Crossroads Grubfather</altName>
+		<altName>Crossroads_38</altName>
 	</room>
 	<room name="Crossroads_39">
-		<altName>Crossroads Corridor Right of Temple</altName>
+		<altName>Crossroads_39</altName>
 	</room>
 	<room name="Crossroads_40">
-		<altName>Crossroads Corridor Right of Central Grub</altName>
+		<altName>Crossroads_40</altName>
 	</room>
 	<room name="Crossroads_42">
-		<altName>Crossroads Right Of Mask Shard</altName>
+		<altName>Crossroads_42</altName>
 	</room>
 	<room name="Crossroads_43">
-		<altName>Crossroads Corridor to Elevator</altName>
+		<altName>Crossroads_43</altName>
 	</room>
 	<room name="Crossroads_45">
-		<altName>Crossroads Myla</altName>
+		<altName>Crossroads_45</altName>
 	</room>
 	<room name="Crossroads_46">
-		<altName>Crossroads Tram</altName>
+		<altName>Crossroads_46</altName>
 	</room>
 	<room name="Crossroads_46b">
-		<altName>Grounds Tram</altName>
+		<altName>Crossroads_46b</altName>
 	</room>
 	<room name="Crossroads_ShamanTemple">
-		<altName>Crossroads Ancestral Mound</altName>
+		<altName>Crossroads_ShamanTemple</altName>
 	</room>
 	<room name="Crossroads_47">
-		<altName>Crossroads Stag</altName>
+		<altName>Crossroads_47</altName>
 	</room>
 	<room name="Crossroads_48">
-		<altName>Crossroads Guarded Grub</altName>
+		<altName>Crossroads_48</altName>
 	</room>
 	<room name="Crossroads_49">
-		<altName>Crossroads Elevator</altName>
+		<altName>Crossroads_49</altName>
 	</room>
 	<room name="Crossroads_49b">
-		<altName>City Left Elevator</altName>
+		<altName>Crossroads_49b</altName>
 	</room>
 	<room name="Crossroads_50">
-		<altName>Grounds Blue Lake</altName>
+		<altName>Crossroads_50</altName>
 	</room>
 	<room name="Crossroads_52">
-		<altName>Crossroads Goam Journal</altName>
+		<altName>Crossroads_52</altName>
 	</room>
 	<room name="Room_ruinhouse">
-		<altName>Crossroads Rescue Sly</altName>
+		<altName>Room_ruinhouse</altName>
 	</room>
 	<room name="Room_Charm_Shop">
-		<altName>Crossroads Salubra</altName>
+		<altName>Room_Charm_Shop</altName>
 	</room>
 	<room name="Room_Mender_House">
-		<altName>Crossroads Menderbug</altName>
+		<altName>Room_Mender_House</altName>
 	</room>
 	<room name="Fungus1_01">
-		<altName>Greenpath Entrance</altName>
+		<altName>Fungus1_01</altName>
 	</room>
 	<room name="Fungus1_01b">
-		<altName>Greenpath Waterfall Bench</altName>
+		<altName>Fungus1_01b</altName>
 	</room>
 	<room name="Fungus1_02">
-		<altName>Greenpath First Hornet Sighting</altName>
+		<altName>Fungus1_02</altName>
 	</room>
 	<room name="Fungus1_03">
-		<altName>Greenpath Storerooms</altName>
+		<altName>Fungus1_03</altName>
 	</room>
 	<room name="Fungus1_04">
-		<altName>Greenpath Hornet</altName>
+		<altName>Fungus1_04</altName>
 	</room>
 	<room name="Fungus1_05">
-		<altName>Greenpath Outside Thorns</altName>
+		<altName>Fungus1_05</altName>
 	</room>
 	<room name="Fungus1_06">
-		<altName>Greenpath Cornifer</altName>
+		<altName>Fungus1_06</altName>
 	</room>
 	<room name="Fungus1_07">
-		<altName>Greenpath Outside Hunter</altName>
+		<altName>Fungus1_07</altName>
 	</room>
 	<room name="Fungus1_08">
-		<altName>Greenpath Hunter</altName>
+		<altName>Fungus1_08</altName>
 	</room>
 	<room name="Fungus1_09">
-		<altName>Greenpath Sheo Gauntlet</altName>
+		<altName>Fungus1_09</altName>
 	</room>
 	<room name="Fungus1_10">
-		<altName>Greenpath Acid Bridge</altName>
+		<altName>Fungus1_10</altName>
 	</room>
 	<room name="Fungus1_11">
-		<altName>Greenpath Above Fog Canyon</altName>
+		<altName>Fungus1_11</altName>
 	</room>
 	<room name="Fungus1_12">
-		<altName>Greenpath MMC Corridor</altName>
+		<altName>Fungus1_12</altName>
 	</room>
 	<room name="Fungus1_13">
-		<altName>Greenpath Whispering Root</altName>
+		<altName>Fungus1_13</altName>
 	</room>
 	<room name="Fungus1_14">
-		<altName>Greenpath Thorns of Agony</altName>
+		<altName>Fungus1_14</altName>
 	</room>
 	<room name="Fungus1_15">
-		<altName>Greenpath Outside Sheo</altName>
+		<altName>Fungus1_15</altName>
 	</room>
 	<room name="Fungus1_16_alt">
-		<altName>Greenpath Stag</altName>
+		<altName>Fungus1_16_alt</altName>
 	</room>
 	<room name="Fungus1_17">
-		<altName>Greenpath Left of First Hornet Sighting</altName>
+		<altName>Fungus1_17</altName>
 	</room>
 	<room name="Fungus1_19">
-		<altName>Greenpath Above Sanctuary Bench</altName>
+		<altName>Fungus1_19</altName>
 	</room>
 	<room name="Fungus1_20_v02">
-		<altName>Greenpath Vengefly King</altName>
+		<altName>Fungus1_20_v02</altName>
 	</room>
 	<room name="Fungus1_21">
-		<altName>Greenpath Outside Hornet</altName>
+		<altName>Fungus1_21</altName>
 	</room>
 	<room name="Fungus1_22">
-		<altName>Greenpath Outside Stag</altName>
+		<altName>Fungus1_22</altName>
 	</room>
 	<room name="Fungus1_23">
-		<altName>Gardens First Loodle Corridor</altName>
+		<altName>Fungus1_23</altName>
 	</room>
 	<room name="Fungus1_24">
-		<altName>Gardens Cornifer</altName>
+		<altName>Fungus1_24</altName>
 	</room>
 	<room name="Fungus1_25">
-		<altName>Greenpath Corridor to Unn</altName>
+		<altName>Fungus1_25</altName>
 	</room>
 	<room name="Fungus1_26">
-		<altName>Greenpath Lake Of Unn</altName>
+		<altName>Fungus1_26</altName>
 	</room>
 	<room name="Fungus1_28">
-		<altName>Cliffs Baldur's Shell</altName>
+		<altName>Fungus1_28</altName>
 	</room>
 	<room name="Fungus1_29">
-		<altName>Greenpath Massive Moss Charger</altName>
+		<altName>Fungus1_29</altName>
 	</room>
 	<room name="Fungus1_30">
-		<altName>Greenpath Below Toll Bench</altName>
+		<altName>Fungus1_30</altName>
 	</room>
 	<room name="Fungus1_31">
-		<altName>Greenpath Toll</altName>
+		<altName>Fungus1_31</altName>
 	</room>
 	<room name="Fungus1_32">
-		<altName>Greenpath Moss Knight Arena</altName>
+		<altName>Fungus1_32</altName>
 	</room>
 	<room name="Fungus1_34">
-		<altName>Greenpath Stone Sanctuary Entrance</altName>
+		<altName>Fungus1_34</altName>
 	</room>
 	<room name="Fungus1_35">
-		<altName>Greenpath Stone Sanctuary</altName>
+		<altName>Fungus1_35</altName>
 	</room>
 	<room name="Fungus1_36">
-		<altName>Greenpath Stone Sanctuary Mask Shard</altName>
+		<altName>Fungus1_36</altName>
 	</room>
 	<room name="Fungus1_37">
-		<altName>Greenpath Sanctuary Bench</altName>
+		<altName>Fungus1_37</altName>
 	</room>
 	<room name="Fungus1_Slug">
-		<altName>Greenpath Unn</altName>
+		<altName>Fungus1_Slug</altName>
 	</room>
 	<room name="Room_Slug_Shrine">
-		<altName>Greenpath Unn Bench</altName>
+		<altName>Room_Slug_Shrine</altName>
 	</room>
 	<room name="Room_nailmaster_02">
-		<altName>Greenpath Sheo</altName>
+		<altName>Room_nailmaster_02</altName>
 	</room>
 	<room name="Fungus3_01">
-		<altName>Fog Upper West Tall</altName>
+		<altName>Fungus3_01</altName>
 	</room>
 	<room name="Fungus3_02">
-		<altName>Fog Lower West Tall</altName>
+		<altName>Fungus3_02</altName>
 	</room>
 	<room name="Fungus3_03">
-		<altName>Fog Queen's Gardens Acid Entrance</altName>
+		<altName>Fungus3_03</altName>
 	</room>
 	<room name="Fungus3_24">
-		<altName>Fog Corridor to Overgrown Mound</altName>
+		<altName>Fungus3_24</altName>
 	</room>
 	<room name="Fungus3_25">
-		<altName>Fog Cornifer</altName>
+		<altName>Fungus3_25</altName>
 	</room>
 	<room name="Fungus3_25b">
-		<altName>Fog Corridor to Cornifer</altName>
+		<altName>Fungus3_25b</altName>
 	</room>
 	<room name="Fungus3_26">
-		<altName>Fog East Tall</altName>
+		<altName>Fungus3_26</altName>
 	</room>
 	<room name="Fungus3_27">
-		<altName>Fog Corridor to Archives</altName>
+		<altName>Fungus3_27</altName>
 	</room>
 	<room name="Fungus3_28">
-		<altName>Fog Charm Notch</altName>
+		<altName>Fungus3_28</altName>
 	</room>
 	<room name="Fungus3_30">
-		<altName>Fog Lifeblood</altName>
+		<altName>Fungus3_30</altName>
 	</room>
 	<room name="Fungus3_35">
-		<altName>Fog Millibelle</altName>
+		<altName>Fungus3_35</altName>
 	</room>
 	<room name="Fungus3_44">
-		<altName>Fog Overgrown Mound Entrance</altName>
+		<altName>Fungus3_44</altName>
 	</room>
 	<room name="Fungus3_47">
-		<altName>Fog Archives Entrance</altName>
+		<altName>Fungus3_47</altName>
 	</room>
 	<room name="Room_Fungus_Shaman">
-		<altName>Fog Overgrown Mound</altName>
+		<altName>Room_Fungus_Shaman</altName>
 	</room>
 	<room name="Fungus3_archive">
-		<altName>Fog Archives Bench</altName>
+		<altName>Fungus3_archive</altName>
 	</room>
 	<room name="Fungus3_archive_02">
-		<altName>Fog Uumuu Arena</altName>
+		<altName>Fungus3_archive_02</altName>
 	</room>
 	<room name="Fungus2_01">
-		<altName>Fungal Queen's Station</altName>
+		<altName>Fungus2_01</altName>
 	</room>
 	<room name="Fungus2_02">
-		<altName>Fungal Queen's Stag</altName>
+		<altName>Fungus2_02</altName>
 	</room>
 	<room name="Fungus2_34">
-		<altName>Fungal Willoh</altName>
+		<altName>Fungus2_34</altName>
 	</room>
 	<room name="Fungus2_03">
-		<altName>Fungal Outside Queen's</altName>
+		<altName>Fungus2_03</altName>
 	</room>
 	<room name="Fungus2_04">
-		<altName>Fungal Below Ogres</altName>
+		<altName>Fungus2_04</altName>
 	</room>
 	<room name="Fungus2_05">
-		<altName>Fungal Shrumal Ogres</altName>
+		<altName>Fungus2_05</altName>
 	</room>
 	<room name="Fungus2_06">
-		<altName>Fungal Outside Leg Eater</altName>
+		<altName>Fungus2_06</altName>
 	</room>
 	<room name="Fungus2_07">
-		<altName>Fungal Shrumal Warrior Acid Bridge</altName>
+		<altName>Fungus2_07</altName>
 	</room>
 	<room name="Fungus2_08">
-		<altName>Fungal Outside Elder Hu</altName>
+		<altName>Fungus2_08</altName>
 	</room>
 	<room name="Fungus2_09">
-		<altName>Fungal Cloth Corridor</altName>
+		<altName>Fungus2_09</altName>
 	</room>
 	<room name="Fungus2_10">
-		<altName>Fungal Left Of Pilgrim's Way</altName>
+		<altName>Fungus2_10</altName>
 	</room>
 	<room name="Fungus2_11">
-		<altName>Fungal Right of Bouncy Grub</altName>
+		<altName>Fungus2_11</altName>
 	</room>
 	<room name="Fungus2_12">
-		<altName>Fungal Mantis Corridor</altName>
+		<altName>Fungus2_12</altName>
 	</room>
 	<room name="Fungus2_13">
-		<altName>Fungal Bretta Bench</altName>
+		<altName>Fungus2_13</altName>
 	</room>
 	<room name="Fungus2_14">
-		<altName>Fungal Mantis Village</altName>
+		<altName>Fungus2_14</altName>
 	</room>
 	<room name="Fungus2_15">
-		<altName>Fungal Mantis Lords</altName>
+		<altName>Fungus2_15</altName>
 	</room>
 	<room name="Fungus2_17">
-		<altName>Fungal Above Mantis Village</altName>
+		<altName>Fungus2_17</altName>
 	</room>
 	<room name="Fungus2_18">
-		<altName>Fungal Cornifer</altName>
+		<altName>Fungus2_18</altName>
 	</room>
 	<room name="Fungus2_19">
-		<altName>Fungal Right Of Spore Shroom</altName>
+		<altName>Fungus2_19</altName>
 	</room>
 	<room name="Fungus2_20">
-		<altName>Fungal Spore Shroom</altName>
+		<altName>Fungus2_20</altName>
 	</room>
 	<room name="Fungus2_21">
-		<altName>Fungal Pilgrim's Way</altName>
+		<altName>Fungus2_21</altName>
 	</room>
 	<room name="Fungus2_23">
-		<altName>Fungal Dashmaster</altName>
+		<altName>Fungus2_23</altName>
 	</room>
 	<room name="Fungus2_26">
-		<altName>Fungal Leg Eater</altName>
+		<altName>Fungus2_26</altName>
 	</room>
 	<room name="Fungus2_28">
-		<altName>Fungal Shrumal Warrior Loop</altName>
+		<altName>Fungus2_28</altName>
 	</room>
 	<room name="Fungus2_29">
-		<altName>Fungal Core Upper</altName>
+		<altName>Fungus2_29</altName>
 	</room>
 	<room name="Fungus2_30">
-		<altName>Fungal Core Lower</altName>
+		<altName>Fungus2_30</altName>
 	</room>
 	<room name="Fungus2_31">
-		<altName>Fungal Mantis Rewards</altName>
+		<altName>Fungus2_31</altName>
 	</room>
 	<room name="Fungus2_32">
-		<altName>Fungal Elder Hu</altName>
+		<altName>Fungus2_32</altName>
 	</room>
 	<room name="Fungus2_33">
-		<altName>Fungal Leg Eater Root</altName>
+		<altName>Fungus2_33</altName>
 	</room>
 	<room name="Deepnest_01">
-		<altName>Fungal Deepnest Fall</altName>
+		<altName>Deepnest_01</altName>
 	</room>
 	<room name="Deepnest_01b">
-		<altName>Deepnest Upper Cornifer</altName>
+		<altName>Deepnest_01b</altName>
 	</room>
 	<room name="Deepnest_02">
-		<altName>Deepnest Outside Mimics</altName>
+		<altName>Deepnest_02</altName>
 	</room>
 	<room name="Deepnest_03">
-		<altName>Deepnest Left Of Hot Spring</altName>
+		<altName>Deepnest_03</altName>
 	</room>
 	<room name="Deepnest_09">
-		<altName>Deepnest Distant Village Stag</altName>
+		<altName>Deepnest_09</altName>
 	</room>
 	<room name="Deepnest_10">
-		<altName>Deepnest Distant Village</altName>
+		<altName>Deepnest_10</altName>
 	</room>
 	<room name="Room_spider_small">
-		<altName>Deepnest Brumm</altName>
+		<altName>Room_spider_small</altName>
 	</room>
 	<room name="Deepnest_Spider_Town">
-		<altName>Deepnest Beast's Den</altName>
+		<altName>Deepnest_Spider_Town</altName>
 	</room>
 	<room name="Deepnest_14">
-		<altName>Deepnest Failed Tramway Bench</altName>
+		<altName>Deepnest_14</altName>
 	</room>
 	<room name="Deepnest_16">
-		<altName>Deepnest After Lower Cornifer</altName>
+		<altName>Deepnest_16</altName>
 	</room>
 	<room name="Deepnest_17">
-		<altName>Deepnest Garpede Corridor Below Cornifer</altName>
+		<altName>Deepnest_17</altName>
 	</room>
 	<room name="Fungus2_25">
-		<altName>Deepnest Lower Cornifer</altName>
+		<altName>Fungus2_25</altName>
 	</room>
 	<room name="Deepnest_26">
-		<altName>Deepnest Failed Tramway Lifeblood</altName>
+		<altName>Deepnest_26</altName>
 	</room>
 	<room name="Deepnest_26b">
-		<altName>Deepnest Tram Pass</altName>
+		<altName>Deepnest_26b</altName>
 	</room>
 	<room name="Deepnest_30">
-		<altName>Deepnest Hot Spring</altName>
+		<altName>Deepnest_30</altName>
 	</room>
 	<room name="Deepnest_31">
-		<altName>Deepnest Nosk Corridor</altName>
+		<altName>Deepnest_31</altName>
 	</room>
 	<room name="Deepnest_32">
-		<altName>Deepnest Nosk Arena</altName>
+		<altName>Deepnest_32</altName>
 	</room>
 	<room name="Deepnest_33">
-		<altName>Deepnest Zote Arena</altName>
+		<altName>Deepnest_33</altName>
 	</room>
 	<room name="Deepnest_34">
-		<altName>Deepnest First Devout</altName>
+		<altName>Deepnest_34</altName>
 	</room>
 	<room name="Deepnest_35">
-		<altName>Deepnest Outside Galien</altName>
+		<altName>Deepnest_35</altName>
 	</room>
 	<room name="Deepnest_36">
-		<altName>Deepnest Mimics</altName>
+		<altName>Deepnest_36</altName>
 	</room>
 	<room name="Deepnest_37">
-		<altName>Deepnest Corridor to Tram</altName>
+		<altName>Deepnest_37</altName>
 	</room>
 	<room name="Deepnest_38">
-		<altName>Deepnest Vessel Fragment</altName>
+		<altName>Deepnest_38</altName>
 	</room>
 	<room name="Deepnest_39">
-		<altName>Deepnest Whispering Root</altName>
+		<altName>Deepnest_39</altName>
 	</room>
 	<room name="Deepnest_40">
-		<altName>Deepnest Galien Arena</altName>
+		<altName>Deepnest_40</altName>
 	</room>
 	<room name="Deepnest_41">
-		<altName>Deepnest Midwife</altName>
+		<altName>Deepnest_41</altName>
 	</room>
 	<room name="Deepnest_42">
-		<altName>Deepnest Outside Mask Maker</altName>
+		<altName>Deepnest_42</altName>
 	</room>
 	<room name="Deepnest_43">
-		<altName>Gardens Corridor To Deepnest</altName>
+		<altName>Deepnest_43</altName>
 	</room>
 	<room name="Deepnest_44">
-		<altName>Deepnest Sharp Shadow</altName>
+		<altName>Deepnest_44</altName>
 	</room>
 	<room name="Deepnest_45_v02">
-		<altName>Deepnest Weaver's Den</altName>
+		<altName>Deepnest_45_v02</altName>
 	</room>
 	<room name="Room_Mask_Maker">
-		<altName>Deepnest Mask Maker</altName>
+		<altName>Room_Mask_Maker</altName>
 	</room>
 	<room name="Deepnest_East_01">
-		<altName>Edge Left Of Hive</altName>
+		<altName>Deepnest_East_01</altName>
 	</room>
 	<room name="Deepnest_East_02">
-		<altName>Edge Above Hive</altName>
+		<altName>Deepnest_East_02</altName>
 	</room>
 	<room name="Deepnest_East_03">
-		<altName>Edge Entrance</altName>
+		<altName>Deepnest_East_03</altName>
 	</room>
 	<room name="Deepnest_East_04">
-		<altName>Edge Bardoon</altName>
+		<altName>Deepnest_East_04</altName>
 	</room>
 	<room name="Deepnest_East_06">
-		<altName>Edge Outside Oro</altName>
+		<altName>Deepnest_East_06</altName>
 	</room>
 	<room name="Deepnest_East_07-main">
-		<altName>Edge Whispering Root</altName>
+		<altName>Deepnest_East_07-main</altName>
 	</room>
 	<room name="Deepnest_East_07-isolated">
-		<altName>Edge Entrance Journal</altName>
+		<altName>Deepnest_East_07-isolated</altName>
 	</room>
 	<room name="Deepnest_East_08">
-		<altName>Edge Great Hopper Idol</altName>
+		<altName>Deepnest_East_08</altName>
 	</room>
 	<room name="Deepnest_East_09">
-		<altName>Edge Corridor Outside Colosseum</altName>
+		<altName>Deepnest_East_09</altName>
 	</room>
 	<room name="Deepnest_East_10">
-		<altName>Edge Markoth Arena</altName>
+		<altName>Deepnest_East_10</altName>
 	</room>
 	<room name="Deepnest_East_11">
-		<altName>Edge Below Camp Bench</altName>
+		<altName>Deepnest_East_11</altName>
 	</room>
 	<room name="Deepnest_East_12">
-		<altName>Edge Hornet Sentinel Corridor</altName>
+		<altName>Deepnest_East_12</altName>
 	</room>
 	<room name="Deepnest_East_13">
-		<altName>Edge Camp Bench</altName>
+		<altName>Deepnest_East_13</altName>
 	</room>
 	<room name="Deepnest_East_14">
-		<altName>Edge Below Oro</altName>
+		<altName>Deepnest_East_14</altName>
 	</room>
 	<room name="Deepnest_East_14b">
-		<altName>Edge Quick Slash</altName>
+		<altName>Deepnest_East_14b</altName>
 	</room>
 	<room name="Deepnest_East_15">
-		<altName>Edge Lifeblood</altName>
+		<altName>Deepnest_East_15</altName>
 	</room>
 	<room name="Deepnest_East_16">
-		<altName>Edge Oro Scarecrow</altName>
+		<altName>Deepnest_East_16</altName>
 	</room>
 	<room name="Deepnest_East_17">
-		<altName>Edge 420 Geo Rock</altName>
+		<altName>Deepnest_East_17</altName>
 	</room>
 	<room name="Deepnest_East_18">
-		<altName>Edge Outside Markoth</altName>
+		<altName>Deepnest_East_18</altName>
 	</room>
 	<room name="Room_nailmaster_03">
-		<altName>Edge Oro</altName>
+		<altName>Room_nailmaster_03</altName>
 	</room>
 	<room name="Deepnest_East_Hornet">
-		<altName>Edge Hornet Sentinel Arena</altName>
+		<altName>Deepnest_East_Hornet</altName>
 	</room>
 	<room name="Room_Wyrm">
-		<altName>Edge Cast-Off Shell</altName>
+		<altName>Room_Wyrm</altName>
 	</room>
 	<room name="GG_Lurker">
-		<altName>Edge Pale Lurker</altName>
+		<altName>GG_Lurker</altName>
 	</room>
 	<room name="Hive_01-main">
-		<altName>Hive Entrance</altName>
+		<altName>Hive_01-main</altName>
 	</room>
 	<room name="Hive_01-isolated">
-		<altName>Hive Bench</altName>
+		<altName>Hive_01-isolated</altName>
 	</room>
 	<room name="Hive_02">
-		<altName>Hive Whispering Root</altName>
+		<altName>Hive_02</altName>
 	</room>
 	<room name="Hive_03_c">
-		<altName>Hive Outside Shortcut</altName>
+		<altName>Hive_03_c</altName>
 	</room>
 	<room name="Hive_03-main">
-		<altName>Hive Near Outside Grub</altName>
+		<altName>Hive_03-main</altName>
 	</room>
 	<room name="Hive_03-isolated">
-		<altName>Hive Outside Grub</altName>
+		<altName>Hive_03-isolated</altName>
 	</room>
 	<room name="Hive_04">
-		<altName>Hive Mask Shard</altName>
+		<altName>Hive_04</altName>
 	</room>
 	<room name="Hive_05">
-		<altName>Hive Hive Knight Arena</altName>
+		<altName>Hive_05</altName>
 	</room>
 	<room name="Room_Colosseum_01">
-		<altName>Edge Colo Entrance</altName>
+		<altName>Room_Colosseum_01</altName>
 	</room>
 	<room name="Room_Colosseum_02">
-		<altName>Edge Colo Bench</altName>
+		<altName>Room_Colosseum_02</altName>
 	</room>
 	<room name="Room_Colosseum_Spectate">
-		<altName>Edge Colo Spectate</altName>
+		<altName>Room_Colosseum_Spectate</altName>
 	</room>
 	<room name="Abyss_01">
-		<altName>City Broken Elevator</altName>
+		<altName>Abyss_01</altName>
 	</room>
 	<room name="Abyss_02">
-		<altName>Basin Broken Bridge</altName>
+		<altName>Abyss_02</altName>
 	</room>
 	<room name="Abyss_03">
-		<altName>Basin Tram</altName>
+		<altName>Abyss_03</altName>
 	</room>
 	<room name="Abyss_03_b">
-		<altName>Deepnest Tram</altName>
+		<altName>Abyss_03_b</altName>
 	</room>
 	<room name="Abyss_03_c">
-		<altName>Edge Tram</altName>
+		<altName>Abyss_03_c</altName>
 	</room>
 	<room name="Abyss_04">
-		<altName>Basin Fountain</altName>
+		<altName>Abyss_04</altName>
 	</room>
 	<room name="Abyss_05">
-		<altName>Basin Palace Grounds</altName>
+		<altName>Abyss_05</altName>
 	</room>
 	<room name="Abyss_06_Core">
-		<altName>Abyss Core</altName>
+		<altName>Abyss_06_Core</altName>
 	</room>
 	<room name="Abyss_08">
-		<altName>Abyss Lifeblood Core</altName>
+		<altName>Abyss_08</altName>
 	</room>
 	<room name="Abyss_09-main">
-		<altName>Abyss Lighthouse Climb</altName>
+		<altName>Abyss_09-main</altName>
 	</room>
 	<room name="Abyss_09-isolated">
-		<altName>Abyss Void Tendrils Image</altName>
+		<altName>Abyss_09-isolated</altName>
 	</room>
 	<room name="Abyss_10">
-		<altName>Abyss Shade Cloak</altName>
+		<altName>Abyss_10</altName>
 	</room>
 	<room name="Abyss_12">
-		<altName>Abyss Shriek</altName>
+		<altName>Abyss_12</altName>
 	</room>
 	<room name="Abyss_15">
-		<altName>Abyss Birthplace</altName>
+		<altName>Abyss_15</altName>
 	</room>
 	<room name="Abyss_16">
-		<altName>Abyss Corridor to Lighthouse</altName>
+		<altName>Abyss_16</altName>
 	</room>
 	<room name="Abyss_17">
-		<altName>Basin Cloth</altName>
+		<altName>Abyss_17</altName>
 	</room>
 	<room name="Abyss_18">
-		<altName>Basin Corridor to Broken Vessel</altName>
+		<altName>Abyss_18</altName>
 	</room>
 	<room name="Abyss_19">
-		<altName>Basin Broken Vessel Grub</altName>
+		<altName>Abyss_19</altName>
 	</room>
 	<room name="Abyss_20">
-		<altName>Basin Simple Key</altName>
+		<altName>Abyss_20</altName>
 	</room>
 	<room name="Abyss_21">
-		<altName>Basin Monarch Wings</altName>
+		<altName>Abyss_21</altName>
 	</room>
 	<room name="Abyss_22">
-		<altName>Basin Hidden Station</altName>
+		<altName>Abyss_22</altName>
 	</room>
 	<room name="Abyss_Lighthouse_room">
-		<altName>Abyss Lighthouse</altName>
+		<altName>Abyss_Lighthouse_room</altName>
 	</room>
 	<room name="Waterways_01">
-		<altName>Waterways Entrance</altName>
+		<altName>Waterways_01</altName>
 	</room>
 	<room name="Waterways_02">
-		<altName>Waterways Main Bench</altName>
+		<altName>Waterways_02</altName>
 	</room>
 	<room name="Waterways_03">
-		<altName>Waterways Tuk</altName>
+		<altName>Waterways_03</altName>
 	</room>
 	<room name="Waterways_04">
-		<altName>Waterways Hidden Grub</altName>
+		<altName>Waterways_04</altName>
 	</room>
 	<room name="Waterways_04b">
-		<altName>Waterways Mask Shard</altName>
+		<altName>Waterways_04b</altName>
 	</room>
 	<room name="Waterways_05">
-		<altName>Waterways Dung Defender Arena</altName>
+		<altName>Waterways_05</altName>
 	</room>
 	<room name="Waterways_06">
-		<altName>Waterways Corridor to Broken Elevator</altName>
+		<altName>Waterways_06</altName>
 	</room>
 	<room name="Waterways_07">
-		<altName>Waterways Left Of Isma's Grove</altName>
+		<altName>Waterways_07</altName>
 	</room>
 	<room name="Waterways_08">
-		<altName>Waterways Outside Flukemarm</altName>
+		<altName>Waterways_08</altName>
 	</room>
 	<room name="Waterways_09">
-		<altName>Waterways Cornifer</altName>
+		<altName>Waterways_09</altName>
 	</room>
 	<room name="Waterways_12">
-		<altName>Waterways Flukemarm Arena</altName>
+		<altName>Waterways_12</altName>
 	</room>
 	<room name="Waterways_13">
-		<altName>Waterways Isma's Grove</altName>
+		<altName>Waterways_13</altName>
 	</room>
 	<room name="Waterways_14">
-		<altName>Waterways Edge Acid Corridor</altName>
+		<altName>Waterways_14</altName>
 	</room>
 	<room name="Waterways_15">
-		<altName>Waterways Dung Defender's Cave</altName>
+		<altName>Waterways_15</altName>
 	</room>
 	<room name="GG_Pipeway">
-		<altName>Waterways Flukemunga Corridor</altName>
+		<altName>GG_Pipeway</altName>
 	</room>
 	<room name="GG_Waterways">
-		<altName>Waterways Junk Pit</altName>
+		<altName>GG_Waterways</altName>
 	</room>
 	<room name="Room_GG_Shortcut">
-		<altName>Waterways Fluke Hermit</altName>
+		<altName>Room_GG_Shortcut</altName>
 	</room>
 	<room name="Ruins1_01">
-		<altName>City Pilgrim's Entrance</altName>
+		<altName>Ruins1_01</altName>
 	</room>
 	<room name="Ruins1_02">
-		<altName>City Quirrel Bench</altName>
+		<altName>Ruins1_02</altName>
 	</room>
 	<room name="Ruins1_03">
-		<altName>City Rafters</altName>
+		<altName>Ruins1_03</altName>
 	</room>
 	<room name="Ruins1_04">
-		<altName>City Outside Nailsmith</altName>
+		<altName>Ruins1_04</altName>
 	</room>
 	<room name="Ruins1_05b">
-		<altName>City Lemm</altName>
+		<altName>Ruins1_05b</altName>
 	</room>
 	<room name="Ruins1_05c">
-		<altName>City Egg Above Lemm</altName>
+		<altName>Ruins1_05c</altName>
 	</room>
 	<room name="Ruins1_05-main">
-		<altName>City Grub Above Lemm</altName>
+		<altName>Ruins1_05-main</altName>
 	</room>
 	<room name="Ruins1_05-lower">
-		<altName>City Near Grub Above Lemm</altName>
+		<altName>Ruins1_05-lower</altName>
 	</room>
 	<room name="Ruins1_06">
-		<altName>City Corridor to Storerooms</altName>
+		<altName>Ruins1_06</altName>
 	</room>
 	<room name="Ruins1_09">
-		<altName>City Soul Twister Arena</altName>
+		<altName>Ruins1_09</altName>
 	</room>
 	<room name="Ruins1_17">
-		<altName>City Whispering Root</altName>
+		<altName>Ruins1_17</altName>
 	</room>
 	<room name="Ruins1_18-main">
-		<altName>City Corridor to Spire</altName>
+		<altName>Ruins1_18-main</altName>
 	</room>
 	<room name="Ruins1_18-isolated">
-		<altName>City Spire Bench</altName>
+		<altName>Ruins1_18-isolated</altName>
 	</room>
 	<room name="Ruins1_23">
-		<altName>City Sanctum Entrance</altName>
+		<altName>Ruins1_23</altName>
 	</room>
 	<room name="Ruins1_24-upper">
-		<altName>City Soul Master Arena</altName>
+		<altName>Ruins1_24-upper</altName>
 	</room>
 	<room name="Ruins1_24-lower">
-		<altName>City Below Soul Master Arena</altName>
+		<altName>Ruins1_24-lower</altName>
 	</room>
 	<room name="Ruins1_25">
-		<altName>City Sanctum East Elevators</altName>
+		<altName>Ruins1_25</altName>
 	</room>
 	<room name="Ruins1_27">
-		<altName>City Hollow Knight Fountain</altName>
+		<altName>Ruins1_27</altName>
 	</room>
 	<room name="Ruins1_28">
-		<altName>City Storerooms</altName>
+		<altName>Ruins1_28</altName>
 	</room>
 	<room name="Ruins1_29">
-		<altName>City Storerooms Stag</altName>
+		<altName>Ruins1_29</altName>
 	</room>
 	<room name="Ruins1_30">
-		<altName>City Sanctum Spell Twister</altName>
+		<altName>Ruins1_30</altName>
 	</room>
 	<room name="Ruins1_31">
-		<altName>City Toll Bench</altName>
+		<altName>Ruins1_31</altName>
 	</room>
 	<room name="Ruins1_31b">
-		<altName>City Shade Soul Arena</altName>
+		<altName>Ruins1_31b</altName>
 	</room>
 	<room name="Ruins1_32">
-		<altName>City Soul Master Rewards</altName>
+		<altName>Ruins1_32</altName>
 	</room>
 	<room name="Room_nailsmith">
-		<altName>City Nailsmith</altName>
+		<altName>Room_nailsmith</altName>
 	</room>
 	<room name="Ruins2_01">
-		<altName>City Spire Second Floor</altName>
+		<altName>Ruins2_01</altName>
 	</room>
 	<room name="Ruins2_01_b">
-		<altName>City Spire First Floor</altName>
+		<altName>Ruins2_01_b</altName>
 	</room>
 	<room name="Ruins2_03b">
-		<altName>City Spire Third Floor</altName>
+		<altName>Ruins2_03b</altName>
 	</room>
 	<room name="Ruins2_03-main">
-		<altName>City Spire Fourth Floor</altName>
+		<altName>Ruins2_03-main</altName>
 	</room>
 	<room name="Ruins2_03-isolated">
-		<altName>City Spire Grub</altName>
+		<altName>Ruins2_03-isolated</altName>
 	</room>
 	<room name="Ruins2_04">
-		<altName>City Right Hub</altName>
+		<altName>Ruins2_04</altName>
 	</room>
 	<room name="Ruins2_05">
-		<altName>City Above King's</altName>
+		<altName>Ruins2_05</altName>
 	</room>
 	<room name="Ruins2_06">
-		<altName>City King's Station</altName>
+		<altName>Ruins2_06</altName>
 	</room>
 	<room name="Ruins2_07">
-		<altName>City Grub Below King's</altName>
+		<altName>Ruins2_07</altName>
 	</room>
 	<room name="Ruins2_08">
-		<altName>City King's Stag</altName>
+		<altName>Ruins2_08</altName>
 	</room>
 	<room name="Ruins2_09">
-		<altName>City King's Vessel Fragment</altName>
+		<altName>Ruins2_09</altName>
 	</room>
 	<room name="Ruins2_10">
-		<altName>Grounds Elevator</altName>
+		<altName>Ruins2_10</altName>
 	</room>
 	<room name="Ruins2_10b">
-		<altName>City Right Elevator</altName>
+		<altName>Ruins2_10b</altName>
 	</room>
 	<room name="Ruins2_11_b">
-		<altName>City Tower of Love</altName>
+		<altName>Ruins2_11_b</altName>
 	</room>
 	<room name="Ruins2_11">
-		<altName>City Collector Arena</altName>
+		<altName>Ruins2_11</altName>
 	</room>
 	<room name="Ruins2_Watcher_Room">
-		<altName>City Lurien Elevator</altName>
+		<altName>Ruins2_Watcher_Room</altName>
 	</room>
 	<room name="Ruins_House_01">
-		<altName>City Guarded Grub</altName>
+		<altName>Ruins_House_01</altName>
 	</room>
 	<room name="Ruins_House_02">
-		<altName>City Gorgeous Husk</altName>
+		<altName>Ruins_House_02</altName>
 	</room>
 	<room name="Ruins_House_03">
-		<altName>City Emilitia</altName>
+		<altName>Ruins_House_03</altName>
 	</room>
 	<room name="Ruins_Elevator">
-		<altName>City Pleasure House Elevator</altName>
+		<altName>Ruins_Elevator</altName>
 	</room>
 	<room name="Ruins_Bathhouse">
-		<altName>City Pleasure House Bench</altName>
+		<altName>Ruins_Bathhouse</altName>
 	</room>
 	<room name="RestingGrounds_02">
-		<altName>Grounds Xero</altName>
+		<altName>RestingGrounds_02</altName>
 	</room>
 	<room name="RestingGrounds_04">
-		<altName>Grounds Dream Nail Entrance</altName>
+		<altName>RestingGrounds_04</altName>
 	</room>
 	<room name="RestingGrounds_05">
-		<altName>Grounds Whispering Root</altName>
+		<altName>RestingGrounds_05</altName>
 	</room>
 	<room name="RestingGrounds_06">
-		<altName>Grounds Corridor Below Xero</altName>
+		<altName>RestingGrounds_06</altName>
 	</room>
 	<room name="RestingGrounds_07">
-		<altName>Grounds Seer</altName>
+		<altName>RestingGrounds_07</altName>
 	</room>
 	<room name="RestingGrounds_08">
-		<altName>Grounds Spirit's Glade</altName>
+		<altName>RestingGrounds_08</altName>
 	</room>
 	<room name="RestingGrounds_09">
-		<altName>Grounds Stag</altName>
+		<altName>RestingGrounds_09</altName>
 	</room>
 	<room name="RestingGrounds_10">
-		<altName>Grounds Crypts</altName>
+		<altName>RestingGrounds_10</altName>
 	</room>
 	<room name="RestingGrounds_12">
-		<altName>Grounds Outside Grey Mourner</altName>
+		<altName>RestingGrounds_12</altName>
 	</room>
 	<room name="RestingGrounds_17">
-		<altName>Grounds Dreamshield</altName>
+		<altName>RestingGrounds_17</altName>
 	</room>
 	<room name="Room_Mansion">
-		<altName>Grounds Grey Mourner</altName>
+		<altName>Room_Mansion</altName>
 	</room>
 	<room name="Mines_01">
-		<altName>Crystal Dive Entrance</altName>
+		<altName>Mines_01</altName>
 	</room>
 	<room name="Mines_02">
-		<altName>Crystal Dark Entrance</altName>
+		<altName>Mines_02</altName>
 	</room>
 	<room name="Mines_03">
-		<altName>Crystal Spike Grub</altName>
+		<altName>Mines_03</altName>
 	</room>
 	<room name="Mines_04">
-		<altName>Crystal Entrance Conveyors</altName>
+		<altName>Mines_04</altName>
 	</room>
 	<room name="Mines_05">
-		<altName>Crystal Above Spike Grub</altName>
+		<altName>Mines_05</altName>
 	</room>
 	<room name="Mines_06">
-		<altName>Crystal Deep Focus Gauntlet</altName>
+		<altName>Mines_06</altName>
 	</room>
 	<room name="Mines_07">
-		<altName>Crystal Dark Room</altName>
+		<altName>Mines_07</altName>
 	</room>
 	<room name="Mines_10">
-		<altName>Crystal Elevator Entrance</altName>
+		<altName>Mines_10</altName>
 	</room>
 	<room name="Mines_11">
-		<altName>Crystal Left Of Guardian</altName>
+		<altName>Mines_11</altName>
 	</room>
 	<room name="Mines_13">
-		<altName>Crystal Top Corridor</altName>
+		<altName>Mines_13</altName>
 	</room>
 	<room name="Mines_16">
-		<altName>Crystal Mimic</altName>
+		<altName>Mines_16</altName>
 	</room>
 	<room name="Mines_17">
-		<altName>Crystal Corridor to Spike Grub</altName>
+		<altName>Mines_17</altName>
 	</room>
 	<room name="Mines_18">
-		<altName>Crystal Guardian Bench</altName>
+		<altName>Mines_18</altName>
 	</room>
 	<room name="Mines_19">
-		<altName>Crystal Grub Crushers</altName>
+		<altName>Mines_19</altName>
 	</room>
 	<room name="Mines_20">
-		<altName>Crystal East Tall</altName>
+		<altName>Mines_20</altName>
 	</room>
 	<room name="Mines_23">
-		<altName>Crystal Crown Whispering Root</altName>
+		<altName>Mines_23</altName>
 	</room>
 	<room name="Mines_24">
-		<altName>Crystal Crown Grub</altName>
+		<altName>Mines_24</altName>
 	</room>
 	<room name="Mines_25">
-		<altName>Crystal Crown Climb</altName>
+		<altName>Mines_25</altName>
 	</room>
 	<room name="Mines_28">
-		<altName>Crystal Outside Mound</altName>
+		<altName>Mines_28</altName>
 	</room>
 	<room name="Mines_29">
-		<altName>Crystal Dark Bench</altName>
+		<altName>Mines_29</altName>
 	</room>
 	<room name="Mines_30">
-		<altName>Crystal Cornifer</altName>
+		<altName>Mines_30</altName>
 	</room>
 	<room name="Mines_31">
-		<altName>Crystal Crystal Heart Gauntlet</altName>
+		<altName>Mines_31</altName>
 	</room>
 	<room name="Mines_32">
-		<altName>Crystal Enraged Guardian Arena</altName>
+		<altName>Mines_32</altName>
 	</room>
 	<room name="Mines_33">
-		<altName>Crossroads Peak Dark Entrance</altName>
+		<altName>Mines_33</altName>
 	</room>
 	<room name="Mines_34">
-		<altName>Crystal Crown Peak</altName>
+		<altName>Mines_34</altName>
 	</room>
 	<room name="Mines_35">
-		<altName>Crystal Mound</altName>
+		<altName>Mines_35</altName>
 	</room>
 	<room name="Mines_36">
-		<altName>Crystal Deep Focus</altName>
+		<altName>Mines_36</altName>
 	</room>
 	<room name="Mines_37">
-		<altName>Crystal Chest Crushers</altName>
+		<altName>Mines_37</altName>
 	</room>
 	<room name="Fungus3_04">
-		<altName>Gardens Before Petra Arena</altName>
+		<altName>Fungus3_04</altName>
 	</room>
 	<room name="Fungus3_05">
-		<altName>Gardens Petra Arena</altName>
+		<altName>Fungus3_05</altName>
 	</room>
 	<room name="Fungus3_08">
-		<altName>Gardens Lower Petra Corridor</altName>
+		<altName>Fungus3_08</altName>
 	</room>
 	<room name="Fungus3_10">
-		<altName>Gardens Main Arena</altName>
+		<altName>Fungus3_10</altName>
 	</room>
 	<room name="Fungus3_11">
-		<altName>Gardens Whispering Root</altName>
+		<altName>Fungus3_11</altName>
 	</room>
 	<room name="Fungus3_13">
-		<altName>Gardens Outside Stag</altName>
+		<altName>Fungus3_13</altName>
 	</room>
 	<room name="Fungus3_21">
-		<altName>Gardens Corridor to Traitor Lord</altName>
+		<altName>Fungus3_21</altName>
 	</room>
 	<room name="Fungus3_22">
-		<altName>Gardens Upper Grub</altName>
+		<altName>Fungus3_22</altName>
 	</room>
 	<room name="Fungus3_23">
-		<altName>Gardens Traitor Lord Arena</altName>
+		<altName>Fungus3_23</altName>
 	</room>
 	<room name="Fungus3_34">
-		<altName>Gardens Entrance</altName>
+		<altName>Fungus3_34</altName>
 	</room>
 	<room name="Fungus3_39">
-		<altName>Gardens Moss Prophet</altName>
+		<altName>Fungus3_39</altName>
 	</room>
 	<room name="Fungus3_40">
-		<altName>Gardens Gardens Stag</altName>
+		<altName>Fungus3_40</altName>
 	</room>
 	<room name="Fungus3_48-upper">
-		<altName>Gardens Outside White Lady</altName>
+		<altName>Fungus3_48-upper</altName>
 	</room>
 	<room name="Fungus3_48-lower">
-		<altName>Gardens Grub Near White Lady</altName>
+		<altName>Fungus3_48-lower</altName>
 	</room>
 	<room name="Fungus3_49">
-		<altName>Gardens Traitor's Child's Grave</altName>
+		<altName>Fungus3_49</altName>
 	</room>
 	<room name="Fungus3_50">
-		<altName>Gardens Toll Bench</altName>
+		<altName>Fungus3_50</altName>
 	</room>
 	<room name="Room_Queen">
-		<altName>Gardens White Lady</altName>
+		<altName>Room_Queen</altName>
 	</room>
 	<room name="Cliffs_01">
-		<altName>Cliffs Main</altName>
+		<altName>Cliffs_01</altName>
 	</room>
 	<room name="Cliffs_02">
-		<altName>Cliffs Gorb</altName>
+		<altName>Cliffs_02</altName>
 	</room>
 	<room name="Cliffs_03">
-		<altName>Cliffs Stag Nest</altName>
+		<altName>Cliffs_03</altName>
 	</room>
 	<room name="Cliffs_04">
-		<altName>Cliffs Joni's Dark</altName>
+		<altName>Cliffs_04</altName>
 	</room>
 	<room name="Cliffs_05">
-		<altName>Cliffs Joni's Pickup</altName>
+		<altName>Cliffs_05</altName>
 	</room>
 	<room name="Cliffs_06">
-		<altName>Cliffs Grimm Lantern</altName>
+		<altName>Cliffs_06</altName>
 	</room>
 	<room name="Room_nailmaster">
-		<altName>Cliffs Mato</altName>
+		<altName>Room_nailmaster</altName>
 	</room>
 	<room name="White_Palace_01">
-		<altName>Palace Entrance</altName>
+		<altName>White_Palace_01</altName>
 	</room>
 	<room name="White_Palace_02">
-		<altName>Palace First Mold</altName>
+		<altName>White_Palace_02</altName>
 	</room>
 	<room name="White_Palace_03_hub">
-		<altName>Palace Hub</altName>
+		<altName>White_Palace_03_hub</altName>
 	</room>
 	<room name="White_Palace_04">
-		<altName>Palace Left Of Hub</altName>
+		<altName>White_Palace_04</altName>
 	</room>
 	<room name="White_Palace_05-upper">
-		<altName>Palace Saw Thorns Room</altName>
+		<altName>White_Palace_05-upper</altName>
 	</room>
 	<room name="White_Palace_05-lower">
-		<altName>Palace Horizontal Saw Room</altName>
+		<altName>White_Palace_05-lower</altName>
 	</room>
 	<room name="White_Palace_06">
-		<altName>Palace Balcony</altName>
+		<altName>White_Palace_06</altName>
 	</room>
 	<room name="White_Palace_07">
-		<altName>Palace Lamp Pogo</altName>
+		<altName>White_Palace_07</altName>
 	</room>
 	<room name="White_Palace_08">
-		<altName>Palace Workshop</altName>
+		<altName>White_Palace_08</altName>
 	</room>
 	<room name="White_Palace_09">
-		<altName>Palace Throne</altName>
+		<altName>White_Palace_09</altName>
 	</room>
 	<room name="White_Palace_11">
-		<altName>Palace Outside</altName>
+		<altName>White_Palace_11</altName>
 	</room>
 	<room name="White_Palace_12">
-		<altName>Palace Spike Drop</altName>
+		<altName>White_Palace_12</altName>
 	</room>
 	<room name="White_Palace_13">
-		<altName>Palace Thorn Jump</altName>
+		<altName>White_Palace_13</altName>
 	</room>
 	<room name="White_Palace_14">
-		<altName>Palace Hell Corridor</altName>
+		<altName>White_Palace_14</altName>
 	</room>
 	<room name="White_Palace_15">
-		<altName>Palace Caged Lever</altName>
+		<altName>White_Palace_15</altName>
 	</room>
 	<room name="White_Palace_16">
-		<altName>Palace Saw Climb</altName>
+		<altName>White_Palace_16</altName>
 	</room>
 	<room name="White_Palace_17">
-		<altName>POP Lever</altName>
+		<altName>White_Palace_17</altName>
 	</room>
 	<room name="White_Palace_18">
-		<altName>POP Entrance</altName>
+		<altName>White_Palace_18</altName>
 	</room>
 	<room name="White_Palace_19">
-		<altName>POP Vertical</altName>
+		<altName>White_Palace_19</altName>
 	</room>
 	<room name="White_Palace_20">
-		<altName>POP Final</altName>
+		<altName>White_Palace_20</altName>
 	</room>
 </randomizer>
