@@ -90,7 +90,7 @@
     <areaName>City_of_Tears</areaName>
   </item>
   <item name="Desolate_Dive">
-    <sceneName>Ruins1_24</sceneName>
+    <sceneName>Ruins1_24-upper</sceneName>
     <type>Spell</type>
     <pool>Skill</pool>
     <areaName>Soul_Sanctum</areaName>
@@ -135,7 +135,7 @@
     <sceneName>Tutorial_01</sceneName>
     <type>Big</type>
     <pool>Cursed</pool>
-    <areaName>King's_Pass</areaName>
+    <areaName>Kings_Pass</areaName>
   </item>
   <item name="Gathering_Swarm">
     <sceneName>Room_shop</sceneName>
@@ -429,7 +429,7 @@
     <sceneName>GG_Lurker</sceneName>
     <type>Trinket</type>
     <pool>Key</pool>
-    <areaName>Kingdoms_Edge</areaName>
+    <areaName>Kingdoms_Edge-lurker</areaName>
   </item>
   <item name="Shopkeeper's_Key">
     <sceneName>Mines_11</sceneName>
@@ -690,7 +690,7 @@
     <areaName>Soul_Sanctum</areaName>
   </item>
   <item name="655_Geo-Watcher_Knights_Chest">
-    <sceneName>Ruins2_03</sceneName>
+    <sceneName>Ruins2_03-main</sceneName>
     <type>Geo</type>
     <pool>Geo</pool>
     <areaName>City_of_Tears</areaName>
@@ -724,12 +724,6 @@
     <type>Geo</type>
     <pool>Geo</pool>
     <areaName>Weavers_Den</areaName>
-  </item>
-  <item name="1_Geo">
-    <sceneName>None</sceneName>
-    <type>Geo</type>
-    <pool>Fake</pool>
-    <areaName>None</areaName>
   </item>
   <item name="Rancid_Egg-Sly">
     <sceneName>Room_shop</sceneName>
@@ -822,7 +816,7 @@
     <areaName>Kingdoms_Edge</areaName>
   </item>
   <item name="Rancid_Egg-Upper_Kingdom's_Edge">
-    <sceneName>Deepnest_East_07</sceneName>
+    <sceneName>Deepnest_East_07-main</sceneName>
     <type>Trinket</type>
     <pool>Egg</pool>
     <areaName>Kingdoms_Edge</areaName>
@@ -918,7 +912,7 @@
     <areaName>Ancient_Basin</areaName>
   </item>
   <item name="Wanderer's_Journal-Kingdom's_Edge_Entrance">
-    <sceneName>Deepnest_East_07</sceneName>
+    <sceneName>Deepnest_East_07-isolated</sceneName>
     <type>Trinket</type>
     <pool>Relic</pool>
     <areaName>Kingdoms_Edge</areaName>
@@ -1014,7 +1008,7 @@
     <areaName>Soul_Sanctum</areaName>
   </item>
   <item name="Hallownest_Seal-Watcher_Knight">
-    <sceneName>Ruins2_03</sceneName>
+    <sceneName>Ruins2_03-main</sceneName>
     <type>Trinket</type>
     <pool>Relic</pool>
     <areaName>City_of_Tears</areaName>
@@ -1032,7 +1026,7 @@
     <areaName>Beasts_Den</areaName>
   </item>
   <item name="Hallownest_Seal-Queen's_Gardens">
-    <sceneName>Fungus3_48</sceneName>
+    <sceneName>Fungus3_48-lower</sceneName>
     <type>Trinket</type>
     <pool>Relic</pool>
     <areaName>Queens_Gardens</areaName>
@@ -1077,7 +1071,7 @@
     <sceneName>GG_Lurker</sceneName>
     <type>Trinket</type>
     <pool>Relic</pool>
-    <areaName>Kingdoms_Edge</areaName>
+    <areaName>Kingdoms_Edge-lurker</areaName>
   </item>
   <item name="King's_Idol-Deepnest">
     <sceneName>Deepnest_33</sceneName>
@@ -1146,7 +1140,7 @@
     <areaName>Queens_Gardens</areaName>
   </item>
   <item name="Whispering_Root-Kingdoms_Edge">
-    <sceneName>Deepnest_East_07</sceneName>
+    <sceneName>Deepnest_East_07-main</sceneName>
     <type>Trinket</type>
     <pool>Root</pool>
     <areaName>Kingdoms_Edge</areaName>
@@ -1198,66 +1192,6 @@
     <type>Trinket</type>
     <pool>Root</pool>
     <areaName>Hive</areaName>
-  </item>
-  <item name="Elder_Hu">
-    <sceneName>None</sceneName>
-    <type>Trinket</type>
-    <pool>Essence_Boss</pool>
-    <areaName>None</areaName>
-  </item>
-  <item name="Xero">
-    <sceneName>None</sceneName>
-    <type>Trinket</type>
-    <pool>Essence_Boss</pool>
-    <areaName>None</areaName>
-  </item>
-  <item name="Gorb">
-    <sceneName>None</sceneName>
-    <type>Trinket</type>
-    <pool>Essence_Boss</pool>
-    <areaName>None</areaName>
-  </item>
-  <item name="Marmu">
-    <sceneName>None</sceneName>
-    <type>Trinket</type>
-    <pool>Essence_Boss</pool>
-    <areaName>None</areaName>
-  </item>
-  <item name="No_Eyes">
-    <sceneName>None</sceneName>
-    <type>Trinket</type>
-    <pool>Essence_Boss</pool>
-    <areaName>None</areaName>
-  </item>
-  <item name="Galien">
-    <sceneName>None</sceneName>
-    <type>Trinket</type>
-    <pool>Essence_Boss</pool>
-    <areaName>None</areaName>
-  </item>
-  <item name="Markoth">
-    <sceneName>None</sceneName>
-    <type>Trinket</type>
-    <pool>Essence_Boss</pool>
-    <areaName>None</areaName>
-  </item>
-  <item name="Failed_Champion">
-    <sceneName>None</sceneName>
-    <type>Trinket</type>
-    <pool>Essence_Boss</pool>
-    <areaName>None</areaName>
-  </item>
-  <item name="Soul_Tyrant">
-    <sceneName>None</sceneName>
-    <type>Trinket</type>
-    <pool>Essence_Boss</pool>
-    <areaName>None</areaName>
-  </item>
-  <item name="Lost_Kin">
-    <sceneName>None</sceneName>
-    <type>Trinket</type>
-    <pool>Essence_Boss</pool>
-    <areaName>None</areaName>
   </item>
   <item name="Grub-Crossroads_Acid">
     <sceneName>Crossroads_35</sceneName>
@@ -1374,10 +1308,10 @@
     <areaName>Kingdoms_Edge</areaName>
   </item>
   <item name="Grub-Hive_External">
-    <sceneName>Hive_03</sceneName>
+    <sceneName>Hive_03-isolated</sceneName>
     <type>Trinket</type>
     <pool>Grub</pool>
-    <areaName>Hive</areaName>
+    <areaName>Hive-grub</areaName>
   </item>
   <item name="Grub-Hive_Internal">
     <sceneName>Hive_04</sceneName>
@@ -1416,7 +1350,7 @@
     <areaName>Royal_Waterways</areaName>
   </item>
   <item name="Grub-City_of_Tears_Left">
-    <sceneName>Ruins1_05</sceneName>
+    <sceneName>Ruins1_05-main</sceneName>
     <type>Trinket</type>
     <pool>Grub</pool>
     <areaName>City_of_Tears</areaName>
@@ -1428,7 +1362,7 @@
     <areaName>Soul_Sanctum</areaName>
   </item>
   <item name="Grub-Watcher's_Spire">
-    <sceneName>Ruins2_03</sceneName>
+    <sceneName>Ruins2_03-isolated</sceneName>
     <type>Trinket</type>
     <pool>Grub</pool>
     <areaName>City_of_Tears</areaName>
@@ -1506,7 +1440,7 @@
     <areaName>Queens_Gardens</areaName>
   </item>
   <item name="Grub-Queen's_Gardens_Marmu">
-    <sceneName>Fungus3_48</sceneName>
+    <sceneName>Fungus3_48-lower</sceneName>
     <type>Trinket</type>
     <pool>Grub</pool>
     <areaName>Queens_Gardens</areaName>
@@ -1782,7 +1716,7 @@
     <areaName>Ancient_Basin</areaName>
   </item>
   <item name="Grimmkin_Flame-Hive">
-    <sceneName>Hive_03</sceneName>
+    <sceneName>Hive_03-main</sceneName>
     <type>Flame</type>
     <pool>Flame</pool>
     <areaName>Hive</areaName>
@@ -1792,30 +1726,6 @@
     <type>Flame</type>
     <pool>Flame</pool>
     <areaName>Distant_Village</areaName>
-  </item>
-  <item name="Grubfather">
-    <sceneName>None</sceneName>
-    <type>Trinket</type>
-    <pool>Fake</pool>
-    <areaName>Forgotten_Crossroads</areaName>
-  </item>
-  <item name="Seer">
-    <sceneName>None</sceneName>
-    <type>Trinket</type>
-    <pool>Fake</pool>
-    <areaName>Resting_Grounds</areaName>
-  </item>
-  <item name="Equipped">
-    <sceneName>None</sceneName>
-    <type>Trinket</type>
-    <pool>Fake</pool>
-    <areaName>Inventory</areaName>
-  </item>
-  <item name="Placeholder">
-    <sceneName>None</sceneName>
-    <type>Trinket</type>
-    <pool>Fake</pool>
-    <areaName>Inventory</areaName>
   </item>
   <item name="Soul_Totem-Basin">
     <sceneName>Abyss_04</sceneName>
