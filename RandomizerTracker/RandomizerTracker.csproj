@@ -153,10 +153,10 @@
     <Content Include="Resources\colors.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Resources\altroomnames.xml">
+    <Content Include="Resources\descriptiveroomnames.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Resources\defaultroomnames.xml">
+    <Content Include="Resources\altroomnames.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
