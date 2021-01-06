@@ -26,6 +26,6 @@ Moved certain items to appear in the natural room
    Pale Ore-Colosseum in Rooms_Colosseum_01
    Nailmaster's Glory in Room_shop
    
-To use descriptive room names, replace altroomnames.xml with altroomnames.xml in the Resources directory.
+To use descriptive room names, replace altroomnames.xml with descriptiveroomnames.xml in the Resources directory.
 
 Removed some superfluous content from the items, areas and rooms xml files.
