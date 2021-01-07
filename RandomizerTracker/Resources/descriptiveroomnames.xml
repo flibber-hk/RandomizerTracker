@@ -146,11 +146,8 @@
 	<room name="Crossroads_48">
 		<altName>Crossroads Guarded Grub</altName>
 	</room>
-	<room name="Crossroads_49">
-		<altName>Crossroads Elevator</altName>
-	</room>
-	<room name="Crossroads_49b">
-		<altName>City Left Elevator</altName>
+	<room name="Crossroads_49-both">
+		<altName>City Crossroads Left Elevator</altName>
 	</room>
 	<room name="Crossroads_50">
 		<altName>Grounds Blue Lake</altName>
@@ -836,11 +833,8 @@
 	<room name="Ruins2_09">
 		<altName>City King's Vessel Fragment</altName>
 	</room>
-	<room name="Ruins2_10">
-		<altName>Grounds Elevator</altName>
-	</room>
-	<room name="Ruins2_10b">
-		<altName>City Right Elevator</altName>
+	<room name="Ruins2_10-both">
+		<altName>City Grounds Right Elevator</altName>
 	</room>
 	<room name="Ruins2_11_b">
 		<altName>City Tower of Love</altName>

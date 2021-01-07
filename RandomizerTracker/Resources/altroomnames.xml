@@ -147,11 +147,8 @@
 	<room name="Crossroads_48">
 		<altName>Crossroads_48</altName>
 	</room>
-	<room name="Crossroads_49">
-		<altName>Crossroads_49</altName>
-	</room>
-	<room name="Crossroads_49b">
-		<altName>Crossroads_49b</altName>
+	<room name="Crossroads_49-both">
+		<altName>Crossroads_49-both</altName>
 	</room>
 	<room name="Crossroads_50">
 		<altName>Crossroads_50</altName>
@@ -837,11 +834,8 @@
 	<room name="Ruins2_09">
 		<altName>Ruins2_09</altName>
 	</room>
-	<room name="Ruins2_10">
-		<altName>Ruins2_10</altName>
-	</room>
-	<room name="Ruins2_10b">
-		<altName>Ruins2_10b</altName>
+	<room name="Ruins2_10-both">
+		<altName>Ruins2_10-both</altName>
 	</room>
 	<room name="Ruins2_11_b">
 		<altName>Ruins2_11_b</altName>
