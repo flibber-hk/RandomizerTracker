@@ -15,17 +15,23 @@ Separated out the following disconnected rooms into two parts:
    Fungus3_48 (-upper, -lower)
    White_Palace_05 (-upper, -lower)
 
+Combined the following rooms into one part (elevators):
+   Crossroads_49, Crossroads_49b -> Crossroads_49-both
+   Ruins2_10, Ruins2_10b -> Ruins2_10-both
+I didn't think it was necessary to join the corresponding areas for area rando because there aren't too many areas. I didn't
+think it was necessary to join the tram rooms because if you have access to the tram, having the rooms be joined isn't helpful.
+
 Separated the following areas from the main parts:
    Hive-grub from Hive
    Kingdom's Edge-lurker from Kingdom's Edge
 
-Moved certain items to appear in the natural room 
+Moved certain items to appear in the natural room:
    World Sense in Room_temple
    Dream Nail in RestingGrounds_04
    Charm Notch-Colosseum in Room_Colosseum_01
    Pale Ore-Colosseum in Rooms_Colosseum_01
    Nailmaster's Glory in Room_shop
    
-To use descriptive room names, replace altroomnames.xml with descriptiveroomnames.xml in the Resources directory.
+To show descriptive room names, replace altroomnames.xml with descriptiveroomnames.xml in the Resources directory.
 
 Removed some superfluous content from the items, areas and rooms xml files.
