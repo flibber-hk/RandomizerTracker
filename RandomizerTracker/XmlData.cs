@@ -36,6 +36,11 @@ namespace RandomizerTracker
         public static Dictionary<string, Color> AreaToColor;
         public static Dictionary<string, string> AltRoomNames;
 
+        public static Dictionary<string, string> ShopToArea;
+        public static Dictionary<string, string> ShopToRoom;
+        public static Dictionary<string, string> startLocationArea;
+        public static Dictionary<string, string> startLocationRoom;
+
         public static void ProcessXmls()
         {
             XmlDocument itemXml = LoadEmbeddedXml("RandomizerTracker.Resources.items.xml");
@@ -98,6 +103,24 @@ namespace RandomizerTracker
             foreach (XmlNode node in altroomsXml.SelectNodes("randomizer/room"))
             {
                 AltRoomNames[node.Attributes["name"].InnerText] = node["altName"].InnerText;
+            }
+
+            XmlDocument shopHelperXml = LoadEmbeddedXml("RandomizerTracker.Resources.shopHelper.xml");
+            ShopToArea = new Dictionary<string, string>();
+            ShopToRoom = new Dictionary<string, string>();
+            foreach (XmlNode node in shopHelperXml.SelectNodes("randomizer/item"))
+            {
+                ShopToArea[node.Attributes["name"].InnerText] = node["areaName"].InnerText;
+                ShopToRoom[node.Attributes["name"].InnerText] = node["sceneName"].InnerText;
+            }
+
+            XmlDocument startLocationXml = LoadEmbeddedXml("RandomizerTracker.Resources.startlocations.xml");
+            startLocationArea = new Dictionary<string, string>();
+            startLocationRoom = new Dictionary<string, string>();
+            foreach (XmlNode node in startLocationXml.SelectNodes("randomizer/start"))
+            {
+                startLocationArea[node.Attributes["name"].InnerText] = node["areaName"].InnerText;
+                startLocationRoom[node.Attributes["name"].InnerText] = node["sceneName"].InnerText;
             }
         }
 

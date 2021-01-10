@@ -29,6 +29,7 @@ namespace RandomizerTracker
             instance = this;
             InitializeComponent();
             filepathBox.Text = LogFilepath;
+            helperlogBox.Text = helperFilepath;
             ProcessXmls();
             GetRandomizerData();
             Load += (obj, e) => MasterRefresh();
@@ -72,6 +73,54 @@ namespace RandomizerTracker
             Grapher.RecolorVertices(graph);
             edgeLabelsToggled = false;
             zoom.ZoomToFill();
+
+            ToggleEdgeLabels.Text = "Show Edge Labels";
+            toggleBenchesButton.Text = "Show Benches";
+            helperButton.Text = "Show Helper Locations";
+
+            Grapher.highlightMode = 0;
+
+            string stattext = "";
+            if (roomRandomizer)
+            {
+                stattext += string.Format("Explored {0} of {1} randomized transitions",
+                    exploredTransitions.Count(), transitionToRoom.Count());
+            }
+            else if (areaRandomizer)
+            {
+                stattext += string.Format("Explored {0} of {1} randomized transitions",
+                    exploredTransitions.Count(), transitionToArea.Count());
+            }
+
+            int exhaustedRooms = 0;
+            foreach (var kvp in graph.VertexList)
+            {
+                if (!kvp.Key.ToString().Contains("\n"))
+                {
+                    exhaustedRooms += 1;
+                }
+            }
+
+            if (roomRandomizer)
+            {
+                stattext += string.Format("\n\nVisited (and checked a transition in) {0} of {1} rooms",
+                    exploredRooms.Count(), graph.VertexList.Count());
+
+
+                stattext += string.Format(" - exhausted {0} rooms", exhaustedRooms);
+            }
+            else if (areaRandomizer)
+            {
+                stattext += string.Format("\n\nChecked a transition in {0} of {1} areas",
+                    exploredRooms.Count(), graph.VertexList.Count());
+
+                stattext += string.Format(" - exhausted {0} areas", exhaustedRooms);
+            }
+            
+            stattext += string.Format("\n\nObtained {0} of {1} checks (shops excluded)",
+                checkedLocations.Count(), randomizedItems.Where(item => !checkIfShopItem[item]).Count());
+
+            StatisticsText.Text = stattext;
         }
 
         private void masterRefreshButton_Click(object sender, EventArgs e) => MasterRefresh();
@@ -81,6 +130,14 @@ namespace RandomizerTracker
         {
             edgeLabelsToggled = !edgeLabelsToggled;
             graph.ShowAllEdgesLabels(edgeLabelsToggled);
+            if (edgeLabelsToggled)
+            {
+                ToggleEdgeLabels.Text = "Hide Edge Labels";
+            }
+            else
+            {
+                ToggleEdgeLabels.Text = "Show Edge Labels";
+            }
         }
 
         private static bool edgeLabelsToggled = false;
@@ -208,6 +265,28 @@ namespace RandomizerTracker
             }
         }
 
+        public static string helperFilepath
+        {
+            get
+            {
+                if (Properties.Settings.Default.helperfilepath is string path && File.Exists(path))
+                {
+                    return Properties.Settings.Default.helperfilepath;
+                }
+                else
+                {
+                    path = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData) + @"Low\Team Cherry\Hollow Knight\RandomizerHelperLog.txt";
+                    helperFilepath = path;
+                    return path;
+                }
+            }
+            set
+            {
+                Properties.Settings.Default.helperfilepath = value;
+                Properties.Settings.Default.Save();
+            }
+        }
+
         private void filepathBox_TextChanged(object sender, EventArgs e)
         {
             LogFilepath = filepathBox.Text;
@@ -230,6 +309,34 @@ namespace RandomizerTracker
         private void toggleBenchesButton_click(object sender, EventArgs e)
         {
             Grapher.ToggleBenches(graph);
+            if (Grapher.highlightMode == 1)
+            {
+                toggleBenchesButton.Text = "Hide Benches";
+                helperButton.Text = "Show Helper Locations";
+            }
+            else
+            {
+                toggleBenchesButton.Text = "Show Benches";
+            }
+        }
+
+        private void helperlogPath_textChanged(object sender, EventArgs e)
+        {
+            helperFilepath = helperlogBox.Text;
+        }
+
+        private void toggleHelperButton_click(object sender, EventArgs e)
+        {
+            Grapher.ToggleHelperLoc(graph);
+            if (Grapher.highlightMode == 2)
+            {
+                helperButton.Text = "Hide Helper Locations";
+                toggleBenchesButton.Text = "Show Benches";
+            }
+            else
+            {
+                helperButton.Text = "Show Helper Locations";
+            }
         }
     }
 }

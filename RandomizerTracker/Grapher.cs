@@ -41,13 +41,25 @@ namespace RandomizerTracker
 
                 if (areaRandomizer)
                 {
-                    source = transitionToArea[kvp.Key];
-                    target = transitionToArea[kvp.Value];
+                    if (!transitionToArea.TryGetValue(kvp.Key, out source))
+                    {
+                        continue;
+                    }
+                    if (!transitionToArea.TryGetValue(kvp.Value, out target))
+                    {
+                        continue;
+                    }
                 }
                 else
                 {
-                    source = transitionToRoom[kvp.Key];
-                    target = transitionToRoom[kvp.Value];
+                    if (!transitionToRoom.TryGetValue(kvp.Key, out source))
+                    {
+                        continue;
+                    }
+                    if (!transitionToRoom.TryGetValue(kvp.Value, out target))
+                    {
+                        continue;
+                    }
                 }
 
                 DataEdge e = new DataEdge(vertices[source], vertices[target])
@@ -112,28 +124,91 @@ namespace RandomizerTracker
         }
 
 
+        public static int highlightMode = 0;
+
         public static void ToggleBenches(GraphArea GA)
         {
-            if (roomRandomizer)
+            if (highlightMode != 1)
             {
-                foreach (var kvp in GA.VertexList)
+                if (roomRandomizer)
                 {
-                    if (hasBench[kvp.Key.Name] == false)
+                    foreach (var kvp in GA.VertexList)
                     {
-                        kvp.Value.Opacity = 1.4 - kvp.Value.Opacity;
+                        if (hasBench[kvp.Key.Name] == false)
+                        {
+                            kvp.Value.Opacity = 0.4;
+                        }
+                        else
+                        {
+                            kvp.Value.Opacity = 1;
+                        }
+                        if (kvp.Key.Name == startLocation)
+                        {
+                            kvp.Value.Opacity = 1;
+                        }
                     }
                 }
+
+                else if (areaRandomizer)
+                {
+                    foreach (var kvp in GA.VertexList)
+                    {
+                        if (hasBenchArea[kvp.Key.Name] == false)
+                        {
+                            kvp.Value.Opacity = 0.4;
+                        }
+                        else
+                        {
+                            kvp.Value.Opacity = 1;
+                        }
+                        if (kvp.Key.Name == startLocation)
+                        {
+                            kvp.Value.Opacity = 1;
+                        }
+                    }
+                }
+
+                highlightMode = 1;
             }
 
-            else if (areaRandomizer)
+            else
             {
                 foreach (var kvp in GA.VertexList)
                 {
-                    if (hasBenchArea[kvp.Key.Name] == false)
+                    kvp.Value.Opacity = 1;
+                }
+
+                highlightMode = 0;
+            }
+        }
+
+        public static void ToggleHelperLoc(GraphArea GA)
+        {
+            if (highlightMode != 2)
+            {
+                foreach (var kvp in GA.VertexList)
+                {
+                    if (!helperLocations.Contains(kvp.Key.Name))
                     {
-                        kvp.Value.Opacity = 1.4 - kvp.Value.Opacity;
+                        kvp.Value.Opacity = 0.4;
+                    }
+                    else
+                    {
+                        kvp.Value.Opacity = 1;
                     }
                 }
+
+                highlightMode = 2;
+            }
+
+            else
+            {
+                foreach (var kvp in GA.VertexList)
+                {
+                    kvp.Value.Opacity = 1;
+                }
+
+                highlightMode = 0;
             }
         }
 

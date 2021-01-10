@@ -159,6 +159,8 @@
     <Content Include="Resources\altroomnames.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <EmbeddedResource Include="Resources\startlocations.xml" />
+    <EmbeddedResource Include="Resources\shopHelper.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

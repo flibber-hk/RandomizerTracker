@@ -30,7 +30,8 @@
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.Map = new System.Windows.Forms.TabPage();
-            this.button1 = new System.Windows.Forms.Button();
+            this.helperButton = new System.Windows.Forms.Button();
+            this.toggleBenchesButton = new System.Windows.Forms.Button();
             this.zoomToVertexButton = new System.Windows.Forms.Button();
             this.zoomToVertexSelect = new System.Windows.Forms.ComboBox();
             this.ToggleEdgeLabels = new System.Windows.Forms.Button();
@@ -51,22 +52,28 @@
             this.locationSelectBox = new System.Windows.Forms.ComboBox();
             this.itemSelectBox = new System.Windows.Forms.ComboBox();
             this.Settings = new System.Windows.Forms.TabPage();
+            this.helperlogBox = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
             this.listBoxEdgeAlgo = new System.Windows.Forms.ListBox();
             this.label4 = new System.Windows.Forms.Label();
             this.filepathBox = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.listBoxVertexAlgo = new System.Windows.Forms.ListBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.Statistics = new System.Windows.Forms.TabPage();
+            this.StatisticsText = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.Map.SuspendLayout();
             this.Input.SuspendLayout();
             this.Settings.SuspendLayout();
+            this.Statistics.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
             // 
             this.tabControl1.Controls.Add(this.Map);
             this.tabControl1.Controls.Add(this.Input);
+            this.tabControl1.Controls.Add(this.Statistics);
             this.tabControl1.Controls.Add(this.Settings);
             this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
@@ -78,7 +85,8 @@
             // 
             // Map
             // 
-            this.Map.Controls.Add(this.button1);
+            this.Map.Controls.Add(this.helperButton);
+            this.Map.Controls.Add(this.toggleBenchesButton);
             this.Map.Controls.Add(this.zoomToVertexButton);
             this.Map.Controls.Add(this.zoomToVertexSelect);
             this.Map.Controls.Add(this.ToggleEdgeLabels);
@@ -93,19 +101,29 @@
             this.Map.Text = "Map";
             this.Map.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // helperButton
             // 
-            this.button1.Location = new System.Drawing.Point(279, 7);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(145, 28);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "Toggle Benches";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.toggleBenchesButton_click);
+            this.helperButton.Location = new System.Drawing.Point(401, 7);
+            this.helperButton.Name = "helperButton";
+            this.helperButton.Size = new System.Drawing.Size(170, 28);
+            this.helperButton.TabIndex = 8;
+            this.helperButton.Text = "Show Helper Locations";
+            this.helperButton.UseVisualStyleBackColor = true;
+            this.helperButton.Click += new System.EventHandler(this.toggleHelperButton_click);
+            // 
+            // toggleBenchesButton
+            // 
+            this.toggleBenchesButton.Location = new System.Drawing.Point(269, 7);
+            this.toggleBenchesButton.Name = "toggleBenchesButton";
+            this.toggleBenchesButton.Size = new System.Drawing.Size(125, 28);
+            this.toggleBenchesButton.TabIndex = 7;
+            this.toggleBenchesButton.Text = "Show Benches";
+            this.toggleBenchesButton.UseVisualStyleBackColor = true;
+            this.toggleBenchesButton.Click += new System.EventHandler(this.toggleBenchesButton_click);
             // 
             // zoomToVertexButton
             // 
-            this.zoomToVertexButton.Location = new System.Drawing.Point(433, 7);
+            this.zoomToVertexButton.Location = new System.Drawing.Point(583, 7);
             this.zoomToVertexButton.Margin = new System.Windows.Forms.Padding(4);
             this.zoomToVertexButton.Name = "zoomToVertexButton";
             this.zoomToVertexButton.Size = new System.Drawing.Size(127, 28);
@@ -118,7 +136,7 @@
             // 
             this.zoomToVertexSelect.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.zoomToVertexSelect.FormattingEnabled = true;
-            this.zoomToVertexSelect.Location = new System.Drawing.Point(568, 7);
+            this.zoomToVertexSelect.Location = new System.Drawing.Point(718, 7);
             this.zoomToVertexSelect.Margin = new System.Windows.Forms.Padding(4);
             this.zoomToVertexSelect.Name = "zoomToVertexSelect";
             this.zoomToVertexSelect.Size = new System.Drawing.Size(240, 26);
@@ -129,9 +147,9 @@
             this.ToggleEdgeLabels.Location = new System.Drawing.Point(113, 7);
             this.ToggleEdgeLabels.Margin = new System.Windows.Forms.Padding(4);
             this.ToggleEdgeLabels.Name = "ToggleEdgeLabels";
-            this.ToggleEdgeLabels.Size = new System.Drawing.Size(159, 28);
+            this.ToggleEdgeLabels.Size = new System.Drawing.Size(149, 28);
             this.ToggleEdgeLabels.TabIndex = 4;
-            this.ToggleEdgeLabels.Text = "Toggle Edge Labels";
+            this.ToggleEdgeLabels.Text = "Show Edge Labels";
             this.ToggleEdgeLabels.UseVisualStyleBackColor = true;
             this.ToggleEdgeLabels.Click += new System.EventHandler(this.ToggleEdgeLabels_Click);
             // 
@@ -313,6 +331,8 @@
             // 
             // Settings
             // 
+            this.Settings.Controls.Add(this.helperlogBox);
+            this.Settings.Controls.Add(this.label9);
             this.Settings.Controls.Add(this.listBoxEdgeAlgo);
             this.Settings.Controls.Add(this.label4);
             this.Settings.Controls.Add(this.filepathBox);
@@ -328,6 +348,24 @@
             this.Settings.Text = "Settings";
             this.Settings.UseVisualStyleBackColor = true;
             // 
+            // helperlogBox
+            // 
+            this.helperlogBox.Location = new System.Drawing.Point(263, 70);
+            this.helperlogBox.Name = "helperlogBox";
+            this.helperlogBox.Size = new System.Drawing.Size(673, 22);
+            this.helperlogBox.TabIndex = 9;
+            this.helperlogBox.TextChanged += new System.EventHandler(this.helperlogPath_textChanged);
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(43, 73);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(204, 17);
+            this.label9.TabIndex = 8;
+            this.label9.Text = "RandomizerHelperLog Filepath";
+            // 
             // listBoxEdgeAlgo
             // 
             this.listBoxEdgeAlgo.FormattingEnabled = true;
@@ -337,7 +375,7 @@
             "Bundling",
             "PathFinder",
             "None"});
-            this.listBoxEdgeAlgo.Location = new System.Drawing.Point(705, 122);
+            this.listBoxEdgeAlgo.Location = new System.Drawing.Point(705, 152);
             this.listBoxEdgeAlgo.Margin = new System.Windows.Forms.Padding(4);
             this.listBoxEdgeAlgo.Name = "listBoxEdgeAlgo";
             this.listBoxEdgeAlgo.Size = new System.Drawing.Size(159, 116);
@@ -346,7 +384,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(507, 122);
+            this.label4.Location = new System.Drawing.Point(507, 152);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(157, 17);
@@ -365,7 +403,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(43, 122);
+            this.label2.Location = new System.Drawing.Point(43, 152);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(158, 17);
@@ -387,7 +425,7 @@
             "KK",
             "SimpleRandom",
             "Sugiyama"});
-            this.listBoxVertexAlgo.Location = new System.Drawing.Point(263, 122);
+            this.listBoxVertexAlgo.Location = new System.Drawing.Point(263, 152);
             this.listBoxVertexAlgo.Margin = new System.Windows.Forms.Padding(4);
             this.listBoxVertexAlgo.Name = "listBoxVertexAlgo";
             this.listBoxVertexAlgo.Size = new System.Drawing.Size(159, 116);
@@ -402,6 +440,29 @@
             this.label1.Size = new System.Drawing.Size(211, 17);
             this.label1.TabIndex = 1;
             this.label1.Text = "RandomizerTrackerLog Filepath";
+            // 
+            // Statistics
+            // 
+            this.Statistics.Controls.Add(this.StatisticsText);
+            this.Statistics.Location = new System.Drawing.Point(4, 25);
+            this.Statistics.Name = "Statistics";
+            this.Statistics.Padding = new System.Windows.Forms.Padding(3);
+            this.Statistics.Size = new System.Drawing.Size(1059, 525);
+            this.Statistics.TabIndex = 4;
+            this.Statistics.Text = "Statistics";
+            this.Statistics.UseVisualStyleBackColor = true;
+            // 
+            // StatisticsText
+            // 
+            this.StatisticsText.AutoSize = true;
+            this.StatisticsText.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F);
+            this.StatisticsText.Location = new System.Drawing.Point(36, 38);
+            this.StatisticsText.Name = "StatisticsText";
+            this.StatisticsText.Size = new System.Drawing.Size(340, 136);
+            this.StatisticsText.TabIndex = 0;
+            this.StatisticsText.Text = "Explored X of Y randomized transitions\r\n\r\nExpored at least one transition in X of" +
+    " Y rooms/areas\r\n\r\nObtained X of Y (non-shop) checks\r\n\r\nExhausted X of Y rooms/ar" +
+    "eas\r\n\r\n";
             // 
             // RandomizerTracker
             // 
@@ -418,6 +479,8 @@
             this.Input.PerformLayout();
             this.Settings.ResumeLayout(false);
             this.Settings.PerformLayout();
+            this.Statistics.ResumeLayout(false);
+            this.Statistics.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -451,7 +514,12 @@
         private System.Windows.Forms.ListBox trackerLogViewer;
         private System.Windows.Forms.Button zoomToVertexButton;
         private System.Windows.Forms.ComboBox zoomToVertexSelect;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button toggleBenchesButton;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.TextBox helperlogBox;
+        private System.Windows.Forms.Button helperButton;
+        private System.Windows.Forms.TabPage Statistics;
+        private System.Windows.Forms.Label StatisticsText;
     }
 }
 

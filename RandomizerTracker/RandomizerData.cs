@@ -17,6 +17,13 @@ namespace RandomizerTracker
         public static Dictionary<string, string> FoundTransitions;
         public static List<string> randomizedItems;
         public static Dictionary<string, bool> randomizedPools;
+        public static HashSet<string> helperLocations;
+        
+        public static HashSet<string> checkedLocations;
+        public static HashSet<string> exploredTransitions;
+        public static HashSet<string> exploredRooms;
+
+        public static string startLocation;
 
         public static void GetRandomizerData()
         {
@@ -58,6 +65,7 @@ namespace RandomizerTracker
                 ("Cocoon", "Lifeblood cocoons: "),
                 ("PalaceSoul", "Palace totems: "),
                 ("Flame", "Grimmkin flames: "),
+                ("Essence_Boss", "Boss essence: "),
                 ("Cursed", "Cursed: ")
             };
             randomizedPools = new Dictionary<string, bool>();
@@ -71,24 +79,156 @@ namespace RandomizerTracker
             }
             randomizedItems = Items.Where(item => randomizedPools.ContainsKey(itemToPool[item]) && randomizedPools[itemToPool[item]]).ToList();
 
+            exploredRooms = new HashSet<string>();
+            exploredTransitions = new HashSet<string>();
+            checkedLocations = new HashSet<string>();
+
             foreach (string line in data)
             {
+                if (line.StartsWith("Start location: "))
+                {
+                    startLocation = string.Empty;
+                    if (areaRandomizer)
+                    {
+                        startLocationArea.TryGetValue(line.Remove(0, 16).Trim(), out startLocation);
+                    }
+                    else if (roomRandomizer)
+                    {
+                        startLocationRoom.TryGetValue(line.Remove(0, 16).Trim(), out startLocation);
+                    }
+                }
                 if (line.StartsWith("ITEM"))
                 {
                     string[] words = line.Split('{', '}');
+                    if (words.Length < 4)
+                    {
+                        continue;
+                    }
                     FoundItemsToLocations[words[1]] = words[3];
                     //listBox1.Items.Add($"{words[1]}, {words[3]}");
+                    if (randomizedItems.Contains(words[3]))
+                    {
+                        checkedLocations.Add(words[3]);
+                    }
                 }
                 if (line.StartsWith("TRANSITION"))
                 {
                     string[] words = line.Split('{', '}');
+                    if (words.Length < 4)
+                    {
+                        continue;
+                    }
                     FoundTransitions[words[1]] = words[3];
+
+                    exploredTransitions.Add(words[1]);
+                    exploredTransitions.Add(words[3]);
+                    if (areaRandomizer)
+                    {
+                        if (transitionToArea.TryGetValue(words[1], out string val1))
+                        {
+                            exploredRooms.Add(val1);
+                        }
+                        if (transitionToArea.TryGetValue(words[3], out string val3))
+                        {
+                            exploredRooms.Add(val3);
+                        }
+                    }
+                    else if (roomRandomizer)
+                    {
+                        if (transitionToRoom.TryGetValue(words[1], out string val1))
+                        {
+                            exploredRooms.Add(val1);
+                        }
+                        if (transitionToRoom.TryGetValue(words[3], out string val3))
+                        {
+                            exploredRooms.Add(val3);
+                        }
+                    }
+
                     if (isOneWay.TryGetValue(words[1], out bool oneWay) && !oneWay)
                     {
                         FoundTransitions[words[3]] = words[1];
                     }
                 }
             }
+
+
+            // helper log
+            helperLocations = new HashSet<string>();
+
+            if (!File.Exists(Properties.Settings.Default.helperfilepath))
+            {
+                System.Windows.Forms.MessageBox.Show("Error: No helper log found at the specified filepath.");
+                return;
+            }
+
+            string[] helperdata = File.ReadAllLines(Properties.Settings.Default.helperfilepath);
+
+            int helpreadmode = 0;
+            foreach (string line in helperdata)
+            {
+                if (line.StartsWith("REACHABLE ITEM LOCATIONS"))
+                {
+                    helpreadmode = 1;
+                }
+                else if (line.StartsWith("REACHABLE TRANSITIONS"))
+                {
+                    helpreadmode = 2;
+                }
+                else if (line.StartsWith(" - "))
+                {
+                    if (helpreadmode == 1)
+                    {
+                        if (areaRandomizer)
+                        {
+                            if (itemToArea.TryGetValue(line.Remove(0, 3).Trim().Replace(' ', '_'), out String val))
+                            {
+                                helperLocations.Add(val);
+                            }
+                            else if (ShopToArea.TryGetValue(line.Remove(0, 3).Trim(), out String valS))
+                            {
+                                helperLocations.Add(valS);
+                            }
+                        }
+                        else if (roomRandomizer)
+                        {
+                            if (itemToRoom.TryGetValue(line.Remove(0, 3).Trim().Replace(' ', '_'), out String val))
+                            {
+                                helperLocations.Add(val);
+                            }
+                            else if (ShopToRoom.TryGetValue(line.Remove(0, 3).Trim(), out String valS))
+                            {
+                                helperLocations.Add(valS);
+                            }
+                        }
+                    }
+                    else if (helpreadmode == 2)
+                    {
+                        if (areaRandomizer)
+                        {
+                            if (transitionToArea.TryGetValue(line.Remove(0, 3).Trim().Replace(' ', '_'), out String val))
+                            {
+                                helperLocations.Add(val);
+                            }
+                        }
+                        else if (roomRandomizer)
+                        {
+                            if (transitionToRoom.TryGetValue(line.Remove(0, 3).Trim().Replace(' ', '_'), out String val))
+                            {
+                                helperLocations.Add(val);
+                            }
+                        }
+                    }
+                }
+
+                else if (line.StartsWith("CHECKED"))
+                {
+                    helpreadmode = 0;
+                    break;
+                }
+            }
+
+            // helperLocations.Add("Tutorial_01");
         }
 
         public static bool CheckLocationFound(string location)
