@@ -1193,6 +1193,78 @@
     <pool>Root</pool>
     <areaName>Hive</areaName>
   </item>
+  <item name="Boss_Essence-Elder_Hu">
+    <sceneName>Fungus2_32</sceneName>
+    <type>Trinket</type>
+    <pool>Essence_Boss</pool>
+    <areaName>Fungal_Wastes</areaName>
+  </item>
+  <item name="Boss_Essence-Xero">
+    <sceneName>RestingGrounds_02</sceneName>
+    <type>Trinket</type>
+    <pool>Essence_Boss</pool>
+    <areaName>Resting_Grounds</areaName>
+  </item>
+  <item name="Boss_Essence-Gorb">
+    <sceneName>Cliffs_02</sceneName>
+    <type>Trinket</type>
+    <pool>Essence_Boss</pool>
+    <areaName>Howling_Cliffs</areaName>
+  </item>
+  <item name="Boss_Essence-Marmu">
+    <sceneName>Fungus3_40</sceneName>
+    <type>Trinket</type>
+    <pool>Essence_Boss</pool>
+    <areaName>Queens_Gardens</areaName>
+  </item>
+  <item name="Boss_Essence-No_Eyes">
+    <sceneName>Fungus1_35</sceneName>
+    <type>Trinket</type>
+    <pool>Essence_Boss</pool>
+    <areaName>Stone_Sanctuary</areaName>
+  </item>
+  <item name="Boss_Essence-Galien">
+    <sceneName>Deepnest_40</sceneName>
+    <type>Trinket</type>
+    <pool>Essence_Boss</pool>
+    <areaName>Deepnest</areaName>
+  </item>
+  <item name="Boss_Essence-Markoth">
+    <sceneName>Deepnest_East_10</sceneName>
+    <type>Trinket</type>
+    <pool>Essence_Boss</pool>
+    <areaName>Kingdoms_Edge</areaName>
+  </item>
+  <item name="Boss_Essence-Failed_Champion">
+    <sceneName>Crossroads_10</sceneName>
+    <type>Trinket</type>
+    <pool>Essence_Boss</pool>
+    <areaName>Forgotten_Crossroads</areaName>
+  </item>
+  <item name="Boss_Essence-Soul_Tyrant">
+    <sceneName>Ruins1_24-upper</sceneName>
+    <type>Trinket</type>
+    <pool>Essence_Boss</pool>
+    <areaName>Soul_Sanctum</areaName>
+  </item>
+  <item name="Boss_Essence-Lost_Kin">
+    <sceneName>Abyss_19</sceneName>
+    <type>Trinket</type>
+    <pool>Essence_Boss</pool>
+    <areaName>Ancient_Basin</areaName>
+  </item>
+  <item name="Boss_Essence-White_Defender">
+    <sceneName>Waterways_15</sceneName>
+    <type>Trinket</type>
+    <pool>Essence_Boss</pool>
+    <areaName>Royal_Waterways</areaName>
+  </item>
+  <item name="Boss_Essence-Grey_Prince_Zote">
+    <sceneName>Room_Bretta</sceneName>
+    <type>Trinket</type>
+    <pool>Essence_Boss</pool>
+    <areaName>Dirtmouth</areaName>
+  </item>
   <item name="Grub-Crossroads_Acid">
     <sceneName>Crossroads_35</sceneName>
     <type>Trinket</type>

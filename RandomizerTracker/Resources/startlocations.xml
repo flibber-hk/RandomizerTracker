@@ -1,0 +1,98 @@
+<randomizer>
+  <start name="King's Pass">
+    <sceneName>Tutorial_01</sceneName>
+    <areaName>Kings_Pass</areaName>
+  </start>
+  <start name="Stag Nest">
+    <sceneName>Cliffs_03</sceneName>
+    <areaName>Stag_Nest</areaName>
+  </start>
+  <start name="West Crossroads">
+    <sceneName>Crossroads_36</sceneName>
+    <areaName>Forgotten_Crossroads</areaName>
+  </start>
+  <start name="East Crossroads">
+    <sceneName>Crossroads_03</sceneName>
+    <areaName>Forgotten_Crossroads</areaName>
+  </start>
+  <start name="Ancestral Mound">
+    <sceneName>Crossroads_ShamanTemple</sceneName>
+    <areaName>Ancestral_Mound</areaName>
+  </start>
+  <start name="West Fog Canyon">
+    <sceneName>Fungus3_30</sceneName>
+    <areaName>Fog_Canyon</areaName>
+  </start>
+  <start name="East Fog Canyon">
+    <sceneName>Fungus3_25</sceneName>
+    <areaName>Fog_Canyon</areaName>
+  </start>
+  <start name="Queen's Station">
+    <sceneName>Fungus2_01</sceneName>
+    <areaName>Queens_Station</areaName>
+  </start>
+  <start name="Fungal Wastes">
+    <sceneName>Fungus2_28</sceneName>
+    <areaName>Fungal_Wastes</areaName>
+  </start>
+  <start name="Fungal Core">
+    <sceneName>Fungus2_30</sceneName>
+    <areaName>Fungal_Core</areaName>
+  </start>
+  <start name="Distant Village">
+    <sceneName>Room_spider_small</sceneName>
+    <areaName>Distant_Village</areaName>
+  </start>
+  <start name="Abyss">
+    <sceneName>Abyss_06_Core</sceneName>
+    <areaName>Abyss</areaName>
+  </start>
+  <start name="Hive">
+    <sceneName>Hive_03-main</sceneName>
+    <areaName>Hive</areaName>
+  </start>
+  <start name="Kingdom's Edge">
+    <sceneName>Deepnest_East_15</sceneName>
+    <areaName>Kingdoms_Edge</areaName>
+  </start>
+  <start name="Hallownest's Crown">
+    <sceneName>Mines_34</sceneName>
+    <areaName>Hallownests_Crown</areaName>
+  </start>
+  <start name="Crystallized Mound">
+    <sceneName>Mines_35</sceneName>
+    <areaName>Crystallized_Mound</areaName>
+  </start>
+  <start name="Royal Waterways">
+    <sceneName>Waterways_03</sceneName>
+    <areaName>Royal_Waterways</areaName>
+  </start>
+  <start name="Queen's Gardens">
+    <sceneName>Fungus3_13</sceneName>
+    <areaName>Dirtmouth</areaName>
+  </start>
+  <start name="Far Greenpath">
+    <sceneName>Fungus1_13</sceneName>
+    <areaName>Greenpath</areaName>
+  </start>
+  <start name="Greenpath">
+    <sceneName>Fungus1_32</sceneName>
+    <areaName>Greenpath</areaName>
+  </start>
+  <start name="City Storerooms">
+    <sceneName>Ruins1_17</sceneName>
+    <areaName>City_of_Tears</areaName>
+  </start>
+  <start name="King's Station">
+    <sceneName>Ruins2_10-both</sceneName>
+    <areaName>Kings_Station</areaName>
+  </start>
+  <start name="Outside Colosseum">
+    <sceneName>Deepnest_East_09</sceneName>
+    <areaName>Kingdoms_Edge</areaName>
+  </start>
+  <start name="City of Tears">
+    <sceneName>Ruins1_27</sceneName>
+    <areaName>City_of_Tears</areaName>
+  </start>
+</randomizer>

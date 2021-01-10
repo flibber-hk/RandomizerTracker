@@ -1,0 +1,30 @@
+﻿<randomizer>
+	<item name="Seer">
+		<sceneName>RestingGrounds_07</sceneName>
+		<areaName>Resting_Grounds</areaName>
+	</item>
+	<item name="Grubfather">
+		<sceneName>Crossroads_38</sceneName>
+		<areaName>Forgotten_Crossroads</areaName>
+	</item>
+	<item name="Sly">
+		<sceneName>Room_shop</sceneName>
+		<areaName>Dirtmouth</areaName>
+	</item>
+	<item name="Sly (Key)">
+		<sceneName>Room_shop</sceneName>
+		<areaName>Dirtmouth</areaName>
+	</item>
+	<item name="Iselda">
+		<sceneName>Room_mapper</sceneName>
+		<areaName>Dirtmouth</areaName>
+	</item>
+	<item name="Salubra">
+		<sceneName>Room_Charm_Shop</sceneName>
+		<areaName>Forgotten_Crossroads</areaName>
+	</item>
+	<item name="Leg Eater">
+		<sceneName>Fungus2_26</sceneName>
+		<areaName>Fungal_Wastes</areaName>
+	</item>
+</randomizer>
