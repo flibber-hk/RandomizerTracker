@@ -38,6 +38,7 @@ Moved certain items to appear in the natural room:
 
 Added a statistics tab to show a few statistics about rooms/areas explored. Rooms/areas will only be considered explored if
 at least one transition to/from that area has been explored; this matters mainly for Dirtmouth stag station.
+The statistics tab will also show transitions from a selectable area.
 
 To show descriptive room names, replace altroomnames.xml with descriptiveroomnames.xml in the Resources directory.
 
