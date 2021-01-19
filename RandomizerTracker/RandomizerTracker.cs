@@ -69,6 +69,10 @@ namespace RandomizerTracker
             zoomToVertexSelect.Items.Clear();
             zoomToVertexSelect.Items.AddRange(roomRandomizer ? rooms.ToArray() : areas.ToArray());
 
+            roomInfoBox.Items.Clear();
+            roomInfoBox.Items.AddRange(roomRandomizer ? rooms.ToArray() : areas.ToArray());
+            roomStatsBox.Text = string.Empty;
+
             graph.GenerateGraph(true);
             Grapher.RecolorVertices(graph);
             edgeLabelsToggled = false;
@@ -336,6 +340,65 @@ namespace RandomizerTracker
             else
             {
                 helperButton.Text = "Show Helper Locations";
+            }
+        }
+
+        private void roomInfoButton_click(object sender, EventArgs e)
+        {
+            string TransitionText = "Transitions:";
+            bool usingTransitions = false;
+
+            if (areaRandomizer)
+            {
+                foreach (string transition in areaTransitions)
+                {
+                    if (roomInfoBox.Text == transitionToArea[transition])
+                    {
+                        usingTransitions = true;
+                        if (FoundOneWay.TryGetValue(transition, out string transentrance))
+                        {
+                            TransitionText += string.Format("\n{0} <--- {1}", transition, transentrance);
+                        }
+                        else if (FoundTransitions.TryGetValue(transition, out string transexit))
+                        {
+                            TransitionText += string.Format("\n{0} ---> {1}", transition, transexit);
+                        }
+                        else
+                        {
+                            TransitionText += string.Format("\n{0} --- ???", transition);
+                        }
+                    }
+                }
+            }
+            else if (roomRandomizer)
+            {
+                foreach (string transition in roomTransitions)
+                {
+                    if (roomInfoBox.Text == transitionToRoom[transition])
+                    {
+                        usingTransitions = true;
+                        if (FoundOneWay.TryGetValue(transition, out string transentrance))
+                        {
+                            TransitionText += string.Format("\n{0} <--- {1}", transition, transentrance);
+                        }
+                        else if (FoundTransitions.TryGetValue(transition, out string transexit))
+                        {
+                            TransitionText += string.Format("\n{0} ---> {1}", transition, transexit);
+                        }
+                        else
+                        {
+                            TransitionText += string.Format("\n{0} --- ???", transition);
+                        }
+                    }
+                }
+            }
+
+
+
+            roomStatsBox.Text = string.Empty;
+            if (usingTransitions)
+            {
+                roomStatsBox.Text += TransitionText;
             }
         }
     }

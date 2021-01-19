@@ -51,6 +51,8 @@
             this.sourceTransitionSelect = new System.Windows.Forms.ComboBox();
             this.locationSelectBox = new System.Windows.Forms.ComboBox();
             this.itemSelectBox = new System.Windows.Forms.ComboBox();
+            this.Statistics = new System.Windows.Forms.TabPage();
+            this.StatisticsText = new System.Windows.Forms.Label();
             this.Settings = new System.Windows.Forms.TabPage();
             this.helperlogBox = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
@@ -60,13 +62,14 @@
             this.label2 = new System.Windows.Forms.Label();
             this.listBoxVertexAlgo = new System.Windows.Forms.ListBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.Statistics = new System.Windows.Forms.TabPage();
-            this.StatisticsText = new System.Windows.Forms.Label();
+            this.roomInfoButton = new System.Windows.Forms.Button();
+            this.roomInfoBox = new System.Windows.Forms.ComboBox();
+            this.roomStatsBox = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.Map.SuspendLayout();
             this.Input.SuspendLayout();
-            this.Settings.SuspendLayout();
             this.Statistics.SuspendLayout();
+            this.Settings.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -329,6 +332,32 @@
             this.itemSelectBox.Size = new System.Drawing.Size(160, 24);
             this.itemSelectBox.TabIndex = 0;
             // 
+            // Statistics
+            // 
+            this.Statistics.Controls.Add(this.roomStatsBox);
+            this.Statistics.Controls.Add(this.roomInfoBox);
+            this.Statistics.Controls.Add(this.roomInfoButton);
+            this.Statistics.Controls.Add(this.StatisticsText);
+            this.Statistics.Location = new System.Drawing.Point(4, 25);
+            this.Statistics.Name = "Statistics";
+            this.Statistics.Padding = new System.Windows.Forms.Padding(3);
+            this.Statistics.Size = new System.Drawing.Size(1059, 525);
+            this.Statistics.TabIndex = 4;
+            this.Statistics.Text = "Statistics";
+            this.Statistics.UseVisualStyleBackColor = true;
+            // 
+            // StatisticsText
+            // 
+            this.StatisticsText.AutoSize = true;
+            this.StatisticsText.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F);
+            this.StatisticsText.Location = new System.Drawing.Point(36, 38);
+            this.StatisticsText.Name = "StatisticsText";
+            this.StatisticsText.Size = new System.Drawing.Size(340, 136);
+            this.StatisticsText.TabIndex = 0;
+            this.StatisticsText.Text = "Explored X of Y randomized transitions\r\n\r\nExpored at least one transition in X of" +
+    " Y rooms/areas\r\n\r\nObtained X of Y (non-shop) checks\r\n\r\nExhausted X of Y rooms/ar" +
+    "eas\r\n\r\n";
+            // 
             // Settings
             // 
             this.Settings.Controls.Add(this.helperlogBox);
@@ -441,28 +470,33 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "RandomizerTrackerLog Filepath";
             // 
-            // Statistics
+            // roomInfoButton
             // 
-            this.Statistics.Controls.Add(this.StatisticsText);
-            this.Statistics.Location = new System.Drawing.Point(4, 25);
-            this.Statistics.Name = "Statistics";
-            this.Statistics.Padding = new System.Windows.Forms.Padding(3);
-            this.Statistics.Size = new System.Drawing.Size(1059, 525);
-            this.Statistics.TabIndex = 4;
-            this.Statistics.Text = "Statistics";
-            this.Statistics.UseVisualStyleBackColor = true;
+            this.roomInfoButton.Location = new System.Drawing.Point(39, 207);
+            this.roomInfoButton.Name = "roomInfoButton";
+            this.roomInfoButton.Size = new System.Drawing.Size(90, 28);
+            this.roomInfoButton.TabIndex = 1;
+            this.roomInfoButton.Text = "Show Info";
+            this.roomInfoButton.UseVisualStyleBackColor = true;
+            this.roomInfoButton.Click += new System.EventHandler(this.roomInfoButton_click);
             // 
-            // StatisticsText
+            // roomInfoBox
             // 
-            this.StatisticsText.AutoSize = true;
-            this.StatisticsText.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F);
-            this.StatisticsText.Location = new System.Drawing.Point(36, 38);
-            this.StatisticsText.Name = "StatisticsText";
-            this.StatisticsText.Size = new System.Drawing.Size(340, 136);
-            this.StatisticsText.TabIndex = 0;
-            this.StatisticsText.Text = "Explored X of Y randomized transitions\r\n\r\nExpored at least one transition in X of" +
-    " Y rooms/areas\r\n\r\nObtained X of Y (non-shop) checks\r\n\r\nExhausted X of Y rooms/ar" +
-    "eas\r\n\r\n";
+            this.roomInfoBox.FormattingEnabled = true;
+            this.roomInfoBox.Location = new System.Drawing.Point(135, 207);
+            this.roomInfoBox.Name = "roomInfoBox";
+            this.roomInfoBox.Size = new System.Drawing.Size(240, 24);
+            this.roomInfoBox.TabIndex = 2;
+            // 
+            // roomStatsBox
+            // 
+            this.roomStatsBox.AutoSize = true;
+            this.roomStatsBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.roomStatsBox.Location = new System.Drawing.Point(441, 212);
+            this.roomStatsBox.Name = "roomStatsBox";
+            this.roomStatsBox.Size = new System.Drawing.Size(92, 17);
+            this.roomStatsBox.TabIndex = 3;
+            this.roomStatsBox.Text = "(placeholder)";
             // 
             // RandomizerTracker
             // 
@@ -477,10 +511,10 @@
             this.Map.ResumeLayout(false);
             this.Input.ResumeLayout(false);
             this.Input.PerformLayout();
-            this.Settings.ResumeLayout(false);
-            this.Settings.PerformLayout();
             this.Statistics.ResumeLayout(false);
             this.Statistics.PerformLayout();
+            this.Settings.ResumeLayout(false);
+            this.Settings.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -520,6 +554,9 @@
         private System.Windows.Forms.Button helperButton;
         private System.Windows.Forms.TabPage Statistics;
         private System.Windows.Forms.Label StatisticsText;
+        private System.Windows.Forms.Button roomInfoButton;
+        private System.Windows.Forms.ComboBox roomInfoBox;
+        private System.Windows.Forms.Label roomStatsBox;
     }
 }
 

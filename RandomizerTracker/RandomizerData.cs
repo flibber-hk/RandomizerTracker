@@ -15,6 +15,7 @@ namespace RandomizerTracker
 
         public static Dictionary<string, string> FoundItemsToLocations;
         public static Dictionary<string, string> FoundTransitions;
+        public static Dictionary<string, string> FoundOneWay;
         public static List<string> randomizedItems;
         public static Dictionary<string, bool> randomizedPools;
         public static HashSet<string> helperLocations;
@@ -29,6 +30,7 @@ namespace RandomizerTracker
         {
             FoundItemsToLocations = new Dictionary<string, string>();
             FoundTransitions = new Dictionary<string, string>();
+            FoundOneWay = new Dictionary<string, string>();
 
             if (!File.Exists(Properties.Settings.Default.filepath))
             {
@@ -148,6 +150,10 @@ namespace RandomizerTracker
                     if (isOneWay.TryGetValue(words[1], out bool oneWay) && !oneWay)
                     {
                         FoundTransitions[words[3]] = words[1];
+                    }
+                    else
+                    {
+                        FoundOneWay[words[3]] = words[1];
                     }
                 }
             }
