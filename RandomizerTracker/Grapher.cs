@@ -251,6 +251,9 @@ namespace RandomizerTracker
                     case "Kingdoms Edge":
                         newName = "Kingdom's Edge";
                         break;
+                    case "Kingdoms Edge-lurker":
+                        newName = "Kingdom's Edge-lurker";
+                        break;
                     case "Weavers Den":
                         newName = "Weaver's Den";
                         break;

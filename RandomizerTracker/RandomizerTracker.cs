@@ -369,6 +369,20 @@ namespace RandomizerTracker
                         }
                     }
                 }
+                int allitems = 0;
+                int checkeditems = 0;
+                foreach (string itemname in randomizedItems)
+                {
+                    if (roomInfoBox.Text == itemToArea[itemname])
+                    {
+                        allitems += 1;
+                        if (checkedLocations.Contains(itemname))
+                        {
+                            checkeditems += 1;
+                        }
+                    }
+                }
+                TransitionText += string.Format("\n\nChecked {0} of {1} locations in this area", checkeditems, allitems);
             }
             else if (roomRandomizer)
             {
@@ -391,6 +405,20 @@ namespace RandomizerTracker
                         }
                     }
                 }
+                int allitems = 0;
+                int checkeditems = 0;
+                foreach (string itemname in randomizedItems)
+                {
+                    if (roomInfoBox.Text == itemToRoom[itemname])
+                    {
+                        allitems += 1;
+                        if (checkedLocations.Contains(itemname))
+                        {
+                            checkeditems += 1;
+                        }
+                    }
+                }
+                TransitionText += string.Format("\n\nChecked {0} of {1} locations in this room", checkeditems, allitems);
             }
 
 
