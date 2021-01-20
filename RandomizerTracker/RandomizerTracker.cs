@@ -358,14 +358,40 @@ namespace RandomizerTracker
                         if (FoundOneWay.TryGetValue(transition, out string transentrance))
                         {
                             TransitionText += string.Format("\n{0} <--- {1}", transition, transentrance);
+                            string inroom = transitionToRoom[transition];
+                            if (transitionToRoom.TryGetValue(transentrance, out string outroom))
+                            {
+                                string incleanname = AltRoomNames.TryGetValue(inroom, out string altname) ? altname : inroom;
+                                string outcleanname = AltRoomNames.TryGetValue(outroom, out string altnameout) ? altnameout : outroom;
+                                if (incleanname != inroom && outcleanname != outroom)
+                                {
+                                    TransitionText += string.Format("\n    ({0} <--- {1})", incleanname, outcleanname);
+                                }
+                            }
                         }
                         else if (FoundTransitions.TryGetValue(transition, out string transexit))
                         {
                             TransitionText += string.Format("\n{0} ---> {1}", transition, transexit);
+                            string inroom = transitionToRoom[transition];
+                            if (transitionToRoom.TryGetValue(transexit, out string outroom))
+                            {
+                                string incleanname = AltRoomNames.TryGetValue(inroom, out string altname) ? altname : inroom;
+                                string outcleanname = AltRoomNames.TryGetValue(outroom, out string altnameout) ? altnameout : outroom;
+                                if (incleanname != inroom && outcleanname != outroom)
+                                {
+                                    TransitionText += string.Format("\n    ({0} ---> {1})", incleanname, outcleanname);
+                                }
+                            }
                         }
                         else
                         {
                             TransitionText += string.Format("\n{0} --- ???", transition);
+                            string inroom = transitionToRoom[transition];
+                            string incleanname = AltRoomNames.TryGetValue(inroom, out string altname) ? altname : inroom;
+                            if (incleanname != inroom)
+                            {
+                                TransitionText += string.Format("\n    ({0})", incleanname);
+                            }
                         }
                     }
                 }
@@ -373,7 +399,7 @@ namespace RandomizerTracker
                 int checkeditems = 0;
                 foreach (string itemname in randomizedItems)
                 {
-                    if (roomInfoBox.Text == itemToArea[itemname])
+                    if (roomInfoBox.Text == itemToArea[itemname] && !checkIfShopItem[itemname])
                     {
                         allitems += 1;
                         if (checkedLocations.Contains(itemname))
@@ -382,7 +408,10 @@ namespace RandomizerTracker
                         }
                     }
                 }
-                TransitionText += string.Format("\n\nChecked {0} of {1} locations in this area", checkeditems, allitems);
+                if (allitems > 0)
+                {
+                    TransitionText += string.Format("\n\nChecked {0} of {1} locations in this area", checkeditems, allitems);
+                }
             }
             else if (roomRandomizer)
             {
@@ -394,10 +423,24 @@ namespace RandomizerTracker
                         if (FoundOneWay.TryGetValue(transition, out string transentrance))
                         {
                             TransitionText += string.Format("\n{0} <--- {1}", transition, transentrance);
+                            if (transitionToRoom.TryGetValue(transentrance, out string outroom))
+                            {
+                                if (AltRoomNames.TryGetValue(outroom, out string altnameout) && altnameout != outroom)
+                                {
+                                    TransitionText += string.Format("    ({0})", altnameout);
+                                }
+                            }
                         }
                         else if (FoundTransitions.TryGetValue(transition, out string transexit))
                         {
                             TransitionText += string.Format("\n{0} ---> {1}", transition, transexit);
+                            if (transitionToRoom.TryGetValue(transexit, out string outroom))
+                            {
+                                if (AltRoomNames.TryGetValue(outroom, out string altnameout) && altnameout != outroom)
+                                {
+                                    TransitionText += string.Format("    ({0})", altnameout);
+                                }
+                            }
                         }
                         else
                         {
@@ -409,7 +452,7 @@ namespace RandomizerTracker
                 int checkeditems = 0;
                 foreach (string itemname in randomizedItems)
                 {
-                    if (roomInfoBox.Text == itemToRoom[itemname])
+                    if (roomInfoBox.Text == itemToRoom[itemname] && !checkIfShopItem[itemname])
                     {
                         allitems += 1;
                         if (checkedLocations.Contains(itemname))
@@ -418,7 +461,10 @@ namespace RandomizerTracker
                         }
                     }
                 }
-                TransitionText += string.Format("\n\nChecked {0} of {1} locations in this room", checkeditems, allitems);
+                if (allitems > 0)
+                {
+                    TransitionText += string.Format("\n\nChecked {0} of {1} locations in this room", checkeditems, allitems);
+                }
             }
 
 
