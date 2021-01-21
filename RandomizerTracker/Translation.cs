@@ -35,9 +35,9 @@ namespace RandomizerTracker
             XmlDocument TranslatorXML = new XmlDocument();
             TranslatorXML.Load(Properties.Settings.Default.translatorfilepath);
 
-            foreach (XmlNode node in TranslatorXML.DocumentElement.ChildNodes)
+            foreach (XmlNode node in TranslatorXML.SelectNodes("Dictionary/Entry"))
             {
-                TranslateRoomToDescriptive.Add(node.SelectSingleNode("oldName").InnerText, node.SelectSingleNode("newName").InnerText);
+                TranslateRoomToDescriptive.Add(node["oldName"].InnerText, node["newName"].InnerText);
             }
         }
 
@@ -45,6 +45,10 @@ namespace RandomizerTracker
         {
             if (oldName.Contains('-'))
             {
+                if (TranslateRoomToDescriptive.TryGetValue(oldName, out string newName_special))
+                {
+                    return newName_special;
+                }
                 string[] words = oldName.Split('-');
                 if (!TranslateRoomToDescriptive.TryGetValue(words[0], out string newName))
                 {
