@@ -365,7 +365,7 @@ namespace RandomizerTracker
                                 string outcleanname = AltRoomNames.TryGetValue(outroom, out string altnameout) ? altnameout : outroom;
                                 if (incleanname != inroom && outcleanname != outroom)
                                 {
-                                    TransitionText += string.Format("\n    ({0} <--- {1})", incleanname, outcleanname);
+                                    TransitionText += string.Format("    ({0} <--- {1})", incleanname, outcleanname);
                                 }
                             }
                         }
@@ -379,7 +379,7 @@ namespace RandomizerTracker
                                 string outcleanname = AltRoomNames.TryGetValue(outroom, out string altnameout) ? altnameout : outroom;
                                 if (incleanname != inroom && outcleanname != outroom)
                                 {
-                                    TransitionText += string.Format("\n    ({0} ---> {1})", incleanname, outcleanname);
+                                    TransitionText += string.Format("    ({0} ---> {1})", incleanname, outcleanname);
                                 }
                             }
                         }
@@ -390,7 +390,7 @@ namespace RandomizerTracker
                             string incleanname = AltRoomNames.TryGetValue(inroom, out string altname) ? altname : inroom;
                             if (incleanname != inroom)
                             {
-                                TransitionText += string.Format("\n    ({0})", incleanname);
+                                TransitionText += string.Format("    ({0})", incleanname);
                             }
                         }
                     }
