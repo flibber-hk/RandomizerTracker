@@ -30,6 +30,8 @@ namespace RandomizerTracker
             InitializeComponent();
             filepathBox.Text = LogFilepath;
             helperlogBox.Text = helperFilepath;
+            translatorFilepathBox.Text = translatorFilepath;
+            usingTranslatorBox.Checked = usingTranslator;
             ProcessXmls();
             GetRandomizerData();
             Load += (obj, e) => MasterRefresh();
@@ -291,6 +293,41 @@ namespace RandomizerTracker
             }
         }
 
+
+        public static bool usingTranslator
+        {
+            get
+            {
+                return Properties.Settings.Default.usingTranslator;
+            }
+            set
+            {
+                Properties.Settings.Default.usingTranslator = value;
+                Properties.Settings.Default.Save();
+            }
+        }
+        public static string translatorFilepath
+        {
+            get
+            {
+                if (Properties.Settings.Default.translatorfilepath is string path && File.Exists(path))
+                {
+                    return Properties.Settings.Default.translatorfilepath;
+                }
+                else
+                {
+                    path = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData) + @"Low\Team Cherry\Hollow Knight\TranslatorDictionary.xml";
+                    translatorFilepath = path;
+                    return path;
+                }
+            }
+            set
+            {
+                Properties.Settings.Default.translatorfilepath = value;
+                Properties.Settings.Default.Save();
+            }
+        }
+
         private void filepathBox_TextChanged(object sender, EventArgs e)
         {
             LogFilepath = filepathBox.Text;
@@ -474,6 +511,16 @@ namespace RandomizerTracker
             {
                 roomStatsBox.Text += TransitionText;
             }
+        }
+
+        private void usingTranslatorBox_CheckedChanged(object sender, EventArgs e)
+        {
+            usingTranslator = usingTranslatorBox.Checked;
+        }
+
+        private void translatorFilepathBox_TextChanged(object sender, EventArgs e)
+        {
+            translatorFilepath = translatorFilepathBox.Text;
         }
     }
 }

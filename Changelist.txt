@@ -43,4 +43,8 @@ and show the number of checks in that room/area
 
 To show descriptive room names, replace altroomnames.xml with descriptiveroomnames.xml in the Resources directory.
 
+Added support for HKTranslator. This requires having a translator dictionary - the filepath can be changed and is by default
+TranslatorDictionary.xml in the saves directory. Toggling it requires restarting the app (for now). Altroomnames cannot be
+used if HKTranslator is being used.
+
 Removed some superfluous content from the items, areas and rooms xml files.

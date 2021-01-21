@@ -10,6 +10,7 @@ using System.Data;
 using System.Collections;
 using System.Resources;
 using System.Windows.Media;
+using static RandomizerTracker.Translation;
 
 namespace RandomizerTracker
 {
@@ -43,6 +44,8 @@ namespace RandomizerTracker
 
         public static void ProcessXmls()
         {
+            ProcessTranslationXML();
+
             XmlDocument itemXml = LoadEmbeddedXml("RandomizerTracker.Resources.items.xml");
             Items = new List<string>();
             itemToArea = new Dictionary<string, string>();
@@ -51,11 +54,12 @@ namespace RandomizerTracker
             checkIfShopItem = new Dictionary<string, bool>();
             foreach (XmlNode node in itemXml.SelectNodes("randomizer/item"))
             {
-                Items.Add(node.Attributes?["name"].InnerText);
-                itemToArea.Add(node.Attributes?["name"].InnerText, node["areaName"].InnerText);
-                itemToRoom.Add(node.Attributes?["name"].InnerText, node["sceneName"].InnerText);
-                itemToPool.Add(node.Attributes?["name"].InnerText, node["pool"].InnerText);
-                checkIfShopItem.Add(node.Attributes?["name"].InnerText, node["type"].InnerText == "Shop");
+                string itemName = node.Attributes?["name"].InnerText;
+                Items.Add(itemName);
+                itemToArea.Add(itemName, node["areaName"].InnerText);
+                itemToRoom.Add(itemName, TranslateRoomName(node["sceneName"].InnerText));
+                itemToPool.Add(itemName, node["pool"].InnerText);
+                checkIfShopItem.Add(itemName, node["type"].InnerText == "Shop");
             }
 
             XmlDocument areaXml = LoadEmbeddedXml("RandomizerTracker.Resources.areas.xml");
@@ -65,10 +69,12 @@ namespace RandomizerTracker
             areas = new HashSet<string>();
             foreach (XmlNode node in areaXml.SelectNodes("randomizer/transition"))
             {
-                areaTransitions.Add(node.Attributes?["name"].InnerText);
-                transitionToArea.Add(node.Attributes?["name"].InnerText, node["areaName"].InnerText);
-                hasBenchArea[node["areaName"].InnerText] = node["hasBench"].InnerText == "true";
-                areas.Add(node["areaName"].InnerText);
+                string areaTransitionName = TranslateTransitionName(node.Attributes?["name"].InnerText);
+                string areaName = node["areaName"].InnerText;
+                areaTransitions.Add(areaTransitionName);
+                transitionToArea.Add(areaTransitionName, areaName);
+                hasBenchArea[areaName] = node["hasBench"].InnerText == "true";
+                areas.Add(areaName);
             }
 
             XmlDocument roomXml = LoadEmbeddedXml("RandomizerTracker.Resources.rooms.xml");
@@ -80,12 +86,14 @@ namespace RandomizerTracker
             rooms = new HashSet<string>();
             foreach (XmlNode node in roomXml.SelectNodes("randomizer/transition"))
             {
-                roomTransitions.Add(node.Attributes?["name"].InnerText);
-                transitionToRoom.Add(node.Attributes?["name"].InnerText, node["sceneName"].InnerText);
-                roomToArea[node["sceneName"].InnerText] = node["areaName"].InnerText;
-                isOneWay.Add(node.Attributes?["name"].InnerText, node?["oneWay"]?.InnerText?.Any(c => c == '1' || c == '2') == true);
-                hasBench[node["sceneName"].InnerText] = node["hasBench"].InnerText == "true";
-                rooms.Add(node["sceneName"].InnerText);
+                string roomTransitionName = TranslateTransitionName(node.Attributes?["name"].InnerText);
+                string roomName = TranslateRoomName(node["sceneName"].InnerText);
+                roomTransitions.Add(roomTransitionName);
+                transitionToRoom.Add(roomTransitionName, roomName);
+                roomToArea[roomName] = node["areaName"].InnerText;
+                isOneWay.Add(roomTransitionName, node?["oneWay"]?.InnerText?.Any(c => c == '1' || c == '2') == true);
+                hasBench[roomName] = node["hasBench"].InnerText == "true";
+                rooms.Add(roomName);
             }
 
             XmlDocument colorsXml = LoadFolderXml("colors.xml");
@@ -98,12 +106,6 @@ namespace RandomizerTracker
                 AreaToColor.Add(node.Attributes["name"].InnerText, Color.FromRgb(r, g, b));
             }
 
-            XmlDocument altroomsXml = LoadFolderXml("altroomnames.xml");
-            AltRoomNames = new Dictionary<string, string>();
-            foreach (XmlNode node in altroomsXml.SelectNodes("randomizer/room"))
-            {
-                AltRoomNames[node.Attributes["name"].InnerText] = node["altName"].InnerText;
-            }
 
             XmlDocument shopHelperXml = LoadEmbeddedXml("RandomizerTracker.Resources.shopHelper.xml");
             ShopToArea = new Dictionary<string, string>();
@@ -111,7 +113,7 @@ namespace RandomizerTracker
             foreach (XmlNode node in shopHelperXml.SelectNodes("randomizer/item"))
             {
                 ShopToArea[node.Attributes["name"].InnerText] = node["areaName"].InnerText;
-                ShopToRoom[node.Attributes["name"].InnerText] = node["sceneName"].InnerText;
+                ShopToRoom[node.Attributes["name"].InnerText] = TranslateRoomName(node["sceneName"].InnerText);
             }
 
             XmlDocument startLocationXml = LoadEmbeddedXml("RandomizerTracker.Resources.startlocations.xml");
@@ -120,7 +122,17 @@ namespace RandomizerTracker
             foreach (XmlNode node in startLocationXml.SelectNodes("randomizer/start"))
             {
                 startLocationArea[node.Attributes["name"].InnerText] = node["areaName"].InnerText;
-                startLocationRoom[node.Attributes["name"].InnerText] = node["sceneName"].InnerText;
+                startLocationRoom[node.Attributes["name"].InnerText] = TranslateRoomName(node["sceneName"].InnerText);
+            }
+
+            AltRoomNames = new Dictionary<string, string>();
+            XmlDocument altroomsXml = LoadFolderXml("altroomnames.xml");
+            if (!Properties.Settings.Default.usingTranslator)
+            {
+                foreach (XmlNode node in altroomsXml.SelectNodes("randomizer/room"))
+                {
+                    AltRoomNames[node.Attributes["name"].InnerText] = node["altName"].InnerText;
+                }
             }
         }
 

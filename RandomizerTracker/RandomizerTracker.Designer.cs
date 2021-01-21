@@ -52,6 +52,9 @@
             this.locationSelectBox = new System.Windows.Forms.ComboBox();
             this.itemSelectBox = new System.Windows.Forms.ComboBox();
             this.Statistics = new System.Windows.Forms.TabPage();
+            this.roomStatsBox = new System.Windows.Forms.Label();
+            this.roomInfoBox = new System.Windows.Forms.ComboBox();
+            this.roomInfoButton = new System.Windows.Forms.Button();
             this.StatisticsText = new System.Windows.Forms.Label();
             this.Settings = new System.Windows.Forms.TabPage();
             this.helperlogBox = new System.Windows.Forms.TextBox();
@@ -62,9 +65,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.listBoxVertexAlgo = new System.Windows.Forms.ListBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.roomInfoButton = new System.Windows.Forms.Button();
-            this.roomInfoBox = new System.Windows.Forms.ComboBox();
-            this.roomStatsBox = new System.Windows.Forms.Label();
+            this.usingTranslatorBox = new System.Windows.Forms.CheckBox();
+            this.translatorFilepathBox = new System.Windows.Forms.TextBox();
             this.tabControl1.SuspendLayout();
             this.Map.SuspendLayout();
             this.Input.SuspendLayout();
@@ -346,6 +348,34 @@
             this.Statistics.Text = "Statistics";
             this.Statistics.UseVisualStyleBackColor = true;
             // 
+            // roomStatsBox
+            // 
+            this.roomStatsBox.AutoSize = true;
+            this.roomStatsBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.roomStatsBox.Location = new System.Drawing.Point(441, 212);
+            this.roomStatsBox.Name = "roomStatsBox";
+            this.roomStatsBox.Size = new System.Drawing.Size(92, 17);
+            this.roomStatsBox.TabIndex = 3;
+            this.roomStatsBox.Text = "(placeholder)";
+            // 
+            // roomInfoBox
+            // 
+            this.roomInfoBox.FormattingEnabled = true;
+            this.roomInfoBox.Location = new System.Drawing.Point(135, 207);
+            this.roomInfoBox.Name = "roomInfoBox";
+            this.roomInfoBox.Size = new System.Drawing.Size(240, 24);
+            this.roomInfoBox.TabIndex = 2;
+            // 
+            // roomInfoButton
+            // 
+            this.roomInfoButton.Location = new System.Drawing.Point(39, 207);
+            this.roomInfoButton.Name = "roomInfoButton";
+            this.roomInfoButton.Size = new System.Drawing.Size(90, 28);
+            this.roomInfoButton.TabIndex = 1;
+            this.roomInfoButton.Text = "Show Info";
+            this.roomInfoButton.UseVisualStyleBackColor = true;
+            this.roomInfoButton.Click += new System.EventHandler(this.roomInfoButton_click);
+            // 
             // StatisticsText
             // 
             this.StatisticsText.AutoSize = true;
@@ -360,6 +390,8 @@
             // 
             // Settings
             // 
+            this.Settings.Controls.Add(this.translatorFilepathBox);
+            this.Settings.Controls.Add(this.usingTranslatorBox);
             this.Settings.Controls.Add(this.helperlogBox);
             this.Settings.Controls.Add(this.label9);
             this.Settings.Controls.Add(this.listBoxEdgeAlgo);
@@ -404,7 +436,7 @@
             "Bundling",
             "PathFinder",
             "None"});
-            this.listBoxEdgeAlgo.Location = new System.Drawing.Point(705, 152);
+            this.listBoxEdgeAlgo.Location = new System.Drawing.Point(705, 192);
             this.listBoxEdgeAlgo.Margin = new System.Windows.Forms.Padding(4);
             this.listBoxEdgeAlgo.Name = "listBoxEdgeAlgo";
             this.listBoxEdgeAlgo.Size = new System.Drawing.Size(159, 116);
@@ -413,7 +445,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(507, 152);
+            this.label4.Location = new System.Drawing.Point(507, 192);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(157, 17);
@@ -432,7 +464,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(43, 152);
+            this.label2.Location = new System.Drawing.Point(43, 192);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(158, 17);
@@ -454,7 +486,7 @@
             "KK",
             "SimpleRandom",
             "Sugiyama"});
-            this.listBoxVertexAlgo.Location = new System.Drawing.Point(263, 152);
+            this.listBoxVertexAlgo.Location = new System.Drawing.Point(263, 192);
             this.listBoxVertexAlgo.Margin = new System.Windows.Forms.Padding(4);
             this.listBoxVertexAlgo.Name = "listBoxVertexAlgo";
             this.listBoxVertexAlgo.Size = new System.Drawing.Size(159, 116);
@@ -470,33 +502,24 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "RandomizerTrackerLog Filepath";
             // 
-            // roomInfoButton
+            // usingTranslatorBox
             // 
-            this.roomInfoButton.Location = new System.Drawing.Point(39, 207);
-            this.roomInfoButton.Name = "roomInfoButton";
-            this.roomInfoButton.Size = new System.Drawing.Size(90, 28);
-            this.roomInfoButton.TabIndex = 1;
-            this.roomInfoButton.Text = "Show Info";
-            this.roomInfoButton.UseVisualStyleBackColor = true;
-            this.roomInfoButton.Click += new System.EventHandler(this.roomInfoButton_click);
+            this.usingTranslatorBox.AutoSize = true;
+            this.usingTranslatorBox.Location = new System.Drawing.Point(43, 113);
+            this.usingTranslatorBox.Name = "usingTranslatorBox";
+            this.usingTranslatorBox.Size = new System.Drawing.Size(198, 21);
+            this.usingTranslatorBox.TabIndex = 10;
+            this.usingTranslatorBox.Text = "Use Translator at Filepath:";
+            this.usingTranslatorBox.UseVisualStyleBackColor = true;
+            this.usingTranslatorBox.CheckedChanged += new System.EventHandler(this.usingTranslatorBox_CheckedChanged);
             // 
-            // roomInfoBox
+            // translatorFilepathBox
             // 
-            this.roomInfoBox.FormattingEnabled = true;
-            this.roomInfoBox.Location = new System.Drawing.Point(135, 207);
-            this.roomInfoBox.Name = "roomInfoBox";
-            this.roomInfoBox.Size = new System.Drawing.Size(240, 24);
-            this.roomInfoBox.TabIndex = 2;
-            // 
-            // roomStatsBox
-            // 
-            this.roomStatsBox.AutoSize = true;
-            this.roomStatsBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.roomStatsBox.Location = new System.Drawing.Point(441, 212);
-            this.roomStatsBox.Name = "roomStatsBox";
-            this.roomStatsBox.Size = new System.Drawing.Size(92, 17);
-            this.roomStatsBox.TabIndex = 3;
-            this.roomStatsBox.Text = "(placeholder)";
+            this.translatorFilepathBox.Location = new System.Drawing.Point(263, 110);
+            this.translatorFilepathBox.Name = "translatorFilepathBox";
+            this.translatorFilepathBox.Size = new System.Drawing.Size(673, 22);
+            this.translatorFilepathBox.TabIndex = 11;
+            this.translatorFilepathBox.TextChanged += new System.EventHandler(this.translatorFilepathBox_TextChanged);
             // 
             // RandomizerTracker
             // 
@@ -557,6 +580,8 @@
         private System.Windows.Forms.Button roomInfoButton;
         private System.Windows.Forms.ComboBox roomInfoBox;
         private System.Windows.Forms.Label roomStatsBox;
+        private System.Windows.Forms.TextBox translatorFilepathBox;
+        private System.Windows.Forms.CheckBox usingTranslatorBox;
     }
 }
 
