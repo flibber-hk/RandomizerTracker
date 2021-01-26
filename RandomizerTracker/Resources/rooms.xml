@@ -2746,7 +2746,7 @@
   <transition name="GG_Lurker[left1]">
     <sceneName>GG_Lurker</sceneName>
     <doorName>left1</doorName>
-    <areaName>Kingdoms_Edge</areaName>
+    <areaName>Kingdoms_Edge-lurker</areaName>
     <hasBench>false</hasBench>
   </transition>
   <transition name="Hive_01[left1]">
@@ -2824,7 +2824,7 @@
   <transition name="Hive_03[top1]">
     <sceneName>Hive_03-isolated</sceneName>
     <doorName>top1</doorName>
-    <areaName>Hive</areaName>
+    <areaName>Hive-grub</areaName>
     <hasBench>false</hasBench>
   </transition>
   <transition name="Hive_04[left1]">
