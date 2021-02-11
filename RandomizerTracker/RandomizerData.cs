@@ -69,7 +69,8 @@ namespace RandomizerTracker
                 ("Flame", "Grimmkin flames: "),
                 ("Essence_Boss", "Boss essence: "),
                 ("Cursed", "Cursed: "),
-                ("Cursed", "Focus: ")
+                ("Cursed", "Focus: "),
+                ("CustomClaw", "Broken claw: ")
             };
             randomizedPools = new Dictionary<string, bool>();
             foreach (var pair in pools)
@@ -81,6 +82,10 @@ namespace RandomizerTracker
                 else randomizedPools[pair.Item1] = false;
             }
             randomizedItems = Items.Where(item => randomizedPools.ContainsKey(itemToPool[item]) && randomizedPools[itemToPool[item]]).ToList();
+            if (randomizedPools["CustomClaw"] && randomizedPools["Skill"])
+            {
+                randomizedItems.Remove("Mantis Claw");
+            }
 
             exploredRooms = new HashSet<string>();
             exploredTransitions = new HashSet<string>();
