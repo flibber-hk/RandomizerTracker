@@ -46,5 +46,29 @@ namespace RandomizerTracker.Properties {
                 this["helperfilepath"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool usingTranslator {
+            get {
+                return ((bool)(this["usingTranslator"]));
+            }
+            set {
+                this["usingTranslator"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string translatorfilepath {
+            get {
+                return ((string)(this["translatorfilepath"]));
+            }
+            set {
+                this["translatorfilepath"] = value;
+            }
+        }
     }
 }
