@@ -38,13 +38,13 @@
   <item name="Left_Mantis_Claw">
     <sceneName>Fungus2_14</sceneName>
     <type>Big</type>
-    <pool>BrokenClaw</pool>
+    <pool>CustomClaw</pool>
     <areaName>Mantis_Village</areaName>
   </item>
   <item name="Right_Mantis_Claw">
     <sceneName>Fungus2_14</sceneName>
     <type>Big</type>
-    <pool>BrokenClaw</pool>
+    <pool>CustomClaw</pool>
     <areaName>Mantis_Village</areaName>
   </item>
   <item name="Crystal_Heart">

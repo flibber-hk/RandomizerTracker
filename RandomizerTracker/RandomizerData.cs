@@ -84,7 +84,7 @@ namespace RandomizerTracker
             randomizedItems = Items.Where(item => randomizedPools.ContainsKey(itemToPool[item]) && randomizedPools[itemToPool[item]]).ToList();
             if (randomizedPools["CustomClaw"] && randomizedPools["Skill"])
             {
-                randomizedItems.Remove("Mantis Claw");
+                randomizedItems.Remove("Mantis_Claw");
             }
 
             exploredRooms = new HashSet<string>();
