@@ -66,11 +66,14 @@ namespace RandomizerTracker
                 ("Lore", "Lore tablets: "),
                 ("Cocoon", "Lifeblood cocoons: "),
                 ("PalaceSoul", "Palace totems: "),
+                ("PalaceLore", "Palace tablets: "),
                 ("Flame", "Grimmkin flames: "),
                 ("Essence_Boss", "Boss essence: "),
+                ("Boss_Geo", "Boss geo: "),
                 ("Cursed", "Cursed: "),
                 ("Cursed", "Focus: "),
-                ("CustomClaw", "Broken claw: ")
+                ("SplitClaw", "Split claw: "),
+                ("SplitCloakLocation", "Split cloak: ")
             };
             randomizedPools = new Dictionary<string, bool>();
             foreach (var pair in pools)
@@ -82,9 +85,17 @@ namespace RandomizerTracker
                 else randomizedPools[pair.Item1] = false;
             }
             randomizedItems = Items.Where(item => randomizedPools.ContainsKey(itemToPool[item]) && randomizedPools[itemToPool[item]]).ToList();
-            if (randomizedPools["CustomClaw"] && randomizedPools["Skill"])
+            if (randomizedPools["SplitClaw"] && randomizedPools["Skill"])
             {
                 randomizedItems.Remove("Mantis_Claw");
+            }
+            if (randomizedPools["Lore"] && randomizedPools["Dreamer"])
+            {
+                randomizedItems.Remove("World_Sense");
+            }
+            if (randomizedPools["Lore"] && randomizedPools["Cursed"])
+            {
+                randomizedItems.Remove("Focus");
             }
 
             exploredRooms = new HashSet<string>();

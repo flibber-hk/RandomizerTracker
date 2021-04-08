@@ -35,18 +35,6 @@
     <pool>Skill</pool>
     <areaName>Mantis_Village</areaName>
   </item>
-  <item name="Left_Mantis_Claw">
-    <sceneName>Fungus2_14</sceneName>
-    <type>Big</type>
-    <pool>CustomClaw</pool>
-    <areaName>Mantis_Village</areaName>
-  </item>
-  <item name="Right_Mantis_Claw">
-    <sceneName>Fungus2_14</sceneName>
-    <type>Big</type>
-    <pool>CustomClaw</pool>
-    <areaName>Mantis_Village</areaName>
-  </item>
   <item name="Crystal_Heart">
     <sceneName>Mines_31</sceneName>
     <type>Big</type>
@@ -1811,6 +1799,42 @@
     <pool>Flame</pool>
     <areaName>Distant_Village</areaName>
   </item>
+  <item name="Split_Mothwing_Cloak">
+    <sceneName>Fungus1_04</sceneName>
+    <type>None</type>
+    <pool>SplitCloakLocation</pool>
+    <areaName>Greenpath</areaName>
+  </item>
+  <item name="Left_Mantis_Claw">
+    <sceneName>Fungus2_14</sceneName>
+    <type>Big</type>
+    <pool>SplitClaw</pool>
+    <areaName>Mantis_Village</areaName>
+  </item>
+  <item name="Right_Mantis_Claw">
+    <sceneName>Fungus2_14</sceneName>
+    <type>Big</type>
+    <pool>SplitClaw</pool>
+    <areaName>Mantis_Village</areaName>
+  </item>
+  <item name="Leftslash">
+    <sceneName>Tutorial_01</sceneName>
+    <type>Trinket</type>
+    <pool>CursedNail</pool>
+    <areaName>Kings_Pass</areaName>
+  </item>
+  <item name="Rightslash">
+    <sceneName>Tutorial_01</sceneName>
+    <type>Trinket</type>
+    <pool>CursedNail</pool>
+    <areaName>Kings_Pass</areaName>
+  </item>
+  <item name="Upslash">
+    <sceneName>Tutorial_01</sceneName>
+    <type>Trinket</type>
+    <pool>CursedNail</pool>
+    <areaName>Kings_Pass</areaName>
+  </item>
   <item name="Soul_Totem-Basin">
     <sceneName>Abyss_04</sceneName>
     <type>Soul</type>
@@ -2165,11 +2189,203 @@
     <pool>Soul</pool>
     <areaName>Kingdoms_Edge-lurker</areaName>
   </item>
-  <item name="Lore_Tablet-King's_Pass">
+  <item name="Lore_Tablet-City_Entrance">
+    <sceneName>Ruins1_02</sceneName>
+    <type>Lore</type>
+    <pool>Lore</pool>
+    <areaName>City_of_Tears</areaName>
+  </item>
+  <item name="Lore_Tablet-Pleasure_House">
+    <sceneName>Ruins_Elevator</sceneName>
+    <type>Lore</type>
+    <pool>Lore</pool>
+    <areaName>Pleasure_House</areaName>
+  </item>
+  <item name="Lore_Tablet-Sanctum_Entrance">
+    <sceneName>Ruins1_23</sceneName>
+    <type>Lore</type>
+    <pool>Lore</pool>
+    <areaName>Soul_Sanctum</areaName>
+  </item>
+  <item name="Lore_Tablet-Sanctum_Past_Soul_Master">
+    <sceneName>Ruins1_32</sceneName>
+    <type>Lore</type>
+    <pool>Lore</pool>
+    <areaName>Soul_Sanctum</areaName>
+  </item>
+  <item name="Lore_Tablet-Watcher's_Spire">
+    <sceneName>Ruins2_Watcher_Room</sceneName>
+    <type>Lore</type>
+    <pool>Lore</pool>
+    <areaName>City_of_Tears</areaName>
+  </item>
+  <item name="Lore_Tablet-Archives_Upper">
+    <sceneName>Fungus3_archive_02</sceneName>
+    <type>Lore</type>
+    <pool>Lore</pool>
+    <areaName>Teachers_Archives</areaName>
+  </item>
+  <item name="Lore_Tablet-Archives_Left">
+    <sceneName>Fungus3_archive_02</sceneName>
+    <type>Lore</type>
+    <pool>Lore</pool>
+    <areaName>Teachers_Archives</areaName>
+  </item>
+  <item name="Lore_Tablet-Archives_Right">
+    <sceneName>Fungus3_archive_02</sceneName>
+    <type>Lore</type>
+    <pool>Lore</pool>
+    <areaName>Teachers_Archives</areaName>
+  </item>
+  <item name="Lore_Tablet-Pilgrim's_Way_1">
+    <sceneName>Crossroads_11_alt</sceneName>
+    <type>Lore</type>
+    <pool>Lore</pool>
+    <areaName>Forgotten_Crossroads</areaName>
+  </item>
+  <item name="Lore_Tablet-Pilgrim's_Way_2">
+    <sceneName>Fungus2_21</sceneName>
+    <type>Lore</type>
+    <pool>Lore</pool>
+    <areaName>Fungal_Wastes</areaName>
+  </item>
+  <item name="Lore_Tablet-Mantis_Outskirts">
+    <sceneName>Fungus2_12</sceneName>
+    <type>Lore</type>
+    <pool>Lore</pool>
+    <areaName>Mantis_Village</areaName>
+  </item>
+  <item name="Lore_Tablet-Mantis_Village">
+    <sceneName>Fungus2_14</sceneName>
+    <type>Lore</type>
+    <pool>Lore</pool>
+    <areaName>Mantis_Village</areaName>
+  </item>
+  <item name="Lore_Tablet-Greenpath_Upper_Hidden">
+    <sceneName>Fungus1_17</sceneName>
+    <type>Lore</type>
+    <pool>Lore</pool>
+    <areaName>Greenpath</areaName>
+  </item>
+  <item name="Lore_Tablet-Greenpath_Below_Toll">
+    <sceneName>Fungus1_30</sceneName>
+    <type>Lore</type>
+    <pool>Lore</pool>
+    <areaName>Greenpath</areaName>
+  </item>
+  <item name="Lore_Tablet-Greenpath_Lifeblood">
+    <sceneName>Fungus1_32</sceneName>
+    <type>Lore</type>
+    <pool>Lore</pool>
+    <areaName>Greenpath</areaName>
+  </item>
+  <item name="Lore_Tablet-Greenpath_Stag">
+    <sceneName>Fungus1_21</sceneName>
+    <type>Lore</type>
+    <pool>Lore</pool>
+    <areaName>Greenpath</areaName>
+  </item>
+  <item name="Lore_Tablet-Greenpath_QG">
+    <sceneName>Fungus1_13</sceneName>
+    <type>Lore</type>
+    <pool>Lore</pool>
+    <areaName>Greenpath</areaName>
+  </item>
+  <item name="Lore_Tablet-Greenpath_Lower_Hidden">
+    <sceneName>Fungus1_19</sceneName>
+    <type>Lore</type>
+    <pool>Lore</pool>
+    <areaName>Greenpath</areaName>
+  </item>
+  <item name="Lore_Tablet-Dung_Defender">
+    <sceneName>Waterways_07</sceneName>
+    <type>Lore</type>
+    <pool>Lore</pool>
+    <areaName>Royal_Waterways</areaName>
+  </item>
+  <item name="Lore_Tablet-Spore_Shroom">
+    <sceneName>Fungus2_20</sceneName>
+    <type>Lore</type>
+    <pool>Lore</pool>
+    <areaName>Fungal_Wastes</areaName>
+  </item>
+  <item name="Lore_Tablet-Fungal_Wastes_Hidden">
+    <sceneName>Fungus2_07</sceneName>
+    <type>Lore</type>
+    <pool>Lore</pool>
+    <areaName>Fungal_Wastes</areaName>
+  </item>
+  <item name="Lore_Tablet-Fungal_Wastes_Below_Shrumal_Ogres">
+    <sceneName>Fungus2_04</sceneName>
+    <type>Lore</type>
+    <pool>Lore</pool>
+    <areaName>Fungal_Wastes</areaName>
+  </item>
+  <item name="Lore_Tablet-Fungal_Core">
+    <sceneName>Fungus2_30</sceneName>
+    <type>Lore</type>
+    <pool>Lore</pool>
+    <areaName>Fungal_Core</areaName>
+  </item>
+  <item name="Lore_Tablet-Ancient_Basin">
+    <sceneName>Abyss_06_Core</sceneName>
+    <type>Lore</type>
+    <pool>Lore</pool>
+    <areaName>Abyss</areaName>
+  </item>
+  <item name="Lore_Tablet-King's_Pass_Focus">
     <sceneName>Tutorial_01</sceneName>
-    <type>Soul</type>
+    <type>Lore</type>
     <pool>Lore</pool>
     <areaName>Kings_Pass</areaName>
+  </item>
+  <item name="Lore_Tablet-King's_Pass_Fury">
+    <sceneName>Tutorial_01</sceneName>
+    <type>Lore</type>
+    <pool>Lore</pool>
+    <areaName>Kings_Pass</areaName>
+  </item>
+  <item name="Lore_Tablet-King's_Pass_Exit">
+    <sceneName>Tutorial_01</sceneName>
+    <type>Lore</type>
+    <pool>Lore</pool>
+    <areaName>Kings_Pass</areaName>
+  </item>
+  <item name="Lore_Tablet-World_Sense">
+    <sceneName>Room_temple</sceneName>
+    <type>Lore</type>
+    <pool>Lore</pool>
+    <areaName>Black_Egg_Temple</areaName>
+  </item>
+  <item name="Lore_Tablet-Howling_Cliffs">
+    <sceneName>Cliffs_01</sceneName>
+    <type>Lore</type>
+    <pool>Lore</pool>
+    <areaName>Howling_Cliffs</areaName>
+  </item>
+  <item name="Lore_Tablet-Kingdom's_Edge">
+    <sceneName>Deepnest_East_17</sceneName>
+    <type>Lore</type>
+    <pool>Lore</pool>
+    <areaName>Kingdoms_Edge</areaName>
+  </item>
+  <item name="Lore_Tablet-Palace_Workshop">
+    <sceneName>White_Palace_08</sceneName>
+    <type>Lore</type>
+    <pool>PalaceLore</pool>
+    <areaName>Palace_Grounds</areaName>
+  </item>
+  <item name="Lore_Tablet-Palace_Throne">
+    <sceneName>White_Palace_09</sceneName>
+    <type>Lore</type>
+    <pool>PalaceLore</pool>
+    <areaName>Palace_Grounds</areaName>
+  </item>
+  <item name="Lore_Tablet-Path_of_Pain_Entrance">
+    <sceneName>White_Palace_18</sceneName>
+    <type>Lore</type>
+    <pool>PalaceLore</pool>
+    <areaName>Palace_Grounds</areaName>
   </item>
   <item name="Geo_Rock-Broken_Elevator_1">
     <sceneName>Abyss_01</sceneName>
@@ -3412,5 +3628,53 @@
     <type>Geo</type>
     <pool>Rock</pool>
     <areaName>Royal_Waterways</areaName>
+  </item>
+  <item name="Boss_Geo-Massive_Moss_Charger">
+    <sceneName>Fungus1_29</sceneName>
+    <type>Geo</type>
+    <pool>Boss_Geo</pool>
+    <areaName>Greenpath</areaName>
+  </item>
+  <item name="Boss_Geo-Gorgeous_Husk">
+    <sceneName>Ruins_House_02</sceneName>
+    <type>Geo</type>
+    <pool>Boss_Geo</pool>
+    <areaName>City_of_Tears</areaName>
+  </item>
+  <item name="Boss_Geo-Sanctum_Soul_Warrior">
+    <sceneName>Ruins1_23</sceneName>
+    <type>Geo</type>
+    <pool>Boss_Geo</pool>
+    <areaName>Soul_Sanctum</areaName>
+  </item>
+  <item name="Boss_Geo-Elegant_Soul_Warrior">
+    <sceneName>Ruins1_31b</sceneName>
+    <type>Geo</type>
+    <pool>Boss_Geo</pool>
+    <areaName>City_of_Tears</areaName>
+  </item>
+  <item name="Boss_Geo-Crystal_Guardian">
+    <sceneName>Mines_18</sceneName>
+    <type>Geo</type>
+    <pool>Boss_Geo</pool>
+    <areaName>Crystal_Peak</areaName>
+  </item>
+  <item name="Boss_Geo-Enraged_Guardian">
+    <sceneName>Mines_32</sceneName>
+    <type>Geo</type>
+    <pool>Boss_Geo</pool>
+    <areaName>Crystal_Peak</areaName>
+  </item>
+  <item name="Boss_Geo-Gruz_Mother">
+    <sceneName>Crossroads_04</sceneName>
+    <type>Geo</type>
+    <pool>Boss_Geo</pool>
+    <areaName>Forgotten_Crossroads</areaName>
+  </item>
+  <item name="Boss_Geo-Vengefly_King">
+    <sceneName>Fungus1_20_v02</sceneName>
+    <type>Geo</type>
+    <pool>Boss_Geo</pool>
+    <areaName>Greenpath</areaName>
   </item>
 </randomizer>
